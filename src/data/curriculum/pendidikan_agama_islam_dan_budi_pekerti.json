@@ -1,0 +1,220 @@
+{
+  "subject": "Pendidikan Agama Islam dan Budi Pekerti",
+  "grades": {
+    "Kelas 1": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Aku Cinta Al-Qur’an", "topics": ["Mengenal huruf hijaiyah dan harakat", "Membaca Basmalah", "Menghafal dan melafalkan Surah Al-Fatihah", "Memahami pesan dalam Surah Al-Fatihah (kasih sayang, doa, dan petunjuk)"] },
+        { "chapter": "Bab 2: Aku Mengenal Rukun Iman", "topics": ["Iman kepada Allah SWT", "Iman kepada malaikat-malaikat Allah SWT", "Iman kepada kitab-kitab Allah SWT", "Iman kepada rasul-rasul Allah SWT", "Iman kepada hari akhir"] },
+        { "chapter": "Bab 3: Aku Suka Membaca Basmalah dan Hamdalah", "topics": ["Makna Basmalah dan Hamdalah", "Membiasakan membaca Basmalah sebelum mulai", "Membiasakan membaca Hamdalah setelah selesai"] },
+        { "chapter": "Bab 4: Aku Mengenal Rukun Islam", "topics": ["Syahadat", "Shalat", "Zakat", "Puasa", "Haji"] },
+        { "chapter": "Bab 5: Nabi dan Rasul Panutanku", "topics": ["Kisah Nabi Adam AS", "Kisah Nabi-nabi lainnya secara ringkas", "Sifat-sifat teladan para nabi"] },
+        { "chapter": "Bab 6: Sifat-Sifat Allah SWT", "topics": ["Allah Maha Pengasih dan Maha Penyayang", "Allah Maha Kuasa dan Maha Mengetahui"] },
+        { "chapter": "Bab 7: Kasih Sayang dari Allah dan Rasul-Nya", "topics": ["Kasih sayang Allah kepada manusia", "Kasih sayang Nabi Muhammad SAW kepada umatnya", "Menyayangi sesama makhluk"] },
+        { "chapter": "Bab 8: Aku Belajar Berterima Kasih", "topics": ["Mengucapkan terima kasih kepada Allah", "Bersyukur kepada orang tua, guru, dan teman", "Menyadari kebaikan orang lain"] },
+        { "chapter": "Bab 9: Hidup Bersih itu Sehat dan Disukai Allah", "topics": ["Membersihkan diri (mencuci tangan, mandi, berpakaian rapi)", "Menjaga kebersihan lingkungan (kelas, rumah, taman)", "Pentingnya bersuci dalam Islam"] },
+        { "chapter": "Bab 10: Adab dan Budi Pekerti Mulia", "topics": ["Sopan santun dalam berbicara dan bertingkah laku", "Menghormati orang tua dan guru", "Menjaga kebersihan, kejujuran, dan amanah", "Menghargai perbedaan dan kebersamaan"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Aku Cinta Al-Qur’an", "topics": ["Mengenal Al-Qur’an sebagai kitab suci umat Islam", "Membaca dan membiasakan Basmalah dan Hamdalah", "Menghafal dan memahami makna Surah Al-Fatihah", "Menghargai Al-Qur’an dengan adab membaca yang baik"] },
+        { "chapter": "Bab 2: Aku Mengenal Rukun Iman", "topics": ["Iman kepada Allah SWT", "Iman kepada malaikat", "Iman kepada kitab-kitab Allah", "Iman kepada rasul-rasul Allah", "Iman kepada hari akhir", "Iman kepada qada dan qadar"] },
+        { "chapter": "Bab 3: Aku Mengenal Rukun Islam", "topics": ["Syahadat", "Shalat", "Zakat", "Puasa", "Haji"] },
+        { "chapter": "Bab 4: Kisah Nabi dan Rasul Panutanku", "topics": ["Kisah Nabi Adam AS (manusia pertama dan nabi pertama)", "Kisah Nabi Nuh AS (ketekunan dan kesabaran)", "Kisah Nabi Ibrahim AS (ketaatan dan keberanian)", "Meneladani sifat baik para nabi"] },
+        { "chapter": "Bab 5: Akhlak Terpuji dalam Kehidupan Sehari-hari", "topics": ["Menyayangi keluarga dan teman", "Berterima kasih kepada orang lain dan kepada Allah", "Bersikap jujur dan tidak berbohong", "Hormat kepada orang tua dan guru", "Menjaga kebersihan tubuh dan lingkungan"] },
+        { "chapter": "Bab 6: Dasar-Dasar Ibadah dan Adab Islami", "topics": ["Mengenal wudhu secara sederhana (mencuci tangan, wajah, kaki)", "Mengenal gerakan shalat (ruku’, sujud)", "Adab masuk-keluar rumah, adab makan dan minum", "Membiasakan doa-doa harian (sebelum tidur, sebelum makan, bangun tidur)"] }
+      ]
+    },
+    "Kelas 2": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Cinta Al-Qur’an dan Hadis", "topics": ["Membaca huruf hijaiyah dengan harakat (Makharijul huruf)", "Menghafal dan membaca surah pendek (Al-Fatihah, Al-Ikhlas, Al-Falaq, An-Nas)", "Memahami makna sederhana surah-surah yang dipelajari", "Mempelajari dan menghafal hadis pendek tentang kasih sayang, kejujuran, dan kebersihan"] },
+        { "chapter": "Bab 2: Aku Beriman kepada Allah dan Malaikat-Nya", "topics": ["Allah sebagai Tuhan Yang Maha Esa", "Mengenal sifat-sifat Allah (Asmaul Husna: Ar-Rahman, Ar-Rahim, Al-Khaliq, Al-‘Alim)", "Beriman kepada malaikat-malaikat Allah dan tugasnya (Jibril, Mikail, Israfil, dan lainnya)"] },
+        { "chapter": "Bab 3: Kisah Teladan Para Nabi dan Rasul", "topics": ["Kisah Nabi Muhammad SAW: masa kecil dan sifat teladannya", "Kisah ringkas Nabi Nuh, Nabi Ibrahim, dan Nabi Musa", "Meneladani sifat jujur, penyayang, dan sabar para nabi"] },
+        { "chapter": "Bab 4: Aku Berakhlak Mulia Setiap Hari", "topics": ["Perilaku terpuji: jujur, sabar, amanah, sopan santun, dan menghormati orang tua", "Perilaku tercela: bohong, sombong, iri, berkata kasar", "Adab dalam kehidupan: berbicara, belajar, bermain, membantu"] },
+        { "chapter": "Bab 5: Belajar Ibadah dengan Senang Hati (Fikih Dasar)", "topics": ["Tata cara wudhu (mencuci tangan, berkumur, membasuh wajah, dsb.)", "Gerakan dan bacaan shalat secara bertahap", "Adab makan dan minum (membaca doa, duduk, tidak berlebihan)", "Adab berpakaian (bersih, menutup aurat, rapi)"] },
+        { "chapter": "Bab 6: Mengenal Sejarah Islam dengan Cerita", "topics": ["Kisah Nabi Muhammad SAW menerima wahyu", "Teladan Nabi Muhammad SAW dalam berbuat baik", "Sejarah singkat masuknya Islam di Indonesia (melalui pedagang, ulama, dan pesantren)"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Cinta Al-Qur’an dan Hadis", "topics": ["Membaca dan menghafal surat-surat pendek: Surah Al-Falaq, Al-Kautsar", "Memahami pesan pokok dalam surah tersebut (perlindungan dari kejahatan, nikmat pemberian Allah)", "Mengenal huruf hijaiyah bersambung", "Memahami hukum bacaan tajwid sederhana (mad, nun mati, mim mati)"] },
+        { "chapter": "Bab 2: Aku Beriman kepada Allah dan Malaikat-Nya", "topics": ["Allah sebagai pencipta (Al-Khaliq), Yang Maha Suci (Al-Quddus)", "Menyebut dan mengenal 10 malaikat beserta tugasnya (Jibril, Mikail, Israfil, dsb.)", "Menumbuhkan keyakinan dan sikap hormat terhadap ciptaan Allah", "Berdoa kepada Allah dalam kehidupan sehari-hari"] },
+        { "chapter": "Bab 3: Aku Suka Berbuat Baik dan Peduli Lingkungan", "topics": ["Perilaku terpuji: jujur, bekerja sama, berani, dan tolong-menolong", "Adab makan dan minum (membaca doa, tidak berlebihan, makan tangan kanan)", "Adab berbicara (berkata sopan, tidak berkata kasar, berbicara bergiliran)", "Menjaga kebersihan dan kesehatan diri serta lingkungan (mandi, mencuci tangan, tidak buang sampah sembarangan)"] },
+        { "chapter": "Bab 4: Belajar Ibadah Sehari-hari (Fikih Dasar)", "topics": ["Tata cara berwudhu (langkah-langkah dan bacaan)", "Gerakan dan bacaan shalat fardhu secara bertahap", "Zikir dan doa setelah shalat", "Membiasakan diri melaksanakan shalat tepat waktu"] },
+        { "chapter": "Bab 5: Kisah Teladan dari Nabi Muhammad SAW dan Nabi Ibrahim AS", "topics": ["Kisah teladan Nabi Muhammad SAW (jujur, pemaaf, rajin bekerja, menyayangi anak-anak)", "Kisah Nabi Ibrahim AS (ketaatan, keberanian, keikhlasan)", "Meneladani sikap para nabi dalam kehidupan sehari-hari", "Mengenal bagaimana nabi menyebarkan Islam dengan damai"] }
+      ]
+    },
+    "Kelas 3": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Aku Cinta Al-Qur’an dan Hadis", "topics": ["Membaca dan menulis huruf hijaiyah dengan harakat (fathah, kasrah, dhammah)", "Membaca dan menghafal Surah Al-Kautsar dan Surah An-Nasr", "Memahami arti dan pesan pokok dari Surah Al-Kautsar (bersyukur dan ibadah) dan An-Nasr (pertolongan Allah dan kewajiban bersyukur)", "Mempelajari hadis-hadis pendek yang berkaitan dengan ibadah dan akhlak"] },
+        { "chapter": "Bab 2: Aku Beriman kepada Allah dan Sifat-Sifat-Nya", "topics": ["Meyakini Allah Maha Esa (Tawhid)", "Mengenal sifat Allah Maha Pemberi (Al-Wahhab) dan sifat wajib Allah lainnya", "Memahami bahwa Allah memiliki sifat-sifat sempurna dan tidak seperti makhluk", "Menunjukkan rasa syukur kepada Allah melalui ibadah dan perilaku baik"] },
+        { "chapter": "Bab 3: Aku Suka Berperilaku Terpuji", "topics": ["Menjaga kejujuran dalam perkataan dan perbuatan", "Disiplin waktu dan tanggung jawab", "Menghormati orang tua, guru, dan teman", "Bersikap santun dalam berbicara dan bertindak", "Meneladani akhlak Nabi Muhammad SAW (jujur, penyayang, tidak sombong)"] },
+        { "chapter": "Bab 4: Aku Senang Beribadah", "topics": ["Tata cara berwudhu yang benar (urutan dan niat)", "Praktik gerakan dan bacaan salat fardu (shalat 2 rakaat)", "Menghafal bacaan salat dan doa pendek setelah salat", "Membiasakan diri shalat tepat waktu dan dalam keadaan suci"] },
+        { "chapter": "Bab 5: Kisah Keteladanan Nabi-Nabi Pilihan", "topics": ["Kisah Nabi Yusuf AS: jujur, sabar, pemaaf", "Kisah Nabi Syuaib AS: mengajak berdagang jujur dan tidak menipu", "Mengenal nama-nama nabi yang wajib diketahui (25 nabi dan rasul)", "Meneladani nilai-nilai keteladanan dalam kehidupan sehari-hari"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Cinta Al-Qur’an dan Hadis", "topics": ["Membaca dan menghafal Surah Al-Kautsar", "Memahami arti dan pesan pokok Surah Al-Kautsar: nikmat Allah, pentingnya bersyukur, dan beribadah", "Mempelajari hadis pendek tentang adab (misalnya: hadis tentang kejujuran, kasih sayang, dan memberi salam)", "Menyadari bahwa Al-Qur’an dan hadis adalah pedoman hidup"] },
+        { "chapter": "Bab 2: Aku Beriman kepada Allah dan Kitab-Kitab-Nya", "topics": ["Meyakini keesaan Allah SWT (Tauhid)", "Mengenal sifat-sifat Allah SWT (seperti Al-Ghaniy – Maha Kaya, Al-Hakim – Maha Bijaksana)", "Mengenal kitab-kitab Allah: Taurat (Nabi Musa), Zabur (Nabi Dawud), Injil (Nabi Isa), dan Al-Qur’an (Nabi Muhammad SAW)", "Menumbuhkan cinta dan hormat kepada wahyu Allah"] },
+        { "chapter": "Bab 3: Aku Suka Berperilaku Terpuji", "topics": ["Jujur dalam berkata dan bertindak", "Amanah dan tanggung jawab dalam tugas", "Sabar dalam menghadapi kesulitan dan menunggu giliran", "Bersyukur atas nikmat kecil dan besar dari Allah"] },
+        { "chapter": "Bab 4: Aku Senang Melaksanakan Shalat", "topics": ["Rukun-rukun shalat: niat, takbir, berdiri, rukuk, sujud, dll.", "Gerakan dan bacaan salat fardu secara utuh dan benar", "Adab sebelum, saat, dan setelah salat (berpakaian rapi, khusyuk, berzikir, berdoa)", "Mempraktikkan shalat dua rakaat dengan tuntunan"] },
+        { "chapter": "Bab 5: Kisah Teladan Para Nabi dan Rasul", "topics": ["Kisah Nabi Yusuf AS: sabar, pemaaf, jujur dalam ujian", "Kisah Nabi Syu’aib AS: berdagang jujur, menasihati dengan bijak", "Mengidentifikasi nilai-nilai akhlak dari kisah-kisah nabi", "Meneladani perilaku mereka dalam kehidupan sehari-hari"] }
+      ]
+    },
+    "Kelas 4": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Aku Cinta Al-Qur’an dan Hadis", "topics": ["Membaca dan memahami Surah Al-Fatihah dan Al-Ikhlas", "Mengkaji Q.S. Al-Ḥujurāt/49:13 tentang keragaman umat manusia", "Memahami hadis Nabi SAW tentang pentingnya saling mengenal dan menghargai sesama", "Mengaitkan pesan Qurani dan hadis dengan kehidupan multikultural di Indonesia"] },
+        { "chapter": "Bab 2: Mengenal dan Mengamalkan Asmaul Husna", "topics": ["Mempelajari dan menghafal beberapa Asmaul Husna: Ar-Rahman, Ar-Rahim, Al-‘Adl, Al-Hakim, Al-Khabir", "Memahami arti dan pengaruh Asmaul Husna dalam kehidupan sehari-hari", "Meneladani sifat-sifat Allah SWT dalam perilaku"] },
+        { "chapter": "Bab 3: Kisah Hijrah Nabi Muhammad SAW", "topics": ["Menyimak kisah hijrah Nabi SAW dari Mekkah ke Madinah", "Menjelaskan alasan dan latar belakang hijrah", "Menyimpulkan hikmah dari peristiwa hijrah (sabar, strategi, semangat perubahan, kerja sama)", "Mengaitkan hijrah dengan perubahan diri ke arah yang lebih baik"] },
+        { "chapter": "Bab 4: Adab dan Akhlak Sehari-hari", "topics": ["Adab berbicara: berkata jujur, sopan, tidak mengejek", "Adab makan dan minum sesuai sunnah", "Adab berpakaian: menutup aurat, rapi, dan bersih", "Menghargai perbedaan dan hidup damai dalam keberagaman", "Memahami pentingnya taubat dan memohon ampun kepada Allah", "Mengenal dan mencontoh perilaku terpuji: jujur, sabar, rendah hati"] },
+        { "chapter": "Bab 5: Menyambut Usia Balig dengan Siap dan Sadar", "topics": ["Memahami tanda-tanda balig bagi laki-laki dan perempuan", "Mengenal perbedaan tanggung jawab setelah balig", "Menjaga kebersihan dan kehormatan diri", "Menyadari pentingnya kesiapan mental, spiritual, dan sosial", "Menjaga batas pergaulan dan adab berpakaian sesuai syariat"] },
+        { "chapter": "Bab 6: Rukun Iman dan Rukun Islam – Dasar Keimanan dan Ibadah", "topics": ["Menyebut dan menjelaskan 6 Rukun Iman", "Menyebut dan menjelaskan 5 Rukun Islam", "Menjelaskan makna setiap rukun sebagai dasar hidup Islami", "Mengaitkan rukun iman dan Islam dalam kehidupan sehari-hari"] },
+        { "chapter": "Bab 7: Salat Sunnah dan Salat Jumat", "topics": ["Mengenal salat sunnah Duha dan Tahajud", "Menjelaskan tata cara, waktu, dan keutamaannya", "Mengenal salat Jumat: syarat, waktu, dan keutamaannya bagi laki-laki", "Memahami pentingnya menjaga kekhusyukan dalam salat"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Aku Cinta Al-Qur’an dan Hadis", "topics": ["Menghafal dan memahami makna surat-surat pendek: Surah Al-Falaq, Surah Al-Fatihah", "Membaca dan memahami hadis tentang: Pentingnya menjaga adab, Keutamaan silaturahmi, Kewajiban mendirikan salat", "Membiasakan diri membaca Al-Qur’an dan hadis setiap hari"] },
+        { "chapter": "Bab 2: Aku Beriman kepada Allah, Rasul, dan Malaikat-Nya", "topics": ["Memahami makna iman kepada Allah dan Rasul-Nya", "Mengenal 10 nama malaikat dan tugasnya", "Menjelaskan sifat-sifat Allah yang Maha Sempurna", "Mengetahui sifat wajib Rasul seperti siddiq, amanah, tabligh, dan fathanah", "Mengenal kisah singkat nabi dan rasul pilihan (Nabi Musa, Nabi Isa, Nabi Muhammad SAW)"] },
+        { "chapter": "Bab 3: Aku Suka Berperilaku Terpuji", "topics": ["Menunjukkan sikap ikhlas dan sabar dalam kegiatan sehari-hari", "Menumbuhkan sikap jujur dan amanah di rumah dan sekolah", "Menghormati dan menghargai orang tua, guru, dan teman", "Menjaga kebersihan badan, pakaian, dan lingkungan sekitar", "Membiasakan diri hidup sehat"] },
+        { "chapter": "Bab 4: Belajar Ibadah dan Bersuci", "topics": ["Mengenal konsep bersuci (taharah) dan tata cara wudhu yang benar", "Memahami syarat, rukun, dan gerakan salat", "Mengenal dan memahami salat Jumat (bagi laki-laki), salat Duha, dan salat Tahajud", "Mengetahui konsep balig: tanda-tanda dan tanggung jawab ibadah yang menyertainya"] },
+        { "chapter": "Bab 5: Kisah Perkembangan Islam dan Keteladanan Ulama", "topics": ["Kisah hijrah Nabi Muhammad SAW ke Madinah", "Pembangunan masyarakat Islam pertama di Madinah", "Peran dan keteladanan para Wali Songo dalam menyebarkan Islam di Nusantara", "Mengetahui perkembangan awal Islam di Indonesia"] }
+      ]
+    },
+    "Kelas 5": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Membaca dan Memahami Surah Al-Ma'un dan Hadis Pilihan", "topics": ["Membaca dan menulis Surah Al-Ma’un dengan baik dan benar", "Menghafal Surah Al-Ma’un", "Memahami pesan utama Surah Al-Ma’un: peduli terhadap anak yatim, tidak mengabaikan salat, dan mencegah riya’", "Adab membaca Al-Qur’an: suci, sopan, dan tenang", "Mempelajari hadis pendek tentang akhlak terpuji: tolong-menolong, berkata baik, menjaga kebersihan"] },
+        { "chapter": "Bab 2: Aku Beriman kepada Allah dan Rasul-Nya", "topics": ["Menjelaskan makna iman kepada Allah SWT", "Mengenal dan memahami sifat-sifat Allah: Al-‘Adl (Maha Adil), Al-Basir (Maha Melihat), Al-Khabir (Maha Mengetahui)", "Menjelaskan tugas dan sifat wajib Rasul: jujur (siddiq), menyampaikan (tabligh), amanah, cerdas (fathanah)", "Meneladani akhlak Rasulullah SAW dalam kehidupan sehari-hari"] },
+        { "chapter": "Bab 3: Aku Berakhlak Mulia dan Menjaga Adab Sehari-hari", "topics": ["Adab makan, minum, dan berpakaian", "Adab berbicara: berkata sopan, tidak mengejek, berkata jujur", "Adab bergaul dengan teman: saling menghargai dan bekerja sama", "Menanamkan sifat ikhlas, sabar, syukur, tawadhu’ (rendah hati), dan tawakal (berserah diri kepada Allah setelah ikhtiar)"] },
+        { "chapter": "Bab 4: Aku Belajar Bersuci dan Menjaga Salat serta Puasa", "topics": ["Memahami tata cara bersuci dari hadas kecil dan besar (wudhu, mandi wajib)", "Shalat wajib berjamaah: syarat, rukun, dan keutamaannya", "Shalat Jumat: hukum, syarat, tata cara, dan hikmahnya", "Shalat jamak dan qasar: syarat dan praktik saat dalam perjalanan", "Puasa: pengertian, rukun, dan hikmah puasa (terutama Ramadhan dan puasa sunnah)"] },
+        { "chapter": "Bab 5: Kisah Nabi dan Sejarah Islam yang Menginspirasi", "topics": ["Kisah para nabi Ulul Azmi: Nabi Nuh AS (kesabaran), Nabi Ibrahim AS (ketaatan), Nabi Musa AS (keberanian), Nabi Isa AS (kesederhanaan), Nabi Muhammad SAW (kesempurnaan akhlak)", "Sejarah singkat masa awal Islam: dakwah di Makkah dan Madinah", "Tokoh-tokoh penting dalam sejarah Islam: Khulafaur Rasyidin, sahabat Nabi, dan penyebar Islam di Nusantara"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Aku Cinta Al-Qur’an dan Hadis", "topics": ["Membaca dan menghafal Surah Al-Ma’un serta surat pendek lainnya", "Memahami isi dan pesan pokok dari Surah Al-Ma’un: pentingnya peduli terhadap anak yatim dan tidak bermalas-malasan dalam salat", "Mempelajari hadis-hadis pendek yang berkaitan dengan kehidupan sehari-hari (kejujuran, adab, tolong-menolong, cinta ilmu)", "Mempelajari tajwid sederhana: mad thabi’i, nun mati bertemu huruf idgham"] },
+        { "chapter": "Bab 2: Aku Beriman kepada Allah dan Malaikat-Nya", "topics": ["Mengenal dan memahami sifat wajib, mustahil, dan jaiz bagi Allah SWT", "Memahami makna dan fungsi Asmaul Husna seperti: Al-Hakim (Maha Bijaksana), Al-Basir (Maha Melihat), Al-Raqib (Maha Mengawasi)", "Iman kepada malaikat: mengenal 10 malaikat Allah dan tugasnya (Jibril, Mikail, dsb.)"] },
+        { "chapter": "Bab 3: Aku Suka Berakhlak Terpuji", "topics": ["Akhlak terpuji: ikhlas, sabar, tawakal, dan rendah hati", "Menyadari pentingnya sabar dalam belajar, berusaha, dan menghadapi masalah", "Meneladani kisah-kisah dari Al-Qur’an dan hadis, seperti kisah Nabi Ayyub AS dan Nabi Yusuf AS", "Membiasakan akhlak baik dalam lingkungan sekolah, rumah, dan masyarakat"] },
+        { "chapter": "Bab 4: Aku Menjaga Kesucian dan Rajin Beribadah", "topics": ["Menjelaskan pengertian dan tata cara bersuci (taharah), termasuk mandi wajib", "Memahami tata cara dan hikmah shalat berjamaah, shalat Jumat, shalat jamak dan qasar", "Mengenal ibadah haji dan kurban: pengertian, rukun, syarat, dan maknanya dalam kehidupan sosial (jika kontekstual)"] },
+        { "chapter": "Bab 5: Aku Mengenal Sejarah Islam dan Teladan Umat Terdahulu", "topics": ["Mengenal kisah perjuangan Nabi Muhammad SAW di Makkah dan Madinah", "Mengetahui kisah sahabat Nabi: Abu Bakar, Umar, Utsman, Ali (Khulafaur Rasyidin)", "Mengetahui peran ulama dan tokoh Islam dalam penyebaran Islam di Indonesia (misalnya: Wali Songo, ulama pesantren)", "Meneladani sifat-sifat mulia para tokoh tersebut: kejujuran, keberanian, kesabaran, dan keadilan"] }
+      ]
+    },
+    "Kelas 6": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis – Pedoman Hidupku", "topics": ["Surah Al-Kafirun: memahami pesan toleransi dan sikap menghormati perbedaan keyakinan", "Surah Al-Zalzalah (opsional): memahami hari kiamat dan akibat perbuatan manusia", "Surah Al-Waqi’ah (pengantar, opsional): mengenal golongan manusia di akhirat", "Asma’ul Husna: Al-Adl (Maha Adil), Al-Halim (Maha Penyantun), Al-Muqsith (Maha Pemberi Keadilan)", "Hadis-hadis pendek tentang saling menghargai, berbuat baik, dan sikap tawakal"] },
+        { "chapter": "Bab 2: Akidah dan Akhlak Mulia dalam Kehidupan", "topics": ["Menumbuhkan sikap tawakal kepada Allah dalam usaha dan doa", "Sikap toleransi dan menghormati penganut agama lain (berlandaskan Q.S. Al-Kafirun)", "Menumbuhkan sikap simpatik: peduli, menolong, empati", "Menyadari pentingnya akhlak mulia sebagai wujud keimanan"] },
+        { "chapter": "Bab 3: Fikih – Praktik Ibadah dan Kehidupan Islami", "topics": ["Zakat: Pengertian, macam-macam zakat (fitrah dan mal), Penerima zakat (mustahiq), Hikmah berbagi dan keadilan sosial", "Halal dan haram dalam kehidupan sehari-hari: Makanan, minuman, perbuatan, perilaku", "Menumbuhkan kesadaran memilih yang baik dan benar"] },
+        { "chapter": "Bab 4: Sejarah Islam – Meneladani Nabi dan Para Sahabat", "topics": ["Kisah perjuangan Nabi Muhammad SAW dalam menyampaikan dakwah Islam", "Keteladanan akhlak Nabi: jujur (shiddiq), amanah, sabar, kasih sayang", "Jasa Usman bin Affan: penulisan mushaf Al-Qur’an", "Peran Ali bin Abi Thalib: keberanian, kecerdasan, dan keadilan"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis – Pedoman Hidupku", "topics": ["Membaca, menghafal, dan memahami Surah Ad-Duha", "Menyadari bahwa Allah selalu menyayangi dan menolong hamba-Nya", "Pesan pokok: memberi, tidak menyia-nyiakan anak yatim, bersyukur atas nikmat", "Hadis tentang keutamaan memberi", "Mendorong semangat berbagi dan infak"] },
+        { "chapter": "Bab 2: Akidah – Mengenal Allah Lebih Dekat", "topics": ["Mengenal Asmaul Husna: Al-Ghaffar (Maha Pengampun), Al-Afuwwu (Maha Pemaaf), Al-Wahid (Maha Esa), As-Samad (Tempat bergantung)", "Syarat-syarat mendapat ampunan Allah: Menyesal, berhenti dari kesalahan, bertekad tidak mengulangi", "Ciri-ciri orang yang mengimani keesaan Allah: Bertauhid, bertawakal, tidak menyekutukan Allah, patuh pada perintah-Nya"] },
+        { "chapter": "Bab 3: Akhlak – Menjadi Pribadi yang Ikhlas dan Pemaaf", "topics": ["Arti penting toleransi dan simpati: menghormati perbedaan, peduli sesama", "Menjelaskan arti menyesal dan memaafkan", "Adab menyatakan penyesalan dan memberi maaf", "Meneladani sikap ikhlas, sabar, dan pemaaf dari kisah Rasul dan sahabat"] },
+        { "chapter": "Bab 4: Fikih – Ibadah yang Menyucikan Jiwa", "topics": ["Zakat: Pengertian, syarat, dan tata cara pelaksanaannya", "Jenis zakat: fitrah dan mal", "Tujuan: membersihkan harta, solidaritas sosial", "Halal dan haram: Pengertian, dasar hukum, sebab menjadi haram", "Membedakan makanan, minuman, dan perilaku", "Shalat Jumat dan shalat jamak-qasar: Hukum, syarat, tata cara, kapan diperbolehkan", "Ibadah qurban: Pengertian, hikmah, hewan yang sah untuk qurban"] },
+        { "chapter": "Bab 5: SKI – Keteladanan Para Nabi dan Tokoh Islam", "topics": ["Kisah singkat Nabi Muhammad SAW: perjuangan dan akhlaknya", "Jasa Usman bin Affan (penulisan mushaf) dan Ali bin Abi Thalib (keberanian dan keilmuan)", "Kisah Ashabul Kahfi: keteguhan iman para pemuda beriman"] }
+      ]
+    },
+    "Kelas 7": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Pedoman Hidup", "topics": ["Kedudukan Al-Qur’an dan Hadis", "Membaca dan Memahami Ayat Al-Qur’an (QS. An-Nisa: 59 dan QS. An-Nahl: 64)", "Fungsi Hadis terhadap Al-Qur’an"] },
+        { "chapter": "Bab 2: Keimanan kepada Allah dan Malaikat-Nya", "topics": ["Iman kepada Allah SWT dan Asmaul Husna", "Iman kepada Malaikat"] },
+        { "chapter": "Bab 3: Bersuci dan Ibadah Shalat", "topics": ["Thaharah (Bersuci dalam Islam)", "Shalat Wajib Berjamaah dan Jumat", "Shalat Jamak dan Qasar"] },
+        { "chapter": "Bab 4: Puasa sebagai Sarana Pembentukan Takwa", "topics": ["Makna dan Hikmah Puasa"] },
+        { "chapter": "Bab 5: Akhlak Mulia dalam Kehidupan Sehari-hari", "topics": ["Akhlak Terpuji (Ikhlas, sabar, jujur, menepati janji, hormat)", "Akhlak Tercela (Dusta, sombong, iri hati)", "Adab Harian Seorang Muslim"] },
+        { "chapter": "Bab 6: Keteladanan Khulafaur Rasyidin", "topics": ["Kisah dan Nilai Kepemimpinan Para Khalifah (Abu Bakar, Umar, Utsman, Ali)"] },
+        { "chapter": "Bab 7: Makanan dan Minuman dalam Islam", "topics": ["Ketentuan Halal dan Haram dalam Konsumsi"] },
+        { "chapter": "Bab 8: Optimisme, Ikhtiar, dan Tawakal", "topics": ["Sikap Positif dalam Kehidupan (Optimis, usaha, berserah diri)"] },
+        { "chapter": "Bab 9: Beriman kepada Qadha dan Qadar", "topics": ["Makna Takdir dan Sikap Menghadapinya"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Sumber Akhlak dan Iman", "topics": ["Membaca Al-Qur’an dengan Tartil", "Makna Ayat-Ayat tentang Iman, Ibadah, dan Akhlak", "Hadis tentang Akhlak Terpuji", "Meneladani Sifat-Sifat Terpuji dari Al-Qur’an dan Hadis"] },
+        { "chapter": "Bab 2: Akidah Islamiyah – Landasan Keimanan Seorang Muslim", "topics": ["Rukun Iman dan Pengertiannya", "Asmaul Husna dan Maknanya dalam Kehidupan", "Beriman kepada Kitab-Kitab Allah SWT", "Kisah Para Nabi dan Rasul sebagai Teladan"] },
+        { "chapter": "Bab 3: Akhlak dalam Kehidupan Sehari-hari", "topics": ["Adab Pergaulan dalam Islam", "Akhlak Terpuji dalam Islam (Jujur, amanah, adil, santun)", "Perilaku yang Harus Dihindari (Ghibah, namimah, fitnah, iri, dengki)", "Menanamkan Optimisme, Ikhtiar, dan Tawakal"] },
+        { "chapter": "Bab 4: Fikih – Ibadah dan Kehidupan Sehat Menurut Islam", "topics": ["Thaharah (Bersuci) dan Jenisnya", "Shalat Berjamaah dan Shalat Jumat", "Shalat Jamak dan Qasar", "Makanan dan Minuman Halal dan Haram"] },
+        { "chapter": "Bab 5: Sejarah Kebudayaan Islam – Warisan dan Teladan", "topics": ["Sejarah Masuknya Islam di Indonesia", "Kisah Sahabat Nabi Muhammad SAW", "Khulafaur Rasyidin dan Kepemimpinannya"] }
+      ]
+    },
+    "Kelas 8": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Petunjuk Kehidupan", "topics": ["Inspirasi Al-Qur’an: Melestarikan Alam dan Menjaga Kehidupan (QS. Al-A'raf: 56, QS. Ar-Rum: 41)", "Hadis tentang Tanggung Jawab Sosial dan Lingkungan", "Menjadi Generasi Pencinta Al-Qur’an yang Toleran"] },
+        { "chapter": "Bab 2: Aqidah – Keimanan kepada Kitab-Kitab Allah SWT", "topics": ["Beriman kepada Kitab-Kitab Allah (Al-Qur’an, Injil, Zabur, Taurat)", "Kandungan Al-Qur’an sebagai Petunjuk Hidup", "Meneladani Sikap Toleran Para Nabi dalam Berdakwah"] },
+        { "chapter": "Bab 3: Akhlak – Membangun Pribadi Amanah dan Jujur", "topics": ["Pentingnya Akhlak Mulia dalam Masyarakat", "Sifat Amanah dan Kejujuran dalam Islam", "Akhlak Terpuji Lainnya: Tanggung Jawab, Sabar, Rendah Hati"] },
+        { "chapter": "Bab 4: Fikih – Menjaga Diri dan Menjaga Hubungan dengan Allah", "topics": ["Thaharah Tingkat Lanjut (Istinja’, mandi wajib, jenis najis)", "Shalat Sunnah Rawatib dan Dhuha", "Puasa Sunnah dan Hikmahnya (Senin-Kamis, Ayyamul Bidh)"] },
+        { "chapter": "Bab 5: Sejarah Kebudayaan Islam – Keteladanan dan Peradaban", "topics": ["Kepemimpinan Umar bin Khattab", "Perkembangan Ilmu Pengetahuan dalam Islam (Ibnu Sina, Al-Khawarizmi)", "Islam dan Peradaban Dunia"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Sumber Iman dan Akhlak", "topics": ["Membaca Al-Qur’an dengan Tartil", "Makna dan Kandungan Ayat Pilihan (QS. Al-Baqarah, QS. An-Nur, QS. Al-Hujurat)", "Hafalan Surah Pendek dan Ayat Pilihan", "Pemahaman Hadis (kejujuran, amanah, pengendalian diri)"] },
+        { "chapter": "Bab 2: Akidah dan Akhlak – Membentuk Keyakinan dan Karakter", "topics": ["Iman kepada Kitab-Kitab Allah SWT", "Sifat Wajib, Mustahil, dan Jaiz bagi Rasul", "Beriman kepada Qadha dan Qadar", "Perilaku Terpuji (Jujur, amanah, sabar, qanaah)", "Perilaku Tercela yang Harus Dihindari (Dusta, khianat, sombong, tamak)"] },
+        { "chapter": "Bab 3: Fikih – Menjalankan Ibadah dengan Benar dan Ikhlas", "topics": ["Puasa Wajib dan Sunnah", "Shalat Sunnah Munfarid dan Berjamaah (dhuha, tahajud, witir)", "Sujud dalam Shalat (sahwi, syukur, tilawah)", "Makanan dan Minuman Halal dan Haram"] },
+        { "chapter": "Bab 4: Sejarah Kebudayaan Islam – Inspirasi dari Perjalanan Dakwah Islam", "topics": ["Masuknya Islam ke Indonesia", "Tokoh Penyebar Islam di Nusantara (Walisongo)", "Kisah Para Sahabat Nabi", "Nilai-Nilai Luhur dalam Sejarah Islam"] }
+      ]
+    },
+    "Kelas 9": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Sumber Ilmu dan Petunjuk Hidup", "topics": ["Membaca dan Menghafal Ayat Pilihan (QS. Al-Mujadilah: 11, QS. Az-Zumar: 9)", "Menulis dan Mengartikan Ayat", "Hadis Tentang Menuntut Ilmu", "Makna dan Kandungan Ayat dan Hadis"] },
+        { "chapter": "Bab 2: Akidah dan Akhlak – Keyakinan dan Keteladanan", "topics": ["Iman kepada Allah dan Malaikat", "Qada dan Qadar dalam Kehidupan", "Perilaku Terpuji dalam Kehidupan Sehari-hari (Ikhlas, sabar, syukur)", "Adab kepada Orang Tua, Guru, dan Sesama"] },
+        { "chapter": "Bab 3: Fikih – Ibadah dan Kehidupan Sehari-hari", "topics": ["Makanan dan Minuman Halal dan Haram", "Ibadah Haji dan Umrah", "Penyembelihan Hewan Kurban dan Aqiqah"] },
+        { "chapter": "Bab 4: Sejarah Kebudayaan Islam – Islam dan Peradaban Nusantara", "topics": ["Sejarah Perkembangan Islam di Nusantara", "Biografi Cendekiawan Muslim (Ibnu Sina, Al-Ghazali)", "Nilai-Nilai Luhur dalam Sejarah Islam"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis dalam Kehidupan Sehari-hari", "topics": ["Makna dan Kandungan Ayat Tentang Qada dan Qadar (QS. Al-Hadid: 22-23, QS. At-Takwir: 29)", "Hadis tentang Akhlak Mulia", "Mengamalkan Nilai-Nilai Qur’ani dan Hadis dalam Kehidupan Nyata"] },
+        { "chapter": "Bab 2: Akidah – Iman yang Membentuk Sikap Hidup Positif", "topics": ["Konsep dan Keyakinan terhadap Qada dan Qadar", "Iman kepada Hari Akhir", "Sifat-Sifat Mulia Para Rasul"] },
+        { "chapter": "Bab 3: Akhlak – Membentuk Pribadi Muslim yang Unggul", "topics": ["Akhlak Terpuji (Jujur, menepati janji, husnuzan)", "Berbakti kepada Orang Tua dan Guru", "Menghindari Akhlak Tercela (Menyia-nyiakan waktu, bermalas-malasan)"] },
+        { "chapter": "Bab 4: Fikih – Ibadah yang Mewujudkan Kepedulian Sosial", "topics": ["Puasa: Wajib dan Sunnah", "Makanan Halal dan Sehat", "Zakat, Kurban, dan Aqiqah", "Haji dan Umrah"] },
+        { "chapter": "Bab 5: Sejarah Kebudayaan Islam – Inspirasi dari Masa Lalu", "topics": ["Perkembangan Islam di Nusantara", "Peradaban Islam pada Masa Abbasiyah", "Tokoh-Tokoh Islam Dunia (Ibnu Sina, Al-Khawarizmi, Imam Syafi’i)"] },
+        { "chapter": "Bab 6: Tema Integratif – Islam dalam Kehidupan Modern", "topics": ["Seni Islami (Kaligrafi, arsitektur)", "Mengenal Imam Mazhab", "Optimisme, Ikhtiar, dan Tawakal", "Menjaga Kesehatan dan Adab Sosial", "Sikap Moderat dalam Beragama (Wasathiyah)"] }
+      ]
+    },
+    "Kelas 10": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Sumber Nilai Kehidupan", "topics": ["Membaca dan Menghafal Surah Al-Qur’an Pilihan (QS. Al-Hujurat: 13, QS. Al-Baqarah: 2–5)", "Tafsir dan Kandungan Ayat", "Hadis Terkait Nilai-Nilai Kehidupan", "Mengamalkan Nilai Al-Qur’an dan Hadis dalam Kehidupan Sehari-Hari"] },
+        { "chapter": "Bab 2: Akidah – Membangun Keimanan yang Kokoh dan Menyeluruh", "topics": ["Iman kepada Allah dan Sifat-Sifat-Nya (Al-Asma’ul Husna)", "Iman kepada Malaikat-Malaikat Allah", "Memahami Syu’abul Iman (Cabang-Cabang Keimanan)"] },
+        { "chapter": "Bab 3: Akhlak – Etika Pribadi dan Sosial dalam Islam", "topics": ["Kompetisi dalam Kebaikan dan Etos Kerja Islami", "Menjauhi Perilaku Tercela (Foya-foya, riya’, sum’ah, takabur)", "Menjaga Nilai-Nilai Kejujuran dan Disiplin", "Etika Berpakaian Sesuai Syariat Islam", "Semangat Keilmuan dan Pengembangan Diri"] },
+        { "chapter": "Bab 4: Fikih – Sumber dan Implementasi Hukum Islam", "topics": ["Sumber Hukum Islam: Al-Qur’an, Hadis, dan Ijtihad", "Hikmah Ibadah Haji, Zakat, dan Wakaf", "Ketentuan Fikih Muamalah (Jual beli, pinjam-meminjam)", "Menumbuhkan Jiwa Wirausaha dan Peduli Sosial"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Pedoman Akhlak dan Kehidupan", "topics": ["Menganalisis Ayat tentang Pergaulan dan Kehormatan Diri (QS. Al-Isra’/17: 32, QS. An-Nur/24: 2)", "Hadis Tentang Pergaulan Sehat dan Menjaga Kehormatan", "Menghafal dan Mentadabburi Ayat dan Hadis Terkait"] },
+        { "chapter": "Bab 2: Akidah dan Akhlak – Cinta kepada Allah dan Pembiasaan Akhlak Mulia", "topics": ["Hakikat Mencintai Allah SWT", "Akhlak Mahmudah vs Madzmumah", "Iman kepada Allah dan Malaikat-Nya", "Asmaul Husna dan Implikasinya dalam Kehidupan"] },
+        { "chapter": "Bab 3: Fikih – Praktik Ibadah dan Pencegahan Perilaku Menyimpang", "topics": ["Larangan Pergaulan Bebas dan Zina", "Sumber Hukum Islam: Al-Qur'an, Hadis, dan Ijtihad", "Hikmah Ibadah Sosial: Haji, Zakat, dan Wakaf"] },
+        { "chapter": "Bab 4: Sejarah Kebudayaan Islam – Teladan Nabi dan Ulama dalam Dakwah", "topics": ["Strategi Dakwah Nabi Muhammad SAW di Makkah dan Madinah", "Peran Ulama dalam Penyebaran Islam (Walisongo, Imam Syafi’i)", "Nilai-Nilai Universal dari Dakwah Islam"] }
+      ]
+    },
+    "Kelas 11": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Membiasakan Berpikir Kritis dan Mencintai Ilmu Pengetahuan", "topics": ["Ayat dan Hadis tentang Menuntut Ilmu dan Berpikir Kritis (QS. Al-Mujadilah: 11, QS. Al-‘Alaq: 1–5)", "Aplikasi Ilmu dan IPTEK dalam Perspektif Islam"] },
+        { "chapter": "Bab 2: Iman dalam Perbuatan – Bukti Nyata Keimanan Sejati", "topics": ["Cabang-Cabang Iman (Syu’abul Iman)", "Mengamalkan Iman dalam Kehidupan Nyata"] },
+        { "chapter": "Bab 3: Adab dalam Pergaulan – Berinteraksi dengan Sopan dan Bermartabat", "topics": ["Adab Bergaul dalam Keluarga, Sekolah, dan Masyarakat", "Adab Digital dan Etika Sosial Media"] },
+        { "chapter": "Bab 4: Menyebarkan Islam dengan Santun dan Damai", "topics": ["Prinsip Dakwah dalam Islam (bil hikmah, mau’izhah hasanah)", "Peran Dakwah, Khutbah, dan Tabligh dalam Kehidupan Sosial"] },
+        { "chapter": "Bab 5: Ulama Indonesia yang Mendunia – Jejak Langkah Tokoh Inspiratif", "topics": ["Profil Ulama Nusantara Berpengaruh (Hamzah al-Fansuri, Nuruddin al-Raniri)", "Kontribusi Mereka terhadap Dunia Islam dan Peradaban"] },
+        { "chapter": "Bab 6: Kerukunan dan Toleransi Antarumat Beragama", "topics": ["Prinsip Toleransi dalam Al-Qur’an dan Hadis", "Membangun Kehidupan Harmonis di Tengah Perbedaan"] },
+        { "chapter": "Bab 7: Peradaban Islam pada Masa Modern – Tantangan dan Peluang", "topics": ["Dinamika Islam pada Era Modern dan Globalisasi", "Tantangan Modernisasi terhadap Umat Islam", "Peran Remaja Muslim dalam Membangun Peradaban Masa Kini"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Menguatkan Iman melalui Sikap Terpuji", "topics": ["Menjaga kehormatan diri dalam kehidupan sosial", "Beramal dengan ikhlas hanya karena Allah", "Menumbuhkan rasa malu yang positif (al-hayaa’)", "Zuhud: tidak terikat pada kenikmatan dunia"] },
+        { "chapter": "Bab 2: Adab dalam Menggunakan Media Sosial", "topics": ["Nilai-nilai Islam dalam bermedia", "Menghindari hoaks, ghibah digital, dan ujaran kebencian", "Menjadi pengguna aktif yang bertanggung jawab dan bijak"] },
+        { "chapter": "Bab 3: Ketentuan Pernikahan dalam Islam", "topics": ["Pengertian, dasar hukum, dan tujuan pernikahan", "Syarat sah dan rukun pernikahan", "Talak, iddah, dan rujuk", "Kriteria memilih pasangan yang baik"] },
+        { "chapter": "Bab 4: Peradaban Islam pada Masa Modern", "topics": ["Ciri peradaban Islam modern", "Tokoh-tokoh Islam berpengaruh (Nasr Hamid Abu Zayd, Tariq Ramadan)", "Kontribusi Islam terhadap kebudayaan dan IPTEK di Indonesia"] },
+        { "chapter": "Bab 5: Berpikir Kritis dan Mencintai IPTEK dalam Islam", "topics": ["QS. Al-Alaq: 1–5 dan hadis tentang menuntut ilmu", "Islam dan semangat mencari ilmu sepanjang hayat", "Pemanfaatan IPTEK untuk kemaslahatan"] },
+        { "chapter": "Bab 6: Bukti Nyata Keimanan dalam Perilaku Sehari-hari", "topics": ["Menepati janji", "Bersyukur atas nikmat", "Menjaga lisan", "Menutupi aib sesama"] },
+        { "chapter": "Bab 7: Menghindari Perilaku Merusak Diri dan Lingkungan", "topics": ["Bahaya perkelahian pelajar", "Dampak negatif alkohol dan narkoba", "Strategi menghindari pengaruh buruk pergaulan"] },
+        { "chapter": "Bab 8: Dakwah dengan Santun dan Damai", "topics": ["Prinsip-prinsip dakwah dalam Islam (hikmah, mau’izah hasanah, mujadalah)", "Khutbah dan tablig yang membangun", "Dakwah di era digital"] },
+        { "chapter": "Bab 9: Transaksi Ekonomi dalam Islam", "topics": ["Jual beli yang sah dan adil", "Riba dan larangan utang yang membebani", "Khiyar, sewa-menyewa (ijarah), syirkah, dan mudharabah"] },
+        { "chapter": "Bab 10: Menguatkan Kerukunan dan Menjaga Kehidupan", "topics": ["Toleransi sebagai prinsip Islam (QS. Al-Kafirun, QS. Al-Hujurat)", "Memelihara kehidupan manusia (maqashid syariah)", "Membangun harmoni dalam keberagaman"] }
+      ]
+    },
+    "Kelas 12": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Al-Qur’an dan Hadis sebagai Sumber Inspirasi Keteguhan Iman dan Kesabaran", "topics": ["Ayat Tentang Iman kepada Hari Akhir, Qada dan Qadar (QS. Al-Zalzalah: 1–8, QS. Al-Hadid: 22–23)", "Ayat dan Hadis tentang Sabar, Ikhlas, dan Syukur", "Tadabbur dan Implementasi Nilai-Nilai Al-Qur’an dalam Kehidupan"] },
+        { "chapter": "Bab 2: Akidah – Memperdalam Iman kepada Hari Akhir dan Takdir Allah", "topics": ["Tanda-Tanda Kiamat dan Kehidupan Akhirat", "Qada dan Qadar serta Kaitannya dengan Ikhtiar", "Keimanan yang Melahirkan Optimisme dan Tanggung Jawab"] },
+        { "chapter": "Bab 3: Akhlak – Menguatkan Pribadi yang Tangguh dan Bersyukur", "topics": ["Sabar, Ikhlas, dan Syukur dalam Perspektif Islam", "Aplikasi Akhlak Terpuji dalam Dunia Nyata"] },
+        { "chapter": "Bab 4: Fikih – Hak, Keadilan, dan Keluarga Islami", "topics": ["Kewarisan dalam Islam", "Ketentuan Pernikahan dalam Islam", "Hak-Hak Perempuan dalam Islam"] },
+        { "chapter": "Bab 5: Sejarah Peradaban Islam – Kontribusi Umat Islam di Dunia dan Indonesia", "topics": ["Perkembangan Islam di Dunia Modern", "Perkembangan Islam di Indonesia"] },
+        { "chapter": "Bab 6: Demokrasi dan Toleransi dalam Perspektif Islam", "topics": ["Konsep Syura dan Keadilan Sosial", "Toleransi dalam Islam", "Partisipasi Aktif dalam Masyarakat Demokratis"] },
+        { "chapter": "Bab 7: Ijtihad dan Inovasi dalam Kehidupan Modern", "topics": ["Pengertian, Syarat Mujtahid, dan Jenis-Jenis Ijtihad", "Pentingnya Ijtihad dalam Menjawab Tantangan Zaman"] },
+        { "chapter": "Bab 8: Etos Kerja dan Etika Berorganisasi dalam Islam", "topics": ["Etos Kerja dalam Islam (Ikhlas, Amanah, Profesional)", "Nilai-Nilai Organisasi: Tanggung Jawab, Kerja Sama, dan Kepemimpinan", "Mengembangkan Jiwa Inovatif dan Wirausaha Islami"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Indahnya Membangun Mahligai Rumah Tangga dalam Islam", "topics": ["Pengertian dan tujuan pernikahan", "Syarat, rukun, dan adab pernikahan", "Membangun keluarga sakinah, mawaddah, wa rahmah", "Tanggung jawab suami, istri, dan keluarga Islami"] },
+        { "chapter": "Bab 2: Meraih Berkah dengan Mawaris (Ilmu Waris dalam Islam)", "topics": ["Dasar hukum warisan dalam Islam", "Siapa saja ahli waris dan bagian haknya", "Pembagian harta waris secara adil", "Hikmah keadilan dalam warisan"] },
+        { "chapter": "Bab 3: Rahmat Islam bagi Nusantara dan Alam Semesta", "topics": ["Sejarah masuk dan berkembangnya Islam di Indonesia", "Nilai-nilai Islam yang berkontribusi pada budaya Nusantara", "Islam sebagai rahmat bagi seluruh alam", "Ajaran Islam dalam menjaga kelestarian lingkungan"] },
+        { "chapter": "Bab 4: Memaksimalkan Potensi Diri untuk Menjadi yang Terbaik", "topics": ["Islam mendorong pengembangan diri dan keunggulan", "Manajemen waktu, niat, dan tujuan hidup", "Prinsip husnul khatimah dan amal terbaik", "Menjadi pelajar unggul dalam pandangan Islam"] },
+        { "chapter": "Bab 5: Cinta Tanah Air dan Moderasi Beragama", "topics": ["Islam dan nasionalisme: tidak bertentangan", "Moderasi beragama sebagai jalan tengah", "Sikap toleran, inklusif, dan damai antarumat", "Etika menyikapi perbedaan dalam masyarakat majemuk"] },
+        { "chapter": "Bab 6: Ilmu Kalam – Pemikiran Akidah Islam", "topics": ["Pengertian dan sejarah ilmu kalam", "Tujuan dan manfaat ilmu kalam", "Aliran-aliran dalam ilmu kalam secara objektif", "Relevansi ilmu kalam dalam memahami keyakinan Islam"] },
+        { "chapter": "Bab 7: Sikap Inovatif dan Etika dalam Berorganisasi", "topics": ["Inovasi dalam Islam: berpikir kreatif sebagai ibadah", "Prinsip etika berorganisasi dalam Islam", "Tanggung jawab pemimpin dan anggota", "Etika komunikasi dan kerja sama tim"] },
+        { "chapter": "Bab 8: Ijtihad dalam Menjawab Tantangan Zaman", "topics": ["Pengertian, syarat mujtahid, dan jenis-jenis ijtihad", "Urgensi ijtihad di era modern", "Contoh ijtihad dalam kehidupan kontemporer", "Peran fatwa dan lembaga keislaman"] },
+        { "chapter": "Bab 9: Peran Organisasi Islam di Indonesia", "topics": ["Sejarah dan kiprah organisasi Islam (NU, Muhammadiyah, Persis, dll.)", "Kontribusi organisasi terhadap pendidikan, sosial, dan politik", "Peran pelajar dalam ormas Islam masa kini", "Islam dan kemajuan bangsa"] }
+      ]
+    }
+  }
+}

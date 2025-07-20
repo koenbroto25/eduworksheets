@@ -1,0 +1,104 @@
+﻿{
+  "subject": "Ilmu Pengetahuan Alam (IPA)",
+  "grades": {
+    "Kelas 7": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Hakikat Ilmu Sains dan Metode Ilmiah", "topics": ["Cabang Ilmu Sains", "Karakteristik Sains", "Langkah Metode Ilmiah", "Penerapan Metode Ilmiah"] },
+        { "chapter": "Bab 2: Zat dan Perubahannya", "topics": ["Wujud Zat dan Model Partikel", "Perubahan Wujud Zat", "Perubahan Fisika vs. Kimia", "Kerapatan Zat"] },
+        { "chapter": "Bab 3: Suhu, Kalor, dan Pemuaian", "topics": ["Pengertian Suhu dan Termometer", "Kalor", "Perpindahan Kalor", "Pemuaian"] },
+        { "chapter": "Bab 4: Gerak dan Gaya", "topics": ["Konsep Gerak", "Jenis Gerak", "Besaran dalam Gerak", "Gaya"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 5: Klasifikasi Makhluk Hidup", "topics": ["Ciri-Ciri Makhluk Hidup dan Benda Mati", "Tujuan dan Manfaat Klasifikasi", "Sistem Klasifikasi", "Urutan Takson", "Kunci Determinasi Sederhana"] },
+        { "chapter": "Bab 6: Ekologi dan Keanekaragaman Hayati", "topics": ["Pengertian Ekosistem", "Interaksi Antarkomponen Ekosistem", "Rantai Makanan", "Aliran Energi", "Perubahan Lingkungan", "Keanekaragaman Hayati", "Pelestarian Keanekaragaman Hayati"] },
+        { "chapter": "Bab 7: Sistem Tata Surya", "topics": ["Pengenalan Tata Surya", "Planet-Planet", "Gerak Rotasi dan Revolusi Bumi", "Gerak Bulan dan Fase-fasenya", "Gaya Gravitasi", "Pengaruh Suhu dan Radiasi Matahari"] }
+      ]
+    },
+    "Kelas 8": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pengenalan Sel", "topics": ["Pengertian Sel", "Mikroskop", "Struktur dan Fungsi Sel", "Perbedaan Sel Hewan dan Tumbuhan", "Organel-organel Sel", "Spesialisasi Sel"] },
+        { "chapter": "Bab 2: Struktur dan Fungsi Tubuh Makhluk Hidup", "topics": ["Zat Gizi", "Sistem Pencernaan", "Sistem Peredaran Darah", "Sistem Pernapasan", "Sistem Ekskresi"] },
+        { "chapter": "Bab 3: Usaha, Energi, dan Pesawat Sederhana", "topics": ["Pengertian Usaha", "Konsep Energi", "Hukum Kekekalan Energi", "Pesawat Sederhana"] },
+        { "chapter": "Bab 4: Getaran, Gelombang, dan Cahaya", "topics": ["Konsep Dasar Getaran", "Gelombang", "Perambatan Gelombang", "Sifat Cahaya", "Cermin dan Lensa"] },
+        { "chapter": "Bab 5: Unsur, Senyawa, dan Campuran", "topics": ["Unsur", "Senyawa", "Campuran", "Perbedaan Unsur, Senyawa, dan Campuran", "Pemisahan Campuran"] },
+        { "chapter": "Bab 6: Struktur Bumi dan Perkembangannya", "topics": ["Struktur Lapisan Bumi", "Lempeng Tektonik", "Gempa Bumi", "Gunung Api", "Dampak Perubahan Geologi"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Struktur dan Fungsi Tubuh Makhluk Hidup", "topics": ["Sistem Pernapasan Manusia", "Sistem Ekskresi Manusia", "Proses Ekskresi", "Gangguan dan Penyakit"] },
+        { "chapter": "Bab 2: Usaha, Energi, dan Pesawat Sederhana", "topics": ["Konsep Usaha", "Jenis-jenis Energi", "Perubahan Energi", "Pesawat Sederhana", "Keuntungan Mekanis"] },
+        { "chapter": "Bab 3: Getaran, Gelombang, dan Cahaya", "topics": ["Getaran", "Gelombang", "Perambatan Gelombang", "Cahaya", "Alat Optik Sederhana"] },
+        { "chapter": "Bab 4: Unsur, Senyawa, dan Campuran", "topics": ["Unsur", "Senyawa", "Campuran", "Pemisahan Campuran", "Perbandingan Unsur, Senyawa, Campuran"] },
+        { "chapter": "Bab 5: Struktur Bumi dan Perkembangannya", "topics": ["Struktur Lapisan Bumi", "Lempeng Tektonik", "Gempa Bumi", "Gunung Berapi", "Pengaruh Aktivitas Geologi"] }
+      ]
+    },
+    "Kelas 9": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pertumbuhan dan Perkembangan Makhluk Hidup", "topics": ["Perbedaan Pertumbuhan dan Perkembangan", "Siklus Hidup Manusia", "Masa Pubertas", "Perkembangan Embrio Hewan", "Perkembangan Tumbuhan"] },
+        { "chapter": "Bab 2: Sistem Koordinasi, Reproduksi, dan Homeostasis", "topics": ["Sistem Saraf", "Sistem Hormon", "Sistem Reproduksi", "Mekanisme Homeostasis"] },
+        { "chapter": "Bab 3: Tekanan", "topics": ["Konsep Tekanan", "Tekanan Hidrostatis", "Aplikasi Tekanan", "Tekanan Udara"] },
+        { "chapter": "Bab 4: Listrik, Magnet, dan Sumber Energi Alternatif", "topics": ["Listrik Statis", "Listrik Dinamis", "Rangkaian Listrik", "Kemagnetan", "Sumber Energi Alternatif"] },
+        { "chapter": "Bab 5: Reaksi Kimia", "topics": ["Ciri-Ciri Reaksi Kimia", "Reaktan dan Produk", "Jenis Reaksi Kimia", "Faktor Laju Reaksi"] },
+        { "chapter": "Bab 6: Pewarisan Sifat dan Bioteknologi", "topics": ["Struktur Dasar Pewarisan", "Hukum Mendel", "Pewarisan Sifat Manusia", "Pemuliaan Makhluk Hidup", "Bioteknologi"] },
+        { "chapter": "Bab 7: Isu-Isu Lingkungan", "topics": ["Pengertian Isu Lingkungan", "Faktor Kerusakan Lingkungan", "Sifat Tanah", "Upaya Pelestarian Lingkungan"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Sistem Reproduksi dan Perkembangbiakan", "topics": ["Sistem Reproduksi Manusia", "Kesehatan Reproduksi", "Perkembangbiakan Tumbuhan", "Perkembangbiakan Hewan"] },
+        { "chapter": "Bab 2: Pewarisan Sifat dan Bioteknologi", "topics": ["Konsep Pewarisan Sifat", "Hukum Mendel", "Kelainan Genetik", "Bioteknologi Konvensional", "Bioteknologi Modern"] },
+        { "chapter": "Bab 3: Listrik dan Magnet", "topics": ["Listrik Statis", "Listrik Dinamis", "Kemagnetan", "Induksi Elektromagnetik", "Interaksi Listrik dan Magnet"] },
+        { "chapter": "Bab 4: Usaha, Energi, dan Pesawat Sederhana", "topics": ["Konsep Usaha", "Jenis Energi", "Hukum Kekekalan Energi", "Pesawat Sederhana"] },
+        { "chapter": "Bab 5: Reaksi Kimia dan Perubahan Materi", "topics": ["Jenis Reaksi Kimia", "Tanda-Tanda Reaksi Kimia", "Faktor Laju Reaksi", "Partikel Penyusun Zat", "Model Atom"] },
+        { "chapter": "Bab 6: Isu dan Solusi Lingkungan", "topics": ["Isu Lingkungan", "Dampak Lingkungan", "Teknologi Ramah Lingkungan", "Peran Individu dan Komunitas"] }
+      ]
+    },
+    "Kelas 10": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pengukuran dalam Kerja Ilmiah", "topics": ["Konsep Dasar Pengukuran", "Satuan Internasional (SI)", "Ketelitian, Ketepatan, Kesalahan", "Alat Ukur"] },
+        { "chapter": "Bab 2: Virus dan Peranannya", "topics": ["Struktur dan Jenis Virus", "Reproduksi Virus", "Peran Virus", "Pencegahan Infeksi Virus"] },
+        { "chapter": "Bab 3: Kimia Hijau", "topics": ["Prinsip-Prinsip Kimia Hijau", "Bahan Ramah Lingkungan", "Pengolahan Limbah", "Penerapan Kimia Hijau"] },
+        { "chapter": "Bab 4: Hukum Dasar Kimia", "topics": ["Hukum Kekekalan Massa", "Hukum Perbandingan Tetap", "Hukum Perbandingan Berganda", "Aplikasi Hukum Dasar"] },
+        { "chapter": "Bab 5: Struktur Atom", "topics": ["Model Atom", "Partikel Dasar Atom", "Nomor Atom dan Massa", "Isotop, Isoton, Isobar"] },
+        { "chapter": "Bab 6: Energi Terbarukan", "topics": ["Sumber Energi Terbarukan", "Mekanisme Pemanfaatan", "Kelebihan dan Kekurangan", "Dampak Lingkungan"] },
+        { "chapter": "Bab 7: Keanekaragaman Hayati dan Perubahan Iklim", "topics": ["Konsep Keanekaragaman Hayati", "Jenis Ekosistem", "Penyebab dan Dampak Perubahan Iklim", "Mitigasi dan Adaptasi"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Dinamika Rotasi", "topics": ["Gerak Rotasi", "Torsi", "Momen Inersia", "Kesetimbangan Benda Tegar"] },
+        { "chapter": "Bab 2: Hukum Kekekalan Energi Mekanik", "topics": ["Energi Potensial dan Kinetik", "Usaha dan Perubahan Energi", "Penerapan Hukum Kekekalan Energi"] },
+        { "chapter": "Bab 3: Getaran Harmonik Sederhana", "topics": ["Konsep Osilasi", "Frekuensi, Amplitudo, Periode", "Getaran pada Pegas dan Bandul"] },
+        { "chapter": "Bab 4: Gelombang Mekanik", "topics": ["Jenis Gelombang", "Sifat Gelombang", "Aplikasi Gelombang Mekanik"] },
+        { "chapter": "Bab 5: Cahaya dan Optik", "topics": ["Sifat-Sifat Cahaya", "Pemantulan dan Pembiasan", "Alat Optik"] },
+        { "chapter": "Bab 6: Pengukuran dalam Kerja Ilmiah", "topics": ["Besaran Pokok dan Turunan", "Alat Ukur dan Ketelitian", "Kesalahan Pengukuran"] },
+        { "chapter": "Bab 7: Struktur Atom dan Sistem Periodik", "topics": ["Model Atom Modern", "Partikel Penyusun Atom", "Konfigurasi Elektron", "Sistem Periodik Unsur"] },
+        { "chapter": "Bab 8: Hukum Dasar Kimia", "topics": ["Hukum Kekekalan Massa", "Hukum Perbandingan Tetap dan Berganda", "Reaksi Kimia dan Stoikiometri"] },
+        { "chapter": "Bab 9: Kimia Hijau", "topics": ["Prinsip-Prinsip Kimia Hijau", "Bahan dan Proses Ramah Lingkungan", "Dampak Kimia Konvensional"] },
+        { "chapter": "Bab 10: Ikatan Kimia dan Bentuk Molekul", "topics": ["Jenis-Jenis Ikatan", "Teori Domain Elektron (VSEPR)", "Bentuk Molekul"] },
+        { "chapter": "Bab 11: Metabolisme dan Enzim", "topics": ["Pengertian Metabolisme", "Katabolisme dan Anabolisme", "Fungsi Enzim"] },
+        { "chapter": "Bab 12: Genetika dan Pewarisan Sifat", "topics": ["Struktur DNA, Gen, RNA, Kromosom", "Hukum Mendel", "Pewarisan Sifat Manusia"] },
+        { "chapter": "Bab 13: Pembelahan Sel", "topics": ["Mitosis dan Meiosis", "Siklus Sel", "Fungsi Pembelahan Sel"] },
+        { "chapter": "Bab 14: Mutasi dan Evolusi", "topics": ["Mutasi Genetik", "Teori Evolusi", "Variasi, Seleksi, Spesiasi"] },
+        { "chapter": "Bab 15: Bioteknologi", "topics": ["Bioteknologi Konvensional dan Modern", "Aplikasi Bioteknologi", "Dampak Sosial dan Etika"] },
+        { "chapter": "Bab 16: Isu Global dan Ekologi", "topics": ["Keanekaragaman Hayati", "Energi Terbarukan", "Perubahan Iklim"] }
+      ]
+    },
+    "Kelas 11": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Menjelajah Sel", "topics": ["Sejarah Penemuan Sel", "Struktur Sel Prokariotik dan Eukariotik", "Fungsi Organel Sel", "Perbedaan Sel Hewan dan Tumbuhan"] },
+        { "chapter": "Bab 2: Pergerakan Zat melalui Membran Sel", "topics": ["Struktur Membran Sel", "Difusi dan Osmosis", "Transpor Aktif dan Pasif"] },
+        { "chapter": "Bab 3: Sistem Pertahanan Tubuh", "topics": ["Pertahanan Tubuh Non-Spesifik", "Imunitas Spesifik", "Sistem Kekebalan Aktif dan Pasif", "Gangguan Sistem Imun"] },
+        { "chapter": "Bab 4: Mobilitas pada Manusia", "topics": ["Sistem Rangka", "Jenis Otot", "Sendi dan Mekanisme Gerak", "Gangguan Sistem Gerak"] },
+        { "chapter": "Bab 5: Dinamika Gerak Partikel", "topics": ["Gaya dan Gerak", "Hukum Newton", "Gaya Gesek dan Tegangan Tali", "Aplikasi Hukum Newton"] },
+        { "chapter": "Bab 6: Fluida Statis dan Dinamis", "topics": ["Tekanan Hidrostatik", "Hukum Pascal dan Archimedes", "Fluida Dinamis dan Hukum Bernoulli", "Aplikasi Fluida"] },
+        { "chapter": "Bab 7: Gelombang, Bunyi, dan Cahaya", "topics": ["Konsep Dasar Gelombang", "Jenis Gelombang", "Sifat-Sifat Gelombang", "Gelombang Bunyi dan Cahaya"] },
+        { "chapter": "Bab 8: Kalor dan Termodinamika", "topics": ["Kalor dan Perubahan Suhu", "Perubahan Wujud", "Hukum Termodinamika", "Efisiensi Mesin Kalor"] },
+        { "chapter": "Bab 9: Struktur Atom", "topics": ["Teori Perkembangan Model Atom", "Partikel Penyusun Atom", "Nomor Atom, Massa, Isotop", "Konfigurasi Elektron"] },
+        { "chapter": "Bab 10: Ikatan Kimia", "topics": ["Ikatan Ionik, Kovalen, Logam", "Notasi Lewis", "Bentuk Molekul", "Polaritas Senyawa"] },
+        { "chapter": "Bab 11: Stoikiometri", "topics": ["Konsep Mol", "Persamaan Reaksi Kimia", "Perhitungan Reaktan dan Produk", "Hasil Teoritis vs Hasil Nyata"] },
+        { "chapter": "Bab 12: Larutan dan Sifat Koligatif", "topics": ["Jenis Larutan", "Tekanan Uap, Titik Didih, Titik Beku", "Osmosis", "Aplikasi Sifat Koligatif"] }
+      ],
+      "Semester 2": []
+    },
+    "Kelas 12": {
+      "Semester 1": [],
+      "Semester 2": []
+    }
+  }
+}

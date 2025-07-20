@@ -1,0 +1,210 @@
+{
+  "subject": "Matematika",
+  "grades": {
+    "Kelas 1": {
+      "Semester 1": [
+        { "chapter": "BAB 1: Bilangan dan Operasi Hitung", "topics": ["Bilangan 1–10", "Mengurutkan Bilangan", "Membandingkan Bilangan", "Penjumlahan (hingga 10)", "Pengurangan (hingga 10)", "Nilai Tempat (satuan dan puluhan)"] },
+        { "chapter": "BAB 2: Pengukuran", "topics": ["Konsep Waktu (hari, jam)", "Panjang dengan satuan tidak baku (jengkal, hasta)"] },
+        { "chapter": "BAB 3: Bangun Datar", "topics": ["Mengenal bentuk persegi, segitiga, lingkaran"] },
+        { "chapter": "BAB 4: Pola Bilangan", "topics": ["Pola berulang sederhana (gambar/benda)"] },
+        { "chapter": "BAB 5: Analisis Data Sederhana", "topics": ["Mengelompokkan benda berdasarkan atribut"] }
+      ],
+      "Semester 2": [
+        { "chapter": "BAB 1: Membilang dan Berhitung", "topics": ["Bilangan sampai 20", "Hitung maju dan mundur", "Nilai tempat", "Membandingkan bilangan"] },
+        { "chapter": "BAB 2: Operasi Hitung", "topics": ["Penjumlahan & pengurangan (hingga 20)", "Konsep \"lebih dari\", \"kurang dari\", \"selisih\"", "Soal cerita"] },
+        { "chapter": "BAB 3: Pengukuran", "topics": ["Mengukur panjang (satuan tidak baku)", "Konsep waktu (jam dan hari)"] },
+        { "chapter": "BAB 4: Bangun Datar", "topics": ["Mengenal berbagai bentuk bangun datar"] },
+        { "chapter": "BAB 5: Diagram", "topics": ["Membaca diagram sederhana"] }
+      ]
+    },
+    "Kelas 2": {
+      "Semester 1": [
+        { "chapter": "BAB 1: Bilangan", "topics": ["Bilangan cacah sampai 1000", "Nilai tempat: satuan, puluhan, ratusan", "Perbandingan bilangan (> , < , =)"] },
+        { "chapter": "BAB 2: Operasi Hitung", "topics": ["Penjumlahan & pengurangan hingga 1000", "Hubungan antara penjumlahan dan pengurangan"] },
+        { "chapter": "BAB 3: Pengukuran", "topics": ["Panjang (cm, m)", "Waktu (jam, menit), durasi"] },
+        { "chapter": "BAB 4: Data", "topics": ["Membaca tabel dan grafik sederhana", "Menafsirkan informasi"] }
+      ],
+      "Semester 2": [
+        { "chapter": "BAB 1: Bilangan", "topics": ["Membaca, menulis, mengurutkan bilangan hingga 1000", "Nilai tempat", "Penjumlahan & pengurangan (hingga 1000)"] },
+        { "chapter": "BAB 2: Pengukuran", "topics": ["Panjang (cm, m)", "Berat (kg, gram)", "Waktu dan durasi"] },
+        { "chapter": "BAB 3: Perkalian dan Pembagian", "topics": ["Konsep perkalian sebagai penjumlahan berulang", "Perkalian dasar (2, 5, 10)", "Konsep pembagian", "Soal cerita"] },
+        { "chapter": "BAB 4: Bangun Datar", "topics": ["Bentuk bangun datar", "Sifat-sifat bangun", "Menggambar bentuk"] },
+        { "chapter": "BAB 5: Pecahan", "topics": ["Konsep pecahan sederhana (½, ¼)", "Bagian dari benda"] },
+        { "chapter": "BAB 6: Data", "topics": ["Membaca tabel/grafik sederhana", "Mengumpulkan & menyajikan data"] }
+      ]
+    },
+    "Kelas 3": {
+      "Semester 1": [
+        { "chapter": "BAB 1: Bilangan", "topics": ["Bilangan cacah hingga 1000", "Nilai tempat", "Urutan dan perbandingan bilangan", "Letak pada garis bilangan"] },
+        { "chapter": "BAB 2: Operasi Hitung", "topics": ["Penjumlahan dan pengurangan", "Perkalian (konsep dan soal cerita)", "Pembagian (konsep dasar)"] },
+        { "chapter": "BAB 3: Pengukuran", "topics": ["Panjang, berat, waktu"] },
+        { "chapter": "BAB 4: Geometri", "topics": ["Bangun datar (identifikasi dan unsur)", "Pengenalan bangun ruang"] },
+        { "chapter": "BAB 5: Pecahan", "topics": ["Pengenalan pecahan sederhana"] },
+        { "chapter": "BAB 6: Soal Cerita", "topics": ["Penerapan penjumlahan, pengurangan, perkalian"] },
+        { "chapter": "BAB 7: Uang", "topics": ["Mengenal pecahan uang dan penggunaannya"] },
+        { "chapter": "BAB 8: Garis Bilangan", "topics": ["Letak bilangan"] },
+        { "chapter": "BAB 9: Diagram Garis", "topics": ["Membaca diagram garis sederhana"] }
+      ],
+      "Semester 2": [
+        { "chapter": "BAB 1: Pecahan", "topics": ["Membandingkan pecahan sederhana"] },
+        { "chapter": "BAB 2: Bangun Datar", "topics": ["Mengenal bentuk, sisi, dan sudut"] },
+        { "chapter": "BAB 3: Keliling dan Luas", "topics": ["Menghitung keliling dan luas persegi & persegi panjang"] },
+        { "chapter": "BAB 4: Penyajian Data", "topics": ["Menyajikan, mengurutkan, membandingkan data dalam tabel"] }
+      ]
+    },
+    "Kelas 4": {
+        "Semester 1": [
+            { "chapter": "1. Bilangan", "topics": ["Bilangan Cacah: Membaca, menulis, nilai tempat, membandingkan, mengurutkan, komposisi, dan dekomposisi hingga 10.000.", "Bilangan Bulat: Pengenalan bilangan bulat positif dan negatif.", "Pecahan: Pecahan sederhana, pecahan dengan pembilang satu, penyebut sama, pecahan senilai, pecahan desimal (persepuluhan dan perseratusan).", "Operasi Hitung Bilangan Cacah: Penjumlahan, pengurangan, perkalian, pembagian, dan soal cerita."] },
+            { "chapter": "2. Pengukuran dan Geometri", "topics": ["Pengukuran: Waktu, panjang, berat, volume.", "Geometri: Bentuk segitiga, persegi, persegi panjang, lingkaran, balok, dan kubus.", "Sudut: Pengenalan macam-macam sudut.", "Diagram Garis: Membaca dan membuat diagram garis."] },
+            { "chapter": "3. Data", "topics": ["Penyusunan Data: Pengumpulan, pengolahan, penyajian dalam bentuk tabel dan diagram."] },
+            { "chapter": "4. Faktor dan Kelipatan", "topics": ["Konsep Faktor dan Kelipatan"] },
+            { "chapter": "5. Mata Uang", "topics": ["Mengenal Nilai Mata Uang Rupiah"] }
+        ],
+        "Semester 2": [
+            { "chapter": "1. Bilangan dan Operasi Hitung", "topics": ["Bilangan Desimal: Membaca, menulis, operasi hitung desimal.", "Pecahan: Operasi hitung (penjumlahan, pengurangan, perkalian, pembagian), jenis-jenis pecahan.", "Operasi Hitung Campuran: Bilangan bulat dan soal cerita."] },
+            { "chapter": "2. Pengukuran", "topics": ["Konversi Satuan: Panjang, berat, luas, volume.", "Luas: Menghitung luas persegi, persegi panjang, segitiga, dll.", "Volume: Menghitung volume kubus dan balok."] },
+            { "chapter": "3. Geometri", "topics": ["Bangun Datar: Jenis, sifat, keliling, dan luas.", "Bangun Ruang: Kubus dan balok (sifat, volume, luas permukaan)."] },
+            { "chapter": "4. Data dan Statistik", "topics": ["Penyajian Data: Tabel, diagram, grafik.", "Interpretasi Data: Menafsirkan dan mengambil kesimpulan."] },
+            { "chapter": "5. Kalimat Matematika dan Perhitungan", "topics": ["Kalimat Matematika: Menyusun dari soal cerita.", "Strategi Berhitung: Estimasi, kalkulasi mental."] }
+        ]
+    },
+    "Kelas 5": {
+        "Semester 1": [
+            {"chapter": "1. Bilangan dan Operasi Hitung", "topics": ["Bilangan Cacah hingga 100.000: Nilai tempat, membaca, menulis, urutan.", "KPK dan FPB: Konsep, penerapan dalam soal.", "Bilangan Pecahan: Operasi hitung (penjumlahan, pengurangan).", "Bilangan Desimal: Operasi hitung lengkap."]},
+            {"chapter": "2. Geometri", "topics": ["Keliling: Persegi, persegi panjang, segitiga.", "Luas: Persegi, persegi panjang, segitiga, gabungan.", "Sudut: Jenis-jenis sudut.", "Volume: Kubus dan balok."]},
+            {"chapter": "3. Pengukuran", "topics": ["Konversi Satuan: Panjang, berat, waktu."]},
+            {"chapter": "4. Data", "topics": ["Pengumpulan Data", "Piktogram dan Diagram Batang"]}
+        ],
+        "Semester 2": [
+            {"chapter": "1. Pecahan", "topics": ["Penjumlahan, pengurangan, perkalian, pembagian."]},
+            {"chapter": "2. Bangun Datar", "topics": ["Luas jajar genjang, segitiga, perbandingan sifat."]},
+            {"chapter": "3. Perbandingan", "topics": ["Konsep dasar perbandingan."]},
+            {"chapter": "4. Bangun Ruang", "topics": ["Pengenalan dan volume bangun ruang."]},
+            {"chapter": "5. Rasio dan Diagram", "topics": ["Konsep rasio, membaca dan membuat diagram."]},
+            {"chapter": "6. Bilangan", "topics": ["Bilangan desimal dan bilangan bulat."]},
+            {"chapter": "7. Pengukuran", "topics": ["Waktu (termasuk notasi 24 jam)."]},
+            {"chapter": "8. Sudut", "topics": ["Jenis sudut (siku-siku, lancip, tumpul)."]},
+            {"chapter": "9. Data", "topics": ["Penyajian dan pengolahan data (diagram)."]},
+            {"chapter": "10. Kekongruenan dan Sudut", "topics": ["Kekongruenan bangun, hubungan sudut."]},
+            {"chapter": "11. Faktor dan Kelipatan", "topics": ["Pengulangan dan penerapan lanjutan."]}
+        ]
+    },
+    "Kelas 6": {
+        "Semester 1": [
+            {"chapter": "1. Bilangan dan Aljabar", "topics": ["Pecahan: Perkalian, pembagian, konversi.", "Desimal: Perbandingan, konversi.", "Bilangan Bulat: Operasi hitung dan soal cerita.", "Rasio: Konsep dan penerapan."]},
+            {"chapter": "2. Geometri", "topics": ["Bangun Ruang: Kubus dan balok.", "Luas Bangun Datar: Persegi, persegi panjang, segitiga, lingkaran.", "Volume: Kubus dan balok."]},
+            {"chapter": "3. Statistika dan Peluang", "topics": ["Peluang: Konsep dasar peluang dan contoh permainan.", "Diagram: Membaca dan membuat."]},
+            {"chapter": "4. Operasi Hitung", "topics": ["Operasi campuran bilangan bulat dan pecahan.", "Kelipatan dan perbandingan."]},
+            {"chapter": "5. Simetri", "topics": ["Konsep dasar simetri."]},
+            {"chapter": "6. Skala dan Perbandingan", "topics": ["Penggunaan skala dan perbandingan dalam peta/konteks nyata."]}
+        ],
+        "Semester 2": [
+            {"chapter": "1. Bilangan dan Operasi Hitung", "topics": ["Bilangan Bulat, Pecahan, Desimal: Operasi hitung lengkap dan konversi.", "Operasi Hitung Campuran"]},
+            {"chapter": "2. Bangun Datar dan Ruang", "topics": ["Luas dan Keliling: Persegi, persegi panjang, segitiga, jajar genjang, lingkaran.", "Bangun Ruang: Kubus, balok, prisma, tabung, limas."]},
+            {"chapter": "3. Perbandingan", "topics": ["Perhitungan dan aplikasi perbandingan."]},
+            {"chapter": "4. Penyajian Data", "topics": ["Diagram batang, lingkaran, garis, tabel frekuensi, piktogram.", "Analisis data dari diagram."]},
+            {"chapter": "5. Peluang", "topics": ["Menghitung dan membandingkan peluang kejadian."]},
+            {"chapter": "6. Geometri", "topics": ["Perbandingan sifat bangun.", "Lokasi pada peta dengan sistem berpetak."]},
+            {"chapter": "7. Aljabar", "topics": ["Konsep dasar aljabar."]}
+        ]
+    },
+    "Kelas 7": {
+      "Semester 1": [
+        { "chapter": "BAB 1: Bilangan", "topics": ["Bilangan bulat (positif, negatif, dan nol)", "Bilangan pecahan", "Operasi hitung bilangan bulat dan pecahan"] },
+        { "chapter": "BAB 2: Himpunan", "topics": ["Konsep himpunan", "Notasi himpunan", "Operasi pada himpunan (irisan, gabungan, selisih)"] },
+        { "chapter": "BAB 3: Bentuk Aljabar", "topics": ["Konsep variabel dan konstanta", "Operasi hitung bentuk aljabar (penjumlahan, pengurangan, perkalian, pembagian)"] },
+        { "chapter": "BAB 4: Persamaan dan Pertidaksamaan Linear Satu Variabel", "topics": ["Penyelesaian persamaan linear satu variabel", "Penyelesaian pertidaksamaan linear satu variabel"] },
+        { "chapter": "BAB 5: Perbandingan", "topics": ["Perbandingan senilai", "Perbandingan berbalik nilai"] },
+        { "chapter": "BAB 6: Geometri", "topics": ["Garis dan sudut", "Bangun datar (segitiga, segi empat, lingkaran)"] },
+        { "chapter": "BAB 7: Penyajian Data", "topics": ["Memahami berbagai cara penyajian data", "Menginterpretasikan data"] }
+      ],
+      "Semester 2": [
+        { "chapter": "BAB 1: Perbandingan (lanjutan)", "topics": ["Konsep dan jenis perbandingan", "Penerapan dalam soal cerita"] },
+        { "chapter": "BAB 2: Aritmatika Sosial", "topics": ["Untung, rugi, persentase", "Bruto, neto, tara", "Bunga tunggal dan pajak"] },
+        { "chapter": "BAB 3: Garis dan Sudut (lanjutan)", "topics": ["Jenis-jenis garis dan sudut", "Hubungan antar sudut", "Menentukan besar sudut"] },
+        { "chapter": "BAB 4: Segiempat dan Segitiga", "topics": ["Jenis-jenis segiempat dan segitiga", "Keliling dan luas", "Hubungan sisi dan sudut", "Teorema Pythagoras"] },
+        { "chapter": "BAB 5: Penyajian Data (lanjutan)", "topics": ["Tabel, diagram batang, garis, lingkaran", "Membaca dan menafsirkan data", "Membuat diagram"] },
+        { "chapter": "BAB 6: Bilangan Bulat (penguatan)", "topics": ["Pengertian dan operasi hitung"] },
+        { "chapter": "BAB 7: Aljabar (penguatan)", "topics": ["Variabel, konstanta, suku, operasi aljabar"] },
+        { "chapter": "BAB 8: Persamaan dan Pertidaksamaan Linear Satu Variabel (penguatan)", "topics": ["Pemahaman dan penyelesaian"] },
+        { "chapter": "BAB 9: Himpunan (penguatan)", "topics": ["Anggota dan operasi himpunan"] },
+        { "chapter": "BAB 10: Relasi dan Fungsi (pengantar)", "topics": ["Konsep relasi dan fungsi"] }
+      ]
+    },
+    "Kelas 8": {
+      "Semester 1": [
+        { "chapter": "BAB 1: Pola Bilangan", "topics": ["Jenis-jenis pola (ganjil, genap, persegi, segitiga, Fibonacci)"] },
+        { "chapter": "BAB 2: Koordinat Kartesius", "topics": ["Sistem koordinat dan posisi titik"] },
+        { "chapter": "BAB 3: Relasi dan Fungsi", "topics": ["Diagram panah, tabel, grafik", "Domain, kodomain, range"] },
+        { "chapter": "BAB 4: Persamaan Garis Lurus", "topics": ["Konsep persamaan", "Grafik, gradien, titik potong"] },
+        { "chapter": "BAB 5: Sistem Persamaan Linear Dua Variabel", "topics": ["Konsep dan penyelesaian"] },
+        { "chapter": "BAB 6: Bilangan Berpangkat (Eksponen)", "topics": ["Sifat dan operasi eksponen"] },
+        { "chapter": "BAB 7: Teorema Pythagoras", "topics": ["Penerapan pada segitiga siku-siku"] },
+        { "chapter": "BAB 8: Persamaan dan Pertidaksamaan Linear Satu Variabel (penguatan)", "topics": ["Penyelesaian"] }
+      ],
+      "Semester 2": [
+        { "chapter": "BAB 1: Relasi dan Fungsi (lanjutan)", "topics": ["Penyajian relasi", "Domain, kodomain, range", "Grafik dan rumus fungsi"] },
+        { "chapter": "BAB 2: Persamaan Garis Lurus (lanjutan)", "topics": ["Menggambar grafik", "Gradien dan penyelesaian"] },
+        { "chapter": "BAB 3: Statistika", "topics": ["Mengumpulkan dan menyajikan data", "Mean, median, modus"] },
+        { "chapter": "BAB 4: Korespondensi Satu-satu", "topics": ["Hubungan antara dua himpunan"] }
+      ]
+    },
+    "Kelas 9": {
+      "Semester 1": [
+        { "chapter": "BAB 1: Sistem Persamaan Linear Dua Variabel (penguatan)", "topics": ["Konsep, penyelesaian, dan pemodelan"] },
+        { "chapter": "BAB 2: Bangun Ruang Sisi Datar", "topics": ["Jenis bangun (kubus, balok, prisma, limas)", "Jaring-jaring", "Luas permukaan dan volume", "Penyelesaian masalah kontekstual"] },
+        { "chapter": "BAB 3: Perpangkatan dan Bentuk Akar", "topics": ["Definisi dan sifat-sifat"] },
+        { "chapter": "BAB 4: Persamaan dan Fungsi Kuadrat", "topics": ["Konsep, grafik, dan penyelesaian"] },
+        { "chapter": "BAB 5: Transformasi Geometri", "topics": ["Translasi, refleksi, rotasi, dilatasi"] },
+        { "chapter": "BAB 6: Bangun Ruang Sisi Lengkung (pengantar)", "topics": ["Tabung, kerucut, bola"] }
+      ],
+      "Semester 2": [
+        { "chapter": "BAB 1: Bangun Ruang Sisi Lengkung (lanjutan)", "topics": ["Luas permukaan dan volume tabung, kerucut, bola"] },
+        { "chapter": "BAB 2: Transformasi Geometri (lanjutan)", "topics": ["Pergeseran dan rotasi titik/garis/bidang"] },
+        { "chapter": "BAB 3: Peluang", "topics": ["Konsep dasar dan menghitung peluang"] },
+        { "chapter": "BAB 4: Kesebangunan dan Kekongruenan", "topics": ["Konsep dan penerapan"] },
+        { "chapter": "BAB 5: Soal Cerita", "topics": ["Penerapan berbagai konsep matematika dalam kehidupan sehari-hari"] }
+      ]
+    },
+    "Kelas 10": {
+      "Semester 1": [
+        {"chapter": "BAB 1: Eksponen dan Logaritma", "topics": ["Definisi eksponen (perpangkatan)", "Sifat-sifat eksponen (perkalian, pembagian, pangkat nol, dll.)", "Fungsi eksponen (pertumbuhan dan peluruhan)", "Definisi logaritma (invers dari eksponen)", "Sifat-sifat logaritma", "Penerapan logaritma dalam menyelesaikan persamaan eksponensial"]},
+        {"chapter": "BAB 2: Barisan dan Deret", "topics": ["Barisan aritmetika (dengan beda tetap)", "Barisan geometri (dengan rasio tetap)", "Deret aritmetika (penjumlahan suku-suku barisan aritmetika)", "Deret geometri (penjumlahan suku-suku barisan geometri)"]},
+        {"chapter": "BAB 3: Sistem Persamaan dan Pertidaksamaan Linear", "topics": ["Sistem Persamaan Linear Dua Variabel (SPLDV)", "Sistem Persamaan Linear Tiga Variabel (SPLTV)", "Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)"]},
+        {"chapter": "BAB 4: Fungsi Kuadrat", "topics": ["Definisi fungsi kuadrat", "Grafik fungsi kuadrat (parabola)", "Aplikasi fungsi kuadrat dalam pemodelan masalah"]},
+        {"chapter": "BAB 5: Trigonometri", "topics": ["Pengenalan fungsi trigonometri", "Identitas trigonometri", "Aplikasi dalam segitiga"]},
+        {"chapter": "BAB 6: Vektor", "topics": ["Pengenalan konsep vektor", "Operasi vektor", "Penerapan vektor dalam geometri"]},
+        {"chapter": "BAB 7: Statistika dan Peluang", "topics": ["Pengantar statistika (data, penyajian data, ukuran pemusatan data)", "Konsep dasar peluang"]}
+      ],
+      "Semester 2": [
+        {"chapter": "BAB 1: Sistem Persamaan dan Pertidaksamaan Linear", "topics": ["Menyelesaikan sistem persamaan linear dua variabel dan tiga variabel", "Menyelesaikan sistem pertidaksamaan linear dua variabel"]},
+        {"chapter": "BAB 2: Fungsi Kuadrat", "topics": ["Mempelajari bentuk umum f(x) = ax² + bx + c", "Menggambar grafik fungsi kuadrat", "Menganalisis titik potong dengan sumbu x dan sumbu y", "Penerapan fungsi kuadrat dalam berbagai masalah"]},
+        {"chapter": "BAB 3: Statistika", "topics": ["Mengumpulkan data dari berbagai sumber", "Menyajikan data dalam bentuk tabel, diagram, dan grafik", "Rata-rata, median, dan modus", "Jangkauan, kuartil, dan simpangan baku"]},
+        {"chapter": "BAB 4: Peluang", "topics": ["Definisi peluang, ruang sampel, dan kejadian", "Menghitung peluang suatu kejadian", "Peluang komplemen", "Peluang dari gabungan atau irisan dua kejadian"]},
+        {"chapter": "BAB 5: Eksponen dan Logaritma", "topics": ["Perkalian, pembagian, dan pemangkatan pada eksponen", "Fungsi eksponen dan grafiknya", "Definisi logaritma dan hubungannya dengan eksponen", "Sifat-sifat logaritma"]},
+        {"chapter": "BAB 6: Barisan dan Deret", "topics": ["Barisan aritmatika dan geometri", "Deret aritmatika dan geometri"]},
+        {"chapter": "BAB 7: Trigonometri", "topics": ["Sinus, cosinus, dan tangen pada segitiga siku-siku", "Hubungan antara perbandingan trigonometri", "Grafik sinus, cosinus, dan tangen", "Penerapan dalam berbagai masalah"]}
+      ]
+    },
+    "Kelas 11": {
+        "Semester 1": [
+            {"chapter": "BAB 1: Fungsi Komposisi dan Invers", "topics": ["Definisi fungsi, domain, kodomain, dan range", "Menggabungkan dua fungsi atau lebih", "Mencari invers suatu fungsi", "Penjumlahan, pengurangan, perkalian, dan pembagian fungsi"]},
+            {"chapter": "BAB 2: Lingkaran", "topics": ["Konsep lingkaran, busur, dan unsur-unsur lainnya", "Hubungan antara lingkaran dan garis singgung", "Konsep tali busur dalam lingkaran"]},
+            {"chapter": "BAB 3: Statistika", "topics": ["Mean, median, modus untuk data tunggal maupun berkelompok", "Rentang, kuartil, simpangan kuartil, varians, dan standar deviasi", "Tabel distribusi frekuensi, histogram, poligon, dan diagram batang", "Interpretasi dan pemaknaan hasil pengolahan data"]},
+            {"chapter": "BAB 4: Bilangan Kompleks", "topics": ["𝑧 = 𝑎 + 𝑏𝑖, di mana 𝑖² = −1", "Penjumlahan, pengurangan, perkalian, pembagian", "Konsep konjugat kompleks dan penggunaannya", "Pengenalan awal bentuk polar"]}
+        ]
+    },
+    "Kelas 12": {
+      "Semester 1": [
+        {"chapter": "BAB 1: Program Linear", "topics": ["Model matematika masalah optimasi", "Sistem pertidaksamaan linear dua variabel", "Metode grafik untuk menentukan nilai optimum", "Aplikasi program linear"]},
+        {"chapter": "BAB 2: Limit Fungsi", "topics": ["Konsep limit di titik tertentu", "Limit kiri dan limit kanan", "Limit tak hingga", "Aplikasi dalam pendekatan nilai fungsi"]},
+        {"chapter": "BAB 3: Turunan Fungsi", "topics": ["Konsep turunan sebagai laju perubahan", "Aturan turunan (fungsi aljabar, eksponen, logaritma)", "Turunan fungsi komposit", "Penerapan turunan: kecepatan, maksimum/minimum"]}
+      ],
+      "Semester 2": [
+        {"chapter": "BAB 4: Integral", "topics": ["Konsep integral sebagai luas", "Integral tak tentu dan tentu", "Aturan integrasi", "Aplikasi integral dalam menghitung luas daerah"]},
+        {"chapter": "BAB 5: Statistika Lanjut", "topics": ["Distribusi frekuensi data kelompok", "Ukuran pemusatan dan penyebaran lanjutan", "Penerapan statistika dalam pengambilan keputusan"]},
+        {"chapter": "BAB 6: Peluang Distribusi", "topics": ["Distribusi peluang diskret (misalnya binomial)", "Distribusi peluang kontinu (normal)", "Aplikasi distribusi peluang"]}
+      ]
+    }
+  }
+}

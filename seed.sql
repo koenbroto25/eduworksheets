@@ -1,0 +1,2 @@
+-- This file is intentionally left blank.
+-- Seeding is now handled by individual files in supabase/sql-scripts/

@@ -1,0 +1,210 @@
+## **Kelas 7 Semester 1**
+
+### **BAB 1: Bilangan**
+
+* Bilangan bulat (positif, negatif, dan nol)
+* Bilangan pecahan
+* Operasi hitung bilangan bulat dan pecahan
+
+### **BAB 2: Himpunan**
+
+* Konsep himpunan
+* Notasi himpunan
+* Operasi pada himpunan (irisan, gabungan, selisih)
+
+### **BAB 3: Bentuk Aljabar**
+
+* Konsep variabel dan konstanta
+* Operasi hitung bentuk aljabar (penjumlahan, pengurangan, perkalian, pembagian)
+
+### **BAB 4: Persamaan dan Pertidaksamaan Linear Satu Variabel**
+
+* Penyelesaian persamaan linear satu variabel
+* Penyelesaian pertidaksamaan linear satu variabel
+
+### **BAB 5: Perbandingan**
+
+* Perbandingan senilai
+* Perbandingan berbalik nilai
+
+### **BAB 6: Geometri**
+
+* Garis dan sudut
+* Bangun datar (segitiga, segi empat, lingkaran)
+
+### **BAB 7: Penyajian Data**
+
+* Memahami berbagai cara penyajian data
+* Menginterpretasikan data
+
+---
+
+## **Kelas 7 Semester 2**
+
+### **BAB 1: Perbandingan (lanjutan)**
+
+* Konsep dan jenis perbandingan
+* Penerapan dalam soal cerita
+
+### **BAB 2: Aritmatika Sosial**
+
+* Untung, rugi, persentase
+* Bruto, neto, tara
+* Bunga tunggal dan pajak
+
+### **BAB 3: Garis dan Sudut (lanjutan)**
+
+* Jenis-jenis garis dan sudut
+* Hubungan antar sudut
+* Menentukan besar sudut
+
+### **BAB 4: Segiempat dan Segitiga**
+
+* Jenis-jenis segiempat dan segitiga
+* Keliling dan luas
+* Hubungan sisi dan sudut
+* Teorema Pythagoras
+
+### **BAB 5: Penyajian Data (lanjutan)**
+
+* Tabel, diagram batang, garis, lingkaran
+* Membaca dan menafsirkan data
+* Membuat diagram
+
+### **BAB 6: Bilangan Bulat (penguatan)**
+
+* Pengertian dan operasi hitung
+
+### **BAB 7: Aljabar (penguatan)**
+
+* Variabel, konstanta, suku, operasi aljabar
+
+### **BAB 8: Persamaan dan Pertidaksamaan Linear Satu Variabel (penguatan)**
+
+* Pemahaman dan penyelesaian
+
+### **BAB 9: Himpunan (penguatan)**
+
+* Anggota dan operasi himpunan
+
+### **BAB 10: Relasi dan Fungsi (pengantar)**
+
+* Konsep relasi dan fungsi
+
+---
+
+## **Kelas 8 Semester 1**
+
+### **BAB 1: Pola Bilangan**
+
+* Jenis-jenis pola (ganjil, genap, persegi, segitiga, Fibonacci)
+
+### **BAB 2: Koordinat Kartesius**
+
+* Sistem koordinat dan posisi titik
+
+### **BAB 3: Relasi dan Fungsi**
+
+* Diagram panah, tabel, grafik
+* Domain, kodomain, range
+
+### **BAB 4: Persamaan Garis Lurus**
+
+* Konsep persamaan
+* Grafik, gradien, titik potong
+
+### **BAB 5: Sistem Persamaan Linear Dua Variabel**
+
+* Konsep dan penyelesaian
+
+### **BAB 6: Bilangan Berpangkat (Eksponen)**
+
+* Sifat dan operasi eksponen
+
+### **BAB 7: Teorema Pythagoras**
+
+* Penerapan pada segitiga siku-siku
+
+### **BAB 8: Persamaan dan Pertidaksamaan Linear Satu Variabel (penguatan)**
+
+* Penyelesaian
+
+---
+
+## **Kelas 8 Semester 2**
+
+### **BAB 1: Relasi dan Fungsi (lanjutan)**
+
+* Penyajian relasi
+* Domain, kodomain, range
+* Grafik dan rumus fungsi
+
+### **BAB 2: Persamaan Garis Lurus (lanjutan)**
+
+* Menggambar grafik
+* Gradien dan penyelesaian
+
+### **BAB 3: Statistika**
+
+* Mengumpulkan dan menyajikan data
+* Mean, median, modus
+
+### **BAB 4: Korespondensi Satu-satu**
+
+* Hubungan antara dua himpunan
+
+---
+
+## **Kelas 9 Semester 1**
+
+### **BAB 1: Sistem Persamaan Linear Dua Variabel (penguatan)**
+
+* Konsep, penyelesaian, dan pemodelan
+
+### **BAB 2: Bangun Ruang Sisi Datar**
+
+* Jenis bangun (kubus, balok, prisma, limas)
+* Jaring-jaring
+* Luas permukaan dan volume
+* Penyelesaian masalah kontekstual
+
+### **BAB 3: Perpangkatan dan Bentuk Akar**
+
+* Definisi dan sifat-sifat
+
+### **BAB 4: Persamaan dan Fungsi Kuadrat**
+
+* Konsep, grafik, dan penyelesaian
+
+### **BAB 5: Transformasi Geometri**
+
+* Translasi, refleksi, rotasi, dilatasi
+
+### **BAB 6: Bangun Ruang Sisi Lengkung (pengantar)**
+
+* Tabung, kerucut, bola
+
+---
+
+## **Kelas 9 Semester 2**
+
+### **BAB 1: Bangun Ruang Sisi Lengkung (lanjutan)**
+
+* Luas permukaan dan volume tabung, kerucut, bola
+
+### **BAB 2: Transformasi Geometri (lanjutan)**
+
+* Pergeseran dan rotasi titik/garis/bidang
+
+### **BAB 3: Peluang**
+
+* Konsep dasar dan menghitung peluang
+
+### **BAB 4: Kesebangunan dan Kekongruenan**
+
+* Konsep dan penerapan
+
+### **BAB 5: Soal Cerita**
+
+* Penerapan berbagai konsep matematika dalam kehidupan sehari-hari
+

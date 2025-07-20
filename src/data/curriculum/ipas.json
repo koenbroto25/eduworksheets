@@ -1,0 +1,264 @@
+{
+  "subject": "Ilmu Pengetahuan Alam dan Sosial (IPAS)",
+  "grades": {
+    "kelas3": {
+      "semester1": {
+        "BAB 1: Pertumbuhan dan Perkembangan Makhluk Hidup": [
+          "Bagian-bagian tumbuhan dan fungsinya",
+          "Proses fotosintesis",
+          "Siklus hidup tumbuhan",
+          "Faktor yang memengaruhi pertumbuhan tumbuhan",
+          "Siklus hidup hewan",
+          "Metamorfosis sempurna",
+          "Metamorfosis tidak sempurna",
+          "Hewan dengan siklus hidup tanpa metamorfosis"
+        ],
+        "BAB 2: Lingkungan dan Manfaatnya": [
+          "Komponen Ekosistem",
+          "Manfaat Lingkungan bagi Manusia",
+          "Hubungan antar makhluk hidup",
+          "Rantai makanan dan jaring-jaring makanan sederhana"
+        ],
+        "BAB 3: Wujud Zat dan Perubahannya": [
+          "Benda Padat",
+          "Benda Cair",
+          "Benda Gas",
+          "Perubahan Wujud Benda"
+        ],
+        "BAB 4: Keanekaragaman Makhluk Hidup": [
+          "Hewan di Sekitar Kita",
+          "Pengelompokan hewan berdasarkan tulang belakang",
+          "Tempat hidup hewan",
+          "Ciri khas hewan dan cara adaptasi"
+        ],
+        "BAB 5: Pengenalan Ruang dan Denah": [
+          "Peran Denah",
+          "Simbol-simbol dalam denah",
+          "Membuat denah sederhana ruangan/rumah"
+        ]
+      },
+      "semester2": {
+        "BAB 1: Keanekaragaman Makhluk Hidup": [
+          "Jenis-jenis hewan berdasarkan habitat",
+          "Ciri-ciri fisik hewan",
+          "Pengelompokan hewan berdasarkan makanannya",
+          "Cara hewan beradaptasi dengan lingkungan",
+          "Pentingnya keanekaragaman hewan",
+          "Siklus Hidup Makhluk Hidup"
+        ],
+        "BAB 2: Hubungan Makhluk Hidup dengan Lingkungan": [
+          "Hidup Bersama Alam",
+          "Manusia dan Lingkungannya"
+        ],
+        "BAB 3: Energi dan Perubahannya": [
+          "Macam-Macam Sumber Energi",
+          "Perubahan Energi"
+        ],
+        "BAB 4: Gerak Benda di Sekitar Kita": [
+          "Jenis Gerak Benda",
+          "Faktor yang Mempengaruhi Gerak"
+        ],
+        "BAB 5: Sumber Daya Alam": [
+          "Jenis-Jenis Sumber Daya Alam",
+          "Pemanfaatan dan Pelestarian SDA"
+        ],
+        "BAB 6: Cuaca dan Kehidupan": [
+          "Jenis-Jenis Cuaca",
+          "Pengaruh Cuaca terhadap Kehidupan"
+        ],
+        "BAB 7: Kegiatan Ekonomi di Sekitar Kita": [
+          "Jenis-Jenis Kegiatan Ekonomi",
+          "Peran Masyarakat dalam Kegiatan Ekonomi"
+        ]
+      }
+    },
+    "kelas4": {
+      "semester1": {
+        "BAB 1: Tumbuhan, Sumber Kehidupan di Bumi": [
+          "Bagian-Bagian Tumbuhan dan Fungsinya",
+          "Proses Fotosintesis",
+          "Siklus Hidup Tumbuhan",
+          "Jenis Akar"
+        ],
+        "BAB 2: Wujud Zat dan Perubahannya": [
+          "Wujud Zat",
+          "Perubahan Wujud Zat",
+          "Perubahan Fisika dan Kimia (pengantar dasar)"
+        ],
+        "BAB 3: Gaya di Sekitar Kita": [
+          "Jenis-Jenis Gaya",
+          "Pengaruh Gaya terhadap Benda",
+          "Penerapan Gaya dalam Kehidupan Sehari-hari"
+        ],
+        "BAB 4: Mengubah Bentuk Energi": [
+          "Macam-Macam Bentuk Energi",
+          "Perubahan Bentuk Energi",
+          "Sumber Energi"
+        ],
+        "BAB 5: Cerita tentang Daerahku": [
+          "Kenampakan Alam",
+          "Kenampakan Sosial dan Budaya",
+          "Peristiwa Alam di Daerah"
+        ]
+      },
+      "semester2": {
+        "BAB 5: Cerita Tentang Daerahku": [
+          "Mengenal Daerah Tempat Tinggal",
+          "Potensi Alam Daerah",
+          "Potensi Sosial Budaya Daerah",
+          "Keunikan Daerahku"
+        ],
+        "BAB 6: Indonesiaku Kaya Budaya": [
+          "Keberagaman Suku Bangsa",
+          "Bahasa Daerah",
+          "Adat Istiadat dan Tradisi",
+          "Kesenian Tradisional",
+          "Semangat Persatuan dalam Keberagaman"
+        ],
+        "BAB 7: Bagaimana Mendapatkan Semua Keperluan Kita?": [
+          "Kebutuhan Dasar Manusia",
+          "Cara Memenuhi Kebutuhan",
+          "Sistem Ekonomi Sederhana",
+          "Sumber Daya dan Pemanfaatannya"
+        ],
+        "BAB 8: Membangun Masyarakat yang Beradab": [
+          "Hidup Bermasyarakat",
+          "Nilai-Nilai Sosial dan Moral",
+          "Etika dan Tata Krama",
+          "Kewajiban dan Hak Warga",
+          "Peran Aktif dalam Masyarakat"
+        ]
+      }
+    },
+    "kelas5": {
+      "semester1": {
+        "BAB 1: Melihat Karena Cahaya, Mendengar Karena Bunyi": [
+          "Cahaya dan Sifat-Sifatnya",
+          "Melihat karena Cahaya",
+          "Bunyi dan Sifat-Sifatnya",
+          "Mendengar karena Bunyi"
+        ],
+        "BAB 2: Harmoni dalam Ekosistem": [
+          "Ekosistem dan Komponennya",
+          "Rantai Makanan",
+          "Jaring-Jaring Makanan",
+          "Peran Manusia dalam Ekosistem"
+        ],
+        "BAB 3: Magnet, Listrik, dan Teknologi untuk Kehidupan": [
+          "Magnet dan Sifat-Sifatnya",
+          "Listrik dan Rangkaian Listrik",
+          "Teknologi Berbasis Listrik dan Magnet"
+        ],
+        "BAB 4: Ayo Berkenalan dengan Bumi Kita": [
+          "Bumi dalam Tata Surya",
+          "Perputaran Bumi (Rotasi)",
+          "Pergerakan Bumi Mengelilingi Matahari (Revolusi)",
+          "Peristiwa Alam di Bumi"
+        ],
+        "BAB 5: Bagaimana Kita Hidup dan Bertumbuh": [
+          "Pertumbuhan dan Perkembangan Manusia",
+          "Perubahan Fisik dan Psikologis",
+          "Kebutuhan Dasar Manusia",
+          "Menjaga Kesehatan Tubuh"
+        ],
+        "BAB 6: Indonesiaku Kaya Raya": [
+          "Kekayaan Alam Indonesia",
+          "Keragaman Budaya Indonesia",
+          "Peran Masyarakat dalam Melestarikan Lingkungan dan Budaya"
+        ]
+      },
+      "semester2": {
+        "BAB 1: Gaya dan Pesawat Sederhana": [
+          "Jenis-Jenis Gaya",
+          "Pesawat Sederhana"
+        ],
+        "BAB 2: Cahaya dan Pemanfaatannya": [
+          "Sifat-Sifat Cahaya",
+          "Pemanfaatan Cahaya"
+        ],
+        "BAB 3: Bumi dan Alam Semesta": [
+          "Struktur dan Lapisan Bumi",
+          "Bumi dalam Tata Surya",
+          "Peristiwa Alam"
+        ],
+        "BAB 4: Ekosistem dan Interaksi Makhluk Hidup": [
+          "Komponen Ekosistem",
+          "Jenis-Jenis Ekosistem",
+          "Rantai Makanan dan Jaring-Jaring Makanan"
+        ],
+        "BAB 5: Manusia dan Pertumbuhannya": [
+          "Pertumbuhan dan Perkembangan Manusia",
+          "Kesehatan dan Kebersihan Diri"
+        ],
+        "BAB 6: Kekayaan dan Kebanggaan Daerah": [
+          "Keunikan Daerah Tempat Tinggal",
+          "Sumber Daya Alam Daerah",
+          "Pelestarian Lingkungan dan Budaya"
+        ],
+        "BAB 7: Perubahan Kondisi Alam dan Pengaruhnya": [
+          "Penyebab Perubahan Kondisi Alam",
+          "Dampak Perubahan terhadap Kehidupan",
+          "Mitigasi dan Adaptasi"
+        ]
+      }
+    },
+    "kelas6": {
+      "semester1": {
+        "BAB 1: Bagaimana Tubuh Kita Bergerak": [
+          "Sistem Gerak pada Manusia",
+          "Sistem Saraf dan Koordinasi Gerak",
+          "Gangguan dan Penyakit pada Sistem Gerak"
+        ],
+        "BAB 2: Makhluk Hidup dan Lingkungannya": [
+          "Ciri Khusus Makhluk Hidup",
+          "Perkembangbiakan Makhluk Hidup"
+        ],
+        "BAB 3: Perkembangan Kehidupan Manusia": [
+          "Tahapan Pertumbuhan dan Perkembangan",
+          "Masa Pubertas"
+        ],
+        "BAB 4: Kehidupan Sosial dan Globalisasi": [
+          "Interaksi Antarnegara",
+          "Globalisasi dan Pengaruhnya"
+        ],
+        "BAB 5: Bumi dan Antariksa": [
+          "Kenampakan Alam di Bumi",
+          "Pengenalan Antariksa"
+        ],
+        "BAB 6: Proyek IPAS": [
+          "Proyek Ilmiah Sederhana",
+          "Proyek Sosial dan Lingkungan"
+        ]
+      },
+      "semester2": {
+        "BAB 4: Indonesia dan Masyarakat Dunia": [
+          "Hubungan Antarnegara",
+          "Masyarakat Dunia",
+          "Perubahan Sosial Budaya di Era Globalisasi"
+        ],
+        "BAB 5: Bumi dan Antariksa": [
+          "Mengenal Bumi, Matahari, dan Bulan",
+          "Gerak Rotasi dan Revolusi Bumi",
+          "Sistem Tata Surya",
+          "Peristiwa Alam Akibat Interaksi Bumi dan Benda Langit"
+        ],
+        "BAB 6: Benarkah Energi di Bumi Akan Habis?": [
+          "Apa Jadinya Jika Tidak Ada Energi?",
+          "Bentuk dan Sumber Energi",
+          "Hukum Kekekalan Energi dan Perubahan Bentuk Energi",
+          "Benarkah Energi Akan Habis?",
+          "Energi Terbarukan dan Teknologi Ramah Lingkungan"
+        ],
+        "BAB 7: Bumi Kita Terancam Bahaya": [
+          "Ancaman terhadap Lingkungan",
+          "Bencana Alam dan Penanggulangannya",
+          "Tanggung Jawab Bersama dalam Menjaga Bumi"
+        ],
+        "BAB 8: Proyek Akhir IPAS": [
+          "Proyek Ilmiah dan Sosial",
+          "Presentasi Proyek"
+        ]
+      }
+    }
+  }
+}

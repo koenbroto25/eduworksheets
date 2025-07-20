@@ -1,0 +1,162 @@
+﻿{
+  "subject": "Ilmu Pengetahuan Sosial (IPS)",
+  "grades": {
+    "Kelas 7": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Keberadaan Diri dan Keluarga", "topics": ["Mengenal Identitas Diri", "Struktur dan Peran Keluarga", "Interaksi Sosial di Lingkungan Terdekat", "Keterlibatan Keluarga dalam Pendidikan", "Pengaruh Globalisasi terhadap Kehidupan Keluarga"] },
+        { "chapter": "Bab 2: Keanekaragaman Lingkungan Sekitar", "topics": ["Mengenal Lingkungan Sekitar", "Keanekaragaman Alam dan Budaya di Indonesia", "Hubungan Manusia dan Lingkungan", "Potensi Ekonomi dari Lingkungan Sekitar"] },
+        { "chapter": "Bab 3: Potensi Ekonomi Lingkungan", "topics": ["Kondisi Geografis dan Wilayah Indonesia", "Membaca Peta dan Komponen-Komponennya", "Aktivitas Ekonomi dalam Memenuhi Kebutuhan", "Nilai dan Norma dalam Kehidupan Ekonomi", "Kebutuhan dan Kelangkaan"] },
+        { "chapter": "Bab 4: Pemberdayaan Masyarakat", "topics": ["Interaksi Antarwilayah dan Antar Ruang", "Lembaga Sosial dan Fungsi Sosial", "Dinamika Kependudukan di Indonesia", "Manusia sebagai Makhluk Sosial dan Ekonomi yang Bermoral", "Sosialisasi dan Peran Individu dalam Masyarakat"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Perubahan Potensi Sumber Daya Alam", "topics": ["Potensi SDA di Indonesia", "Faktor Perubahan SDA", "Dampak Sosial dan Ekonomi Akibat Perubahan SDA"] },
+        { "chapter": "Bab 2: Aktivitas Ekonomi Masa Lalu dan Sekarang", "topics": ["Aktivitas Ekonomi Masyarakat Tradisional", "Aktivitas Ekonomi Masyarakat Modern", "Pelaku Ekonomi dan Peranannya", "Permintaan dan Penawaran dalam Pasar"] },
+        { "chapter": "Bab 3: Peran Masyarakat dalam Rantai Ekonomi", "topics": ["Status dan Peran Sosial dalam Masyarakat Ekonomi", "Diferensiasi Sosial", "Stratifikasi Sosial", "Mobilitas Sosial dan Perubahan Status Ekonomi"] },
+        { "chapter": "Bab 4: Keragaman Budaya dan Masalah Sosial Budaya", "topics": ["Jenis-jenis Keragaman Budaya di Indonesia", "Nilai Persatuan dalam Keragaman", "Masalah Sosial Budaya", "Upaya Menjaga Keutuhan Sosial Budaya"] },
+        { "chapter": "Bab 5: Pemberdayaan Masyarakat", "topics": ["Arti dan Tujuan Pemberdayaan Masyarakat", "Lembaga Pemberdayaan dan Program Pemerintah (UMKM, koperasi, CSR)", "Literasi Keuangan Dasar", "Kewirausahaan dan Kemandirian Ekonomi", "Peran Komunitas Sosial dalam Pemberdayaan"] }
+      ]
+    },
+    "Kelas 8": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Keragaman Alam Indonesia", "topics": ["Kondisi Geografis Indonesia", "Proses Geografis dan Dampaknya", "Jenis dan Persebaran Sumber Daya Alam", "Potensi SDA dan Pemanfaatannya untuk Kesejahteraan"] },
+        { "chapter": "Bab 2: Pemanfaatan dan Pelestarian Sumber Daya Alam", "topics": ["Kebutuhan Manusia dan SDA", "Bentuk Pemanfaatan SDA", "Dampak Pemanfaatan SDA yang Tidak Bijak", "Upaya Pelestarian dan Pengelolaan SDA"] },
+        { "chapter": "Bab 3: Sumber Daya Manusia (SDM)", "topics": ["Pengertian dan Karakteristik SDM", "Kualitas SDM Indonesia", "Tantangan SDM di Indonesia", "Upaya Peningkatan Kualitas SDM", "Peran SDM dalam Pembangunan Berkelanjutan"] },
+        { "chapter": "Bab 4: Peran Lembaga Sosial dalam Kehidupan Masyarakat", "topics": ["Pengertian dan Fungsi Lembaga Sosial", "Jenis Lembaga Sosial", "Peran Lembaga Sosial dalam Pengelolaan SDA dan SDM", "Perubahan Sosial dan Dinamika Lembaga Sosial", "Nilai dan Norma dalam Lembaga Sosial"] },
+        { "chapter": "Bab 5: Interaksi dengan Bangsa Asing", "topics": ["Pengaruh Letak Strategis Indonesia dalam Perdagangan Internasional", "Sejarah Awal Interaksi dengan Bangsa Asing", "Dampak Sosial Budaya dan Ekonomi dari Interaksi Asing", "Globalisasi dan Identitas Bangsa", "Strategi Menjaga Jati Diri Budaya di Era Global"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Keragaman dan Kemajemukan Masyarakat Indonesia", "topics": ["Keragaman Aktivitas Ekonomi", "Perdagangan Antar Pulau dan Peran Transportasi", "Dampak Kolonialisme terhadap Kehidupan Ekonomi dan Sosial", "Konflik Sosial dan Upaya Integrasi Sosial"] },
+        { "chapter": "Bab 2: Pergerakan Kebangsaan Menuju Kemerdekaan", "topics": ["Latar Belakang Kedatangan Bangsa Barat ke Indonesia", "Perlawanan Daerah terhadap Penjajah", "Peran Tokoh-Tokoh Pergerakan Nasional", "Tumbuh dan Berkembangnya Nasionalisme Indonesia"] },
+        { "chapter": "Bab 3: Pembangunan dan Pemerataan", "topics": ["Konsep dan Tujuan Pembangunan Ekonomi", "Pemerataan Pembangunan Antar Wilayah", "Dampak Positif dan Negatif Pembangunan", "Tantangan Pembangunan"] },
+        { "chapter": "Bab 4: Dinamika Penduduk dan Perubahan Sosial", "topics": ["Pertumbuhan Penduduk dan Dampaknya", "Persebaran Penduduk dan Urbanisasi", "Perubahan Sosial karena Teknologi dan Globalisasi", "Peran Lembaga Sosial dalam Menjaga Keseimbangan Sosial"] },
+        { "chapter": "Bab 5: Pelaku Ekonomi, Pasar, dan Pajak", "topics": ["Pelaku Ekonomi: Rumah Tangga, Perusahaan, Pemerintah", "Fungsi dan Jenis Pasar", "Mekanisme Pasar dan Harga", "Pajak dan Fungsinya dalam Pembangunan", "Literasi Keuangan Dasar untuk Pelajar"] },
+        { "chapter": "Bab 6: Hubungan Sosial, Pranata Sosial, dan Ketenagakerjaan", "topics": ["Bentuk Interaksi Sosial", "Pranata Sosial", "Masalah Ketenagakerjaan", "Hak dan Kewajiban Pekerja serta Peran Pemerintah"] }
+      ]
+    },
+    "Kelas 9": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Manusia dan Perubahan", "topics": ["Pengertian dan Bentuk Perubahan Sosial Budaya", "Faktor Pendorong dan Penghambat Perubahan Sosial", "Dampak Modernisasi dan Globalisasi", "Adaptasi Masyarakat terhadap Perubahan", "Pelestarian Nilai Kearifan Lokal"] },
+        { "chapter": "Bab 2: Perkembangan Ekonomi Digital dan Literasi Finansial", "topics": ["Perkembangan Sistem Ekonomi di Era Digital", "Karakteristik Ekonomi Digital", "Literasi Finansial", "Peran Pelajar dalam Ekonomi Digital", "Keamanan Digital dan Etika Transaksi"] },
+        { "chapter": "Bab 3: Tantangan Pembangunan Indonesia", "topics": ["Pengertian dan Tujuan Pembangunan Nasional", "Masalah dalam Pembangunan", "Upaya Mengatasi Masalah Pembangunan", "Pembangunan Berkelanjutan (SDGs)", "Pemerataan Pembangunan"] },
+        { "chapter": "Bab 4: Interaksi Antarnegara di Asia dan Dunia", "topics": ["Bentuk Interaksi Antarnegara", "Organisasi Regional", "Perdagangan Internasional", "Dampak Interaksi Global", "Peran Indonesia dalam Hubungan Internasional"] },
+        { "chapter": "Bab 5: Perubahan Sosial Budaya Global dan Pengaruhnya", "topics": ["Perubahan Gaya Hidup di Era Globalisasi", "Dampak Globalisasi terhadap Pendidikan, Keluarga, dan Budaya", "Globalisasi vs Tradisi Lokal", "Peran Media Sosial", "Strategi Menyaring Budaya Asing"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Tantangan Pembangunan Indonesia", "topics": ["Sejarah Pembangunan di Indonesia", "Permasalahan dalam Pembangunan", "Peran Serta Masyarakat dalam Pembangunan"] },
+        { "chapter": "Bab 2: Kerjasama Dunia", "topics": ["Perdagangan Internasional", "Ekonomi Kreatif dan Daya Saing Bangsa", "Kerjasama Regional dan Global"] },
+        { "chapter": "Bab 3: Perkembangan Ekonomi Digital", "topics": ["Transformasi Ekonomi di Era Digital", "Literasi Keuangan Digital", "Peran UMKM dan E-Commerce", "Ekonomi Digital dan Keadilan Akses"] },
+        { "chapter": "Bab 4: Manusia dan Perubahan Sosial Budaya", "topics": ["Pengertian Perubahan Sosial Budaya", "Modernisasi dan Dampaknya", "Adaptasi Masyarakat terhadap Perubahan Global", "Pelestarian Kearifan Lokal", "Peran Pemuda dalam Menjaga Identitas Budaya"] }
+      ]
+    },
+    "Kelas 10": {
+      "Semester 1": [
+        { "chapter": "Sejarah: Manusia, Ruang, dan Waktu", "topics": ["Konsep Dasar Sejarah", "Peristiwa Sejarah dalam Konteks Waktu dan Ruang", "Pentingnya Memahami Sejarah"] },
+        { "chapter": "Sejarah: Perkembangan Kehidupan Manusia", "topics": ["Evolusi Kehidupan Manusia Purba", "Pengaruh Lingkungan terhadap Peradaban", "Adaptasi Manusia terhadap Alam"] },
+        { "chapter": "Sejarah: Historiografi", "topics": ["Pengertian dan Jenis Historiografi", "Sumber Sejarah dan Penulisan Sejarah", "Kritik Sumber dan Rekonstruksi Sejarah"] },
+        { "chapter": "Sejarah: Kehidupan Masyarakat Praaksara, Hindu-Buddha, Islam", "topics": ["Kehidupan Sosial Ekonomi dan Budaya Praaksara", "Kerajaan Hindu-Buddha", "Perkembangan Islam dan Akulturasi Budaya"] },
+        { "chapter": "Sosiologi: Sosiologi sebagai Ilmu", "topics": ["Pengertian dan Ciri-ciri Sosiologi", "Objek dan Fungsi Sosiologi", "Peran Sosiologi"] },
+        { "chapter": "Sosiologi: Sistem Sosial Masyarakat", "topics": ["Nilai dan Norma Sosial", "Struktur Sosial dan Status Peran", "Sosialisasi dalam Kehidupan"] },
+        { "chapter": "Sosiologi: Interaksi Sosial dan Dinamika Kehidupan", "topics": ["Bentuk-bentuk Interaksi Sosial", "Faktor Perubahan Sosial", "Dampak Dinamika Sosial"] },
+        { "chapter": "Ekonomi: Konsep Dasar Ilmu Ekonomi", "topics": ["Pengertian Ilmu Ekonomi", "Kelangkaan dan Pilihan", "Biaya Peluang dan Skala Prioritas"] },
+        { "chapter": "Ekonomi: Permasalahan dan Sistem Ekonomi", "topics": ["Masalah Pokok Ekonomi", "Sistem Ekonomi", "Perbandingan Sistem Ekonomi"] },
+        { "chapter": "Ekonomi: Peran Pelaku Ekonomi", "topics": ["Rumah Tangga Konsumen dan Produsen", "Pemerintah dan Masyarakat Internasional", "Circular Flow of Income"] },
+        { "chapter": "Ekonomi: Keseimbangan dan Struktur Pasar", "topics": ["Hukum Permintaan dan Penawaran", "Keseimbangan Harga", "Jenis-jenis Struktur Pasar"] },
+        { "chapter": "Ekonomi: Lembaga Jasa Keuangan", "topics": ["Fungsi dan Peran Bank Sentral", "Sistem Pembayaran", "Literasi Keuangan Dasar"] },
+        { "chapter": "Ekonomi: Badan Usaha dan Perkoperasian", "topics": ["Jenis-jenis Badan Usaha", "Fungsi dan Prinsip Koperasi"] },
+        { "chapter": "Geografi: Konsep dan Pendekatan Geografi", "topics": ["Konsep Dasar Geografi", "Pendekatan Geografi"] },
+        { "chapter": "Geografi: Pengetahuan Dasar Geografi", "topics": ["Unsur Geosfer", "Keterkaitan Unsur dalam Geosfer"] },
+        { "chapter": "Geografi: Keragaman Alam Indonesia", "topics": ["Iklim dan Cuaca", "Flora dan Fauna", "Potensi dan Persebaran SDA"] },
+        { "chapter": "Geografi: Pemanfaatan Sumber Daya Alam", "topics": ["Jenis dan Pemanfaatan SDA", "Pengelolaan SDA Berkelanjutan", "Dampak Eksploitasi SDA"] },
+        { "chapter": "Geografi: Kondisi Geografis dan Interaksi Lingkungan", "topics": ["Hubungan Manusia dan Lingkungan", "Bencana Alam dan Mitigasi", "Interaksi Ruang"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Sejarah: Peradaban Awal Dunia dan Nusantara", "topics": ["Awal Mula Kehidupan", "Peradaban Sungai", "Peradaban Klasik Dunia", "Peradaban Awal di Indonesia"] },
+        { "chapter": "Sejarah: Kolonialisme dan Imperialisme", "topics": ["Latar Belakang Kolonialisme", "Dampak Penjajahan di Indonesia", "Perlawanan Rakyat Nusantara"] },
+        { "chapter": "Sejarah: Pergerakan Nasional dan Kebangkitan Bangsa", "topics": ["Lahirnya Kesadaran Kebangsaan", "Peran Organisasi Pergerakan Nasional", "Sumpah Pemuda"] },
+        { "chapter": "Sosiologi: Individu dalam Masyarakat", "topics": ["Proses Sosialisasi", "Peran dan Status Sosial", "Keluarga sebagai Agen Sosialisasi"] },
+        { "chapter": "Sosiologi: Nilai, Norma, dan Kontrol Sosial", "topics": ["Jenis-jenis Nilai dan Norma", "Fungsi dan Bentuk Kontrol Sosial", "Penyimpangan dan Sanksi Sosial"] },
+        { "chapter": "Sosiologi: Perubahan Sosial dan Globalisasi", "topics": ["Faktor-faktor Perubahan Sosial", "Dampak Perubahan Sosial", "Tantangan Globalisasi dan Kearifan Lokal"] },
+        { "chapter": "Ekonomi: Kegiatan Ekonomi dan Kebutuhan Manusia", "topics": ["Jenis Kebutuhan dan Kelangkaan", "Kegiatan Produksi, Distribusi, Konsumsi", "Faktor Produksi dan Biaya Peluang"] },
+        { "chapter": "Ekonomi: Sistem Ekonomi dan Peran Pemerintah", "topics": ["Sistem Ekonomi", "Intervensi Pemerintah", "APBN, APBD"] },
+        { "chapter": "Ekonomi: Permasalahan Ekonomi di Indonesia", "topics": ["Pengangguran dan Kemiskinan", "Inflasi dan Deflasi", "Ketimpangan Ekonomi"] },
+        { "chapter": "Geografi: Dinamika Litosfer", "topics": ["Proses Pembentukan Litosfer", "Bencana Alam Litosfer", "Mitigasi Bencana"] },
+        { "chapter": "Geografi: Dinamika Atmosfer dan Hidrosfer", "topics": ["Perubahan Iklim dan Cuaca", "Sumber Daya Air", "Pola Curah Hujan"] },
+        { "chapter": "Geografi: Interaksi Manusia dengan Lingkungan", "topics": ["Pola Permukiman", "Konversi Lahan dan Urbanisasi", "Isu-isu Lingkungan Global"] }
+      ]
+    },
+    "Kelas 11": {
+      "Semester 1": [
+        { "chapter": "Sosiologi: Pembentukan Kelompok Sosial", "topics": ["Pengertian dan Ciri Kelompok Sosial", "Jenis Kelompok Sosial", "Faktor Pembentuk Kelompok Sosial"] },
+        { "chapter": "Sosiologi: Permasalahan Sosial di Masyarakat", "topics": ["Pengertian Masalah Sosial", "Jenis Masalah Sosial", "Penyebab dan Dampak Masalah Sosial", "Upaya Penanggulangan Masalah Sosial"] },
+        { "chapter": "Sosiologi: Kesetaraan, Perbedaan, dan Harmoni Sosial", "topics": ["Pengertian Kesetaraan dan Keadilan", "Bentuk Perbedaan Sosial", "Tantangan Harmoni Sosial", "Strategi Membangun Toleransi", "Konsep Multikulturalisme"] },
+        { "chapter": "Geografi: Globalisasi dan Isu-Isu Global", "topics": ["Pengertian Globalisasi", "Ciri dan Proses Globalisasi", "Dampak Globalisasi", "Tantangan dan Peluang Globalisasi"] },
+        { "chapter": "Geografi: Perekonomian Global", "topics": ["Perdagangan Internasional", "Global Supply Chain", "Perusahaan Multinasional", "Ketimpangan Ekonomi Global"] },
+        { "chapter": "Geografi: Lingkungan Global", "topics": ["Isu-isu Lingkungan Global", "Upaya Internasional Mengatasi Krisis Lingkungan", "Peran Warga Global"] },
+        { "chapter": "Geografi: Hubungan Internasional", "topics": ["Bentuk Kerjasama Internasional", "Peran Lembaga Internasional", "Diplomasi dan Keamanan Global", "Isu Global Kontemporer"] },
+        { "chapter": "Ekonomi: Badan Usaha", "topics": ["Pengertian Badan Usaha", "Bentuk Badan Usaha", "Fungsi dan Peran Badan Usaha", "Etika Bisnis dan CSR"] },
+        { "chapter": "Ekonomi: Pendapatan Nasional", "topics": ["Konsep Pendapatan Nasional", "Perhitungan dan Indikator Kesejahteraan", "Distribusi Pendapatan", "Strategi Mengurangi Ketimpangan"] },
+        { "chapter": "Ekonomi: Ketenagakerjaan", "topics": ["Jenis Tenaga Kerja", "Indikator Ketenagakerjaan", "Permasalahan Ketenagakerjaan", "Program Penanggulangan"] },
+        { "chapter": "Ekonomi: Uang, Indeks Harga, dan Inflasi", "topics": ["Pengertian Uang", "Indeks Harga Konsumen (IHK)", "Penyebab dan Dampak Inflasi", "Strategi Mengendalikan Inflasi"] },
+        { "chapter": "Ekonomi: Kebijakan Moneter dan Fiskal", "topics": ["Tujuan Kebijakan Moneter", "Peran Bank Indonesia", "Tujuan Kebijakan Fiskal", "Fungsi APBN dan APBD", "Instrumen Kebijakan"] },
+        { "chapter": "Sejarah: Imperialisme dan Kolonialisme", "topics": ["Pengertian Imperialisme dan Kolonialisme", "Faktor Pendorong Bangsa Barat", "Kedatangan Bangsa Eropa", "VOC dan Monopoli Dagang"] },
+        { "chapter": "Sejarah: Perlawanan Terhadap Kolonialisme", "topics": ["Perlawanan Daerah", "Ciri Perlawanan Tradisional", "Kegagalan dan Pembelajaran", "Lahirnya Kesadaran Nasional"] },
+        { "chapter": "Sejarah: Awal Munculnya Nasionalisme", "topics": ["Faktor Lahirnya Nasionalisme", "Peran Pers, Pendidikan, Tokoh", "Organisasi Modern"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Ekonomi: Badan Usaha dalam Perekonomian", "topics": ["Pengertian dan Fungsi Badan Usaha", "Bentuk-Bentuk Badan Usaha", "Peran Badan Usaha", "Etika Bisnis dan CSR"] },
+        { "chapter": "Ekonomi: Pendapatan Nasional dan Kesenjangan", "topics": ["Konsep Pendapatan Nasional", "Metode Perhitungan", "Distribusi Pendapatan", "Masalah Ketimpangan Sosial"] },
+        { "chapter": "Ekonomi: Ketenagakerjaan", "topics": ["Jenis-jenis Tenaga Kerja", "Indikator Ketenagakerjaan", "Permasalahan dan Solusi Ketenagakerjaan", "UU Ketenagakerjaan"] },
+        { "chapter": "Ekonomi: Teori Uang, Indeks Harga, dan Inflasi", "topics": ["Fungsi dan Jenis Uang", "Indeks Harga Konsumen (IHK)", "Penyebab dan Dampak Inflasi", "Upaya Mengendalikan Inflasi"] },
+        { "chapter": "Ekonomi: Kebijakan Moneter dan Fiskal", "topics": ["Tujuan Kebijakan Moneter", "Instrumen Kebijakan Moneter", "Peran Bank Indonesia", "Tujuan Kebijakan Fiskal", "Instrumen Kebijakan Fiskal", "Peran APBN dan APBD"] },
+        { "chapter": "Geografi: Lingkungan Hidup", "topics": ["Pengertian dan Komponen Lingkungan", "Interaksi Manusia dan Lingkungan", "Masalah Lingkungan", "Upaya Pelestarian Lingkungan"] },
+        { "chapter": "Geografi: Mitigasi dan Adaptasi Bencana Alam", "topics": ["Jenis Bencana Alam", "Faktor Penyebab dan Dampak", "Mitigasi Bencana", "Adaptasi Lingkungan"] },
+        { "chapter": "Geografi: Isu-Isu Global", "topics": ["Globalisasi dan Dampaknya", "Perdagangan Global", "Krisis Lingkungan Global", "Kerja Sama Internasional", "Peran Indonesia"] },
+        { "chapter": "Sosiologi: Masalah Sosial di Masyarakat", "topics": ["Pengertian Masalah Sosial", "Faktor Penyebab Masalah Sosial", "Contoh Masalah Sosial", "Upaya Penanggulangan"] },
+        { "chapter": "Sosiologi: Interaksi Sosial", "topics": ["Pengertian dan Syarat Interaksi", "Bentuk Interaksi Sosial", "Agen Sosialisasi", "Interaksi di Era Digital"] },
+        { "chapter": "Sosiologi: Konflik dan Integrasi Sosial", "topics": ["Pengertian dan Penyebab Konflik", "Bentuk Konflik", "Dampak Konflik", "Proses Integrasi Sosial", "Strategi Kehidupan Harmonis"] },
+        { "chapter": "Sejarah: Pendudukan Jepang dan Persiapan Kemerdekaan", "topics": ["Pendudukan Jepang di Indonesia", "Perlawanan terhadap Jepang", "Persiapan Kemerdekaan Indonesia"] }
+      ]
+    },
+    "Kelas 12": {
+      "Semester 1": [
+        { "chapter": "Sosiologi: Perubahan Sosial", "topics": ["Pengertian Perubahan Sosial", "Faktor Perubahan", "Jenis Perubahan", "Dampak Perubahan"] },
+        { "chapter": "Sosiologi: Globalisasi", "topics": ["Konsep Globalisasi", "Aspek Globalisasi", "Dampak Globalisasi", "Respon Masyarakat"] },
+        { "chapter": "Sosiologi: Ketimpangan Sosial", "topics": ["Pengertian Ketimpangan Sosial", "Faktor Penyebab Ketimpangan", "Dampak Ketimpangan", "Strategi Mengatasi Ketimpangan"] },
+        { "chapter": "Sosiologi: Kearifan Lokal", "topics": ["Pengertian Kearifan Lokal", "Peran Kearifan Lokal", "Kearifan Lokal dalam Pembangunan", "Contoh Kearifan Lokal"] },
+        { "chapter": "Ekonomi: Pertumbuhan Ekonomi", "topics": ["Pengertian Pertumbuhan Ekonomi", "Indikator Pertumbuhan", "Faktor Pertumbuhan", "Masalah Pertumbuhan"] },
+        { "chapter": "Ekonomi: Pembangunan Ekonomi", "topics": ["Pengertian Pembangunan Ekonomi", "Perbedaan Pertumbuhan dan Pembangunan", "Strategi Pembangunan", "Tantangan Pembangunan"] },
+        { "chapter": "Ekonomi: Peran Lembaga Jasa Keuangan", "topics": ["Jenis Lembaga Keuangan", "Fungsi Lembaga Keuangan", "Otoritas Jasa Keuangan (OJK)", "Inklusi dan Literasi Keuangan"] },
+        { "chapter": "Ekonomi: Anggaran Pendapatan dan Belanja Negara (APBN)", "topics": ["Fungsi APBN", "Proses Penyusunan APBN", "Struktur APBN", "Peran APBN"] },
+        { "chapter": "Geografi: Teori Wilayah", "topics": ["Pengertian Wilayah", "Teori Perkembangan Wilayah", "Jenis Wilayah", "Perencanaan Wilayah"] },
+        { "chapter": "Geografi: Pemanfaatan dan Kelestarian Lingkungan", "topics": ["Pembangunan Berkelanjutan", "Pengelolaan SDA", "Prinsip Pelestarian (3R)", "Konflik Pemanfaatan SDA"] },
+        { "chapter": "Geografi: Perkembangan Wilayah", "topics": ["Faktor Perkembangan Wilayah", "Wilayah Maju vs Tertinggal", "Ketimpangan Wilayah", "Studi Kasus Wilayah"] },
+        { "chapter": "Geografi: Mitigasi Bencana", "topics": ["Jenis Bencana", "Tahapan Mitigasi", "Peran Masyarakat dan Pemerintah", "Edukasi dan Teknologi Mitigasi"] },
+        { "chapter": "Sejarah: Perkembangan Bangsa Indonesia", "topics": ["Masa Awal Kemerdekaan", "Demokrasi Liberal, Terpimpin, Orde Baru", "Reformasi dan Era Kontemporer"] },
+        { "chapter": "Sejarah: Perjuangan Bangsa Indonesia", "topics": ["Menghadapi Agresi Militer Belanda", "Konferensi Meja Bundar", "Menegakkan Demokrasi dan HAM"] },
+        { "chapter": "Sejarah: Peran Indonesia di Kancah Internasional", "topics": ["Politik Luar Negeri Bebas Aktif", "Peran dalam Organisasi Internasional", "Diplomasi dan Perdamaian Dunia", "Tanggung Jawab Global"] },
+        { "chapter": "Sejarah: Perkembangan IPTEK", "topics": ["IPTEK di Masa Orde Baru dan Reformasi", "Inovasi dan Transformasi Digital", "Dampak IPTEK", "Tantangan Etika dan Regulasi IPTEK"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Ekonomi: Pasar Modal dan Investasi", "topics": ["Pengertian Pasar Modal", "Instrumen Pasar Modal", "Mekanisme Transaksi Saham", "Manfaat dan Risiko Investasi", "Peran OJK dan BEI"] },
+        { "chapter": "Ekonomi: Lembaga Keuangan", "topics": ["Bank vs Non-Bank", "Fungsi dan Jenis Bank", "Lembaga Non-Bank", "Peran Lembaga Keuangan"] },
+        { "chapter": "Ekonomi: Perdagangan Internasional", "topics": ["Teori Perdagangan Internasional", "Ekspor dan Impor", "Perjanjian Perdagangan Bebas", "Dampak Perdagangan Global"] },
+        { "chapter": "Ekonomi: Bank Indonesia dan Kebijakan Moneter", "topics": ["Fungsi Bank Indonesia", "Instrumen Kebijakan Moneter", "Stabilitas Rupiah dan Inflasi", "Peran BI dalam Pertumbuhan Ekonomi"] },
+        { "chapter": "Ekonomi: Laporan Keuangan Sederhana", "topics": ["Tujuan Laporan Keuangan", "Komponen Laporan Keuangan", "Prinsip Akuntansi Dasar", "Contoh Laporan Keuangan"] },
+        { "chapter": "Geografi: Peta, Penginderaan Jauh, dan SIG", "topics": ["Jenis dan Fungsi Peta", "Interpretasi Citra Penginderaan Jauh", "Penggunaan SIG", "Aplikasi Teknologi Geospasial"] },
+        { "chapter": "Geografi: Kerjasama Internasional", "topics": ["Kerjasama Negara Maju dan Berkembang", "Bentuk Kerjasama", "Studi Kasus Organisasi Internasional", "Manfaat dan Tantangan Kerjasama"] },
+        { "chapter": "Geografi: Perubahan Iklim dan Lingkungan Global", "topics": ["Penyebab Perubahan Iklim", "Dampak Perubahan Iklim", "Upaya Internasional", "Kontribusi Individu dan Negara"] },
+        { "chapter": "Geografi: Perkembangan Wilayah dan Potensi SDA", "topics": ["Konsep Wilayah", "Potensi SDA", "Pemerataan Pembangunan", "Studi Kasus Kawasan"] },
+        { "chapter": "Geografi: Analisis Keruangan", "topics": ["Konsep Analisis Keruangan", "Analisis Sosial, Ekonomi, Lingkungan", "Pemetaan Potensi dan Masalah", "Perencanaan Berbasis Data Geospasial"] },
+        { "chapter": "Sosiologi: Perubahan Sosial dan Globalisasi", "topics": ["Konsep Perubahan Sosial", "Globalisasi dan Transformasi Budaya", "Modernisasi dan Dampaknya", "Tantangan Identitas Budaya Lokal"] },
+        { "chapter": "Sosiologi: Lembaga Sosial dan Interaksi", "topics": ["Fungsi Lembaga Sosial", "Jenis Lembaga Sosial", "Proses Sosialisasi", "Peran Lembaga Sosial"] },
+        { "chapter": "Sosiologi: Penelitian Sosial", "topics": ["Langkah Penelitian Sosial", "Teknik Pengumpulan Data", "Penyusunan Laporan Penelitian", "Implementasi Hasil Penelitian"] },
+        { "chapter": "Sosiologi: Penyimpangan Sosial dan Pengendalian", "topics": ["Pengertian Penyimpangan", "Penyebab Penyimpangan", "Bentuk Pengendalian Sosial", "Lembaga Pengendali"] },
+        { "chapter": "Sejarah: Proklamasi Kemerdekaan", "topics": ["Latar Belakang Proklamasi", "Makna Proklamasi", "Tokoh dan Dokumen Penting", "Respon Internasional"] },
+        { "chapter": "Sejarah: Perjuangan Mempertahankan Kemerdekaan", "topics": ["Agresi Militer Belanda", "Diplomasi", "Peran TNI dan Rakyat", "Konferensi Meja Bundar"] },
+        { "chapter": "Sejarah: Perkembangan Politik dan Ekonomi Pasca-Kemerdekaan", "topics": ["Sistem Pemerintahan", "Demokrasi di Indonesia", "Sistem Ekonomi Nasional", "Krisis dan Stabilitas Politik"] },
+        { "chapter": "Sejarah: Perkembangan Dunia dan Pengaruhnya", "topics": ["Perang Dingin", "Konflik Regional dan Internasional", "Dampak Globalisasi Politik dan Ekonomi", "Perubahan Tata Dunia"] },
+        { "chapter": "Sejarah: Peran Indonesia dalam Hubungan Internasional", "topics": ["Politik Luar Negeri Bebas Aktif", "Peran dalam Organisasi Internasional", "Diplomasi Budaya, Ekonomi, Perdamaian", "Isu Kontemporer"] }
+      ]
+    }
+  }
+}

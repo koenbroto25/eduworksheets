@@ -1,0 +1,156 @@
+# Daftar Materi Matematika Kurikulum Merdeka
+
+## Kelas 10 Semester 1
+### BAB 1: Eksponen dan Logaritma
+- **Sub Bab 1.1: Eksponen**
+  - Definisi eksponen (perpangkatan)
+  - Sifat-sifat eksponen (perkalian, pembagian, pangkat nol, dll.)
+  - Fungsi eksponen (pertumbuhan dan peluruhan)
+- **Sub Bab 1.2: Logaritma**
+  - Definisi logaritma (invers dari eksponen)
+  - Sifat-sifat logaritma
+  - Penerapan logaritma dalam menyelesaikan persamaan eksponensial
+
+### BAB 2: Barisan dan Deret
+- **Sub Bab 2.1: Barisan**
+  - Barisan aritmetika (dengan beda tetap)
+  - Barisan geometri (dengan rasio tetap)
+- **Sub Bab 2.2: Deret**
+  - Deret aritmetika (penjumlahan suku-suku barisan aritmetika)
+  - Deret geometri (penjumlahan suku-suku barisan geometri)
+
+### BAB 3: Sistem Persamaan dan Pertidaksamaan Linear
+- **Sub Bab 3.1: Sistem Persamaan Linear**
+  - Sistem Persamaan Linear Dua Variabel (SPLDV)
+  - Sistem Persamaan Linear Tiga Variabel (SPLTV)
+- **Sub Bab 3.2: Sistem Pertidaksamaan Linear**
+  - Sistem Pertidaksamaan Linear Dua Variabel (SPtLDV)
+
+### BAB 4: Fungsi Kuadrat
+- **Sub Bab 4.1: Fungsi Kuadrat**
+  - Definisi fungsi kuadrat
+  - Grafik fungsi kuadrat (parabola)
+  - Aplikasi fungsi kuadrat dalam pemodelan masalah
+
+### BAB 5: Trigonometri
+- **Sub Bab 5.1: Trigonometri Dasar**
+  - Pengenalan fungsi trigonometri
+  - Identitas trigonometri
+  - Aplikasi dalam segitiga
+
+### BAB 6: Vektor
+- **Sub Bab 6.1: Vektor**
+  - Pengenalan konsep vektor
+  - Operasi vektor
+  - Penerapan vektor dalam geometri
+
+### BAB 7: Statistika dan Peluang
+- **Sub Bab 7.1: Statistika**
+  - Pengantar statistika (data, penyajian data, ukuran pemusatan data)
+- **Sub Bab 7.2: Peluang**
+  - Konsep dasar peluang
+
+---
+
+## Kelas 10 Semester 2
+### BAB 1: Sistem Persamaan dan Pertidaksamaan Linear
+- **Sub Bab 1.1: Sistem Persamaan Linear**
+  - Menyelesaikan sistem persamaan linear dua variabel dan tiga variabel
+- **Sub Bab 1.2: Sistem Pertidaksamaan Linear**
+  - Menyelesaikan sistem pertidaksamaan linear dua variabel
+
+### BAB 2: Fungsi Kuadrat
+- **Sub Bab 2.1: Bentuk Umum Fungsi Kuadrat**
+  - Mempelajari bentuk umum f(x) = ax² + bx + c
+- **Sub Bab 2.2: Grafik Fungsi Kuadrat**
+  - Menggambar grafik fungsi kuadrat
+  - Menganalisis titik potong dengan sumbu x dan sumbu y
+- **Sub Bab 2.3: Aplikasi Fungsi Kuadrat**
+  - Penerapan fungsi kuadrat dalam berbagai masalah
+
+### BAB 3: Statistika
+- **Sub Bab 3.1: Pengumpulan Data**
+  - Mengumpulkan data dari berbagai sumber
+- **Sub Bab 3.2: Penyajian Data**
+  - Menyajikan data dalam bentuk tabel, diagram, dan grafik
+- **Sub Bab 3.3: Ukuran Pemusatan Data**
+  - Rata-rata, median, dan modus
+- **Sub Bab 3.4: Ukuran Penyebaran Data**
+  - Jangkauan, kuartil, dan simpangan baku
+
+### BAB 4: Peluang
+- **Sub Bab 4.1: Konsep Dasar Peluang**
+  - Definisi peluang, ruang sampel, dan kejadian
+- **Sub Bab 4.2: Peluang Kejadian**
+  - Menghitung peluang suatu kejadian
+- **Sub Bab 4.3: Peluang Komplemen**
+  - Peluang suatu kejadian yang tidak terjadi
+- **Sub Bab 4.4: Peluang Kejadian Majemuk**
+  - Peluang dari gabungan atau irisan dua kejadian
+
+### BAB 5: Eksponen dan Logaritma
+- **Sub Bab 5.1: Sifat-sifat Eksponen**
+  - Perkalian, pembagian, dan pemangkatan pada eksponen
+- **Sub Bab 5.2: Fungsi Eksponen**
+  - Fungsi eksponen dan grafiknya
+- **Sub Bab 5.3: Logaritma**
+  - Definisi logaritma dan hubungannya dengan eksponen
+  - Sifat-sifat logaritma
+
+### BAB 6: Barisan dan Deret
+- **Sub Bab 6.1: Barisan**
+  - Barisan aritmatika dan geometri
+- **Sub Bab 6.2: Deret**
+  - Deret aritmatika dan geometri
+
+### BAB 7: Trigonometri
+- **Sub Bab 7.1: Perbandingan Trigonometri**
+  - Sinus, cosinus, dan tangen pada segitiga siku-siku
+- **Sub Bab 7.2: Identitas Trigonometri**
+  - Hubungan antara perbandingan trigonometri
+- **Sub Bab 7.3: Grafik Fungsi Trigonometri**
+  - Grafik sinus, cosinus, dan tangen
+- **Sub Bab 7.4: Penerapan Trigonometri**
+  - Penerapan dalam berbagai masalah
+
+---
+
+## Kelas 11 Semester 1
+### BAB 1: Fungsi Komposisi dan Invers
+- **Sub Bab 1.1: Fungsi**
+  - Definisi fungsi, domain, kodomain, dan range
+- **Sub Bab 1.2: Fungsi Komposisi**
+  - Menggabungkan dua fungsi atau lebih
+- **Sub Bab 1.3: Fungsi Invers**
+  - Mencari invers suatu fungsi
+- **Sub Bab 1.4: Operasi Fungsi**
+  - Penjumlahan, pengurangan, perkalian, dan pembagian fungsi
+
+### BAB 2: Lingkaran
+- **Sub Bab 2.1: Lingkaran dan Busur Lingkaran**
+  - Konsep lingkaran, busur, dan unsur-unsur lainnya
+- **Sub Bab 2.2: Lingkaran dan Garis Singgung**
+  - Hubungan antara lingkaran dan garis singgung
+- **Sub Bab 2.3: Lingkaran dan Tali Busur**
+  - Konsep tali busur dalam lingkaran
+
+### BAB 3: Statistika
+- **Sub Bab 3.1: Ukuran Pemusatan Data**
+  - Mean, median, modus untuk data tunggal maupun berkelompok
+- **Sub Bab 3.2: Ukuran Penyebaran Data**
+  - Rentang, kuartil, simpangan kuartil, varians, dan standar deviasi
+- **Sub Bab 3.3: Penyajian Data**
+  - Tabel distribusi frekuensi, histogram, poligon, dan diagram batang
+- **Sub Bab 3.4: Analisis Data**
+  - Interpretasi dan pemaknaan hasil pengolahan data
+
+### BAB 4: Bilangan Kompleks
+- **Sub Bab 4.1: Bentuk Umum**
+  - 𝑧 = 𝑎 + 𝑏𝑖, di mana 𝑖² = −1
+- **Sub Bab 4.2: Operasi Bilangan Kompleks**
+  - Penjumlahan, pengurangan, perkalian, pembagian
+- **Sub Bab 4.3: Konjugat dan Modulus**
+  - Konsep konjugat kompleks dan penggunaannya
+- **Sub Bab 4.4: Bentuk Polar dan Eksponensial**
+  - Pengenalan awal bentuk polar
+

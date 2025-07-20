@@ -1,0 +1,3 @@
+ALTER TABLE "public"."curriculum"
+ALTER COLUMN "grade" SET DATA TYPE TEXT,
+ALTER COLUMN "semester" SET DATA TYPE TEXT;

@@ -1,0 +1,205 @@
+Kelas 1 Semester 1
+BAB 1: Bilangan dan Operasi Hitung
+
+Bilangan 1–10
+
+Mengurutkan Bilangan
+
+Membandingkan Bilangan
+
+Penjumlahan (hingga 10)
+
+Pengurangan (hingga 10)
+
+Nilai Tempat (satuan dan puluhan)
+
+BAB 2: Pengukuran
+
+Konsep Waktu (hari, jam)
+
+Panjang dengan satuan tidak baku (jengkal, hasta)
+
+BAB 3: Bangun Datar
+
+Mengenal bentuk persegi, segitiga, lingkaran
+
+BAB 4: Pola Bilangan
+
+Pola berulang sederhana (gambar/benda)
+
+BAB 5: Analisis Data Sederhana
+
+Mengelompokkan benda berdasarkan atribut
+
+Kelas 1 Semester 2
+BAB 1: Membilang dan Berhitung
+
+Bilangan sampai 20
+
+Hitung maju dan mundur
+
+Nilai tempat
+
+Membandingkan bilangan
+
+BAB 2: Operasi Hitung
+
+Penjumlahan & pengurangan (hingga 20)
+
+Konsep "lebih dari", "kurang dari", "selisih"
+
+Soal cerita
+
+BAB 3: Pengukuran
+
+Mengukur panjang (satuan tidak baku)
+
+Konsep waktu (jam dan hari)
+
+BAB 4: Bangun Datar
+
+Mengenal berbagai bentuk bangun datar
+
+BAB 5: Diagram
+
+Membaca diagram sederhana
+
+Kelas 2 Semester 1
+BAB 1: Bilangan
+
+Bilangan cacah sampai 1000
+
+Nilai tempat: satuan, puluhan, ratusan
+
+Perbandingan bilangan (> , < , =)
+
+BAB 2: Operasi Hitung
+
+Penjumlahan & pengurangan hingga 1000
+
+Hubungan antara penjumlahan dan pengurangan
+
+BAB 3: Pengukuran
+
+Panjang (cm, m)
+
+Waktu (jam, menit), durasi
+
+BAB 4: Data
+
+Membaca tabel dan grafik sederhana
+
+Menafsirkan informasi
+
+Kelas 2 Semester 2
+BAB 1: Bilangan
+
+Membaca, menulis, mengurutkan bilangan hingga 1000
+
+Nilai tempat
+
+Penjumlahan & pengurangan (hingga 1000)
+
+BAB 2: Pengukuran
+
+Panjang (cm, m)
+
+Berat (kg, gram)
+
+Waktu dan durasi
+
+BAB 3: Perkalian dan Pembagian
+
+Konsep perkalian sebagai penjumlahan berulang
+
+Perkalian dasar (2, 5, 10)
+
+Konsep pembagian
+
+Soal cerita
+
+BAB 4: Bangun Datar
+
+Bentuk bangun datar
+
+Sifat-sifat bangun
+
+Menggambar bentuk
+
+BAB 5: Pecahan
+
+Konsep pecahan sederhana (½, ¼)
+
+Bagian dari benda
+
+BAB 6: Data
+
+Membaca tabel/grafik sederhana
+
+Mengumpulkan & menyajikan data
+
+Kelas 3 Semester 1
+BAB 1: Bilangan
+
+Bilangan cacah hingga 1000
+
+Nilai tempat
+
+Urutan dan perbandingan bilangan
+
+Letak pada garis bilangan
+
+BAB 2: Operasi Hitung
+
+Penjumlahan dan pengurangan
+
+Perkalian (konsep dan soal cerita)
+
+Pembagian (konsep dasar)
+
+BAB 3: Pengukuran
+
+Panjang, berat, waktu
+
+BAB 4: Geometri
+
+Bangun datar (identifikasi dan unsur)
+
+Pengenalan bangun ruang
+
+BAB 5: Pecahan
+
+Pengenalan pecahan sederhana
+
+BAB 6: Soal Cerita
+
+Penerapan penjumlahan, pengurangan, perkalian
+
+BAB 7: Uang
+
+Mengenal pecahan uang dan penggunaannya
+
+BAB 8: Garis Bilangan
+
+Letak bilangan
+
+BAB 9: Diagram Garis
+
+Membaca diagram garis sederhana
+
+Kelas 3 Semester 2
+BAB 1: Pecahan
+
+Membandingkan pecahan sederhana
+
+BAB 2: Bangun Datar
+
+Mengenal bentuk, sisi, dan sudut
+
+BAB 3: Keliling dan Luas
+
+Menghitung keliling dan luas persegi & persegi panjang
+
+BAB 4: Penyajian Data
+
+Menyajikan, mengurutkan, membandingkan data dalam tabel
