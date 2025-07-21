@@ -18,7 +18,7 @@ const PublicTakeExercisePage: React.FC = () => {
 
   useEffect(() => {
     const fetchExerciseData = async () => {
-      if (!exerciseId || !user) return;
+      if (!exerciseId) return;
 
       try {
         setLoading(true);
@@ -35,7 +35,7 @@ const PublicTakeExercisePage: React.FC = () => {
     };
 
     fetchExerciseData();
-  }, [exerciseId, user]);
+  }, [exerciseId]);
 
   const handleComplete = async (results: any) => {
     if (!user || !exercise) return;

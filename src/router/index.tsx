@@ -123,6 +123,12 @@ const AppRoutes: React.FC = () => {
         </MainLayout>
       } />
 
+      <Route path="/take-exercise/:exerciseId" element={
+        <MainLayout>
+          <PublicTakeExercisePage />
+        </MainLayout>
+      } />
+
       {/* Protected Routes */}
       <Route path="/library/exercise/:exerciseId" element={
         <ProtectedRoute>

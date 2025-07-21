@@ -349,24 +349,16 @@ export const supabaseService = {
 
   async createClass(supabase: SupabaseClient, classData: { name: string; description: string }): Promise<{ data: any, error: any }> {
     const { name, description } = classData;
-    const classCode = this.generateClassCode();
 
-    const { data: authData, error: authError } = await supabase.auth.getUser();
-    if (authError || !authData?.user) {
-      return { data: null, error: authError || new Error("Could not get user") };
-    }
-
+    // Call the new RPC function to create the class securely.
     const { data, error } = await supabase
-      .from(TABLES.CLASSES)
-      .insert([{
-        name,
-        description,
-        teacher_id: authData.user.id,
-        class_code: classCode,
-      }])
-      .select()
-      .single();
+      .rpc('create_class_rpc', {
+        class_name: name,
+        class_description: description,
+      });
 
+    // The RPC will handle the teacher check and insertion.
+    // It returns the new class ID on success or throws an error on failure.
     return { data, error };
   },
 

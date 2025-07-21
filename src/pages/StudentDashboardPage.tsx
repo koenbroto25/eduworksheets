@@ -5,6 +5,7 @@ import { supabaseService } from '../services/supabaseService';
 import AssignmentsWidget from '../components/student-dashboard/AssignmentsWidget';
 import ProgressWidget from '../components/student-dashboard/ProgressWidget';
 import TodayFocusWidget from '../components/student-dashboard/TodayFocusWidget';
+import JoinClassWidget from '../components/student-dashboard/JoinClassWidget';
 
 const StudentDashboardPage = () => {
   const { user, supabase, isLoading: isAuthLoading } = useAuth();
@@ -80,6 +81,7 @@ const StudentDashboardPage = () => {
         <div className="space-y-8">
           <TodayFocusWidget assignments={dashboardData?.allAssignments} />
           <ProgressWidget recentGrades={dashboardData?.recentGrades} />
+          <JoinClassWidget />
         </div>
       </div>
     </div>

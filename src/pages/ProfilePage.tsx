@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { User, Mail, Calendar, Edit3, Save, X } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { User, Mail, Calendar, Edit3, Save, X, ArrowLeft } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { Button } from '../components/common/Button';
 import { Input } from '../components/common/Input';
 
 export const ProfilePage: React.FC = () => {
   const { user, updateUser } = useAuth();
+  const navigate = useNavigate();
   const [isEditing, setIsEditing] = useState(false);
   const [formData, setFormData] = useState({
     name: user?.name || '',
@@ -27,6 +29,10 @@ export const ProfilePage: React.FC = () => {
     setIsEditing(false);
   };
 
+  const handleBack = () => {
+    navigate(-1);
+  };
+
   if (!user) {
     return (
       <div className="text-center py-12">
@@ -37,9 +43,21 @@ export const ProfilePage: React.FC = () => {
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">
-      <div>
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Profile</h1>
-        <p className="text-gray-600">Manage your account information</p>
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-4">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={handleBack}
+            className="p-2"
+          >
+            <ArrowLeft className="h-4 w-4" />
+          </Button>
+          <div>
+            <h1 className="text-3xl font-bold text-gray-900">Profile</h1>
+            <p className="text-gray-600">Manage your account information</p>
+          </div>
+        </div>
       </div>
 
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">

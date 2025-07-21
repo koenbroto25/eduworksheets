@@ -290,3 +290,8 @@ export interface ClassState {
   isLoading: boolean;
   error: string | null;
 }
+
+export interface FindByCodeResponse {
+  type: 'class' | 'exercise' | 'user';
+  details: any; // Can be Class, Exercise, or User
+}
