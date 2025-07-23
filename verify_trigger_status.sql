@@ -1,30 +1,17 @@
--- Skrip SQL untuk Memverifikasi Keberadaan Trigger 'update_user_progress'
--- Jalankan skrip ini di editor SQL Supabase Anda untuk memeriksa apakah
--- trigger yang menghubungkan tabel 'exercise_attempts' dengan fungsi
--- 'update_user_progress' sudah ada.
+-- This script checks the status of triggers on the 'class_exercises' table.
+-- It helps diagnose issues related to duplicate or faulty triggers.
+-- This version uses pg_trigger for more detailed and accurate status information.
 
 SELECT
     tgname AS trigger_name,
-    tgrelid::regclass AS table_name,
-    p.proname AS function_name,
-    CASE tgenabled
-        WHEN 'O' THEN 'Enabled'
-        WHEN 'D' THEN 'Disabled'
-        ELSE 'Unknown'
-    END AS status
+    tgtype AS trigger_type,
+    tgenabled AS status,
+    proname AS function_name
 FROM
-    pg_trigger t
+    pg_trigger
 JOIN
-    pg_proc p ON t.tgfoid = p.oid
+    pg_class ON pg_trigger.tgrelid = pg_class.oid
+JOIN
+    pg_proc ON pg_trigger.tgfoid = pg_proc.oid
 WHERE
-    p.proname = 'update_user_progress';
-
--- HASIL YANG DIHARAPKAN:
--- Jika trigger sudah ada dan benar, Anda akan melihat baris seperti ini:
---
--- trigger_name              | table_name         | function_name        | status
--- --------------------------+--------------------+----------------------+---------
--- on_exercise_attempt_change| exercise_attempts  | update_user_progress | Enabled
---
--- Jika hasilnya kosong, itu berarti trigger tersebut belum ada, dan file
--- migrasi untuk menambahkannya perlu dijalankan.
+    pg_class.relname = 'class_exercises';

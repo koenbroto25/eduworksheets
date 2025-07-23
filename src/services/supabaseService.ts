@@ -335,6 +335,14 @@ export const supabaseService = {
     return { error };
   },
 
+  async assignExerciseToClasses(supabase: SupabaseClient, exerciseId: string, classIds: string[]) {
+    const { error } = await supabase.rpc('assign_exercise_to_classes', {
+      p_exercise_id: exerciseId,
+      p_class_ids: classIds,
+    });
+    return { error };
+  },
+
   async getAssignmentsForClass(supabase: SupabaseClient, classId: string) {
     const { data, error } = await supabase
       .from('teacher_assignments')

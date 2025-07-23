@@ -201,21 +201,18 @@ const MyExercises = () => {
               alert('You must be logged in to assign exercises.');
               return;
             }
-            const assignments = selectedClassIds.map((classId) => {
-              const dueDate = new Date();
-              dueDate.setDate(dueDate.getDate() + 7);
-              return {
-                class_id: classId,
-                exercise_id: selectedExercise.id,
-                due_date: dueDate.toISOString(),
-              };
-            });
-            const { error } = await supabase.from('class_exercises').insert(assignments);
+            const { error } = await supabaseService.assignExerciseToClasses(
+              supabase,
+              selectedExercise.id,
+              selectedClassIds
+            );
+
             if (error) {
               console.error('Error assigning exercise:', error);
               alert(`Gagal menugaskan latihan: ${error.message}`);
             } else {
               alert('Latihan berhasil ditugaskan!');
+              // Optionally, refresh the assigned status here if needed
               setIsAssignModalOpen(false);
             }
           }}

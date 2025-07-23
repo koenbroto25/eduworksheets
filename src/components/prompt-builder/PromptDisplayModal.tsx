@@ -20,17 +20,11 @@ export const PromptDisplayModal: React.FC<PromptDisplayModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-3xl relative">
-        <button
-          onClick={onClose}
-          className="absolute top-4 right-4 text-gray-500 hover:text-gray-800"
-        >
-          <X className="h-6 w-6" />
-        </button>
-        <div className="flex items-center justify-between mb-4">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+      <div className="bg-white rounded-xl shadow-lg w-full max-w-3xl max-h-screen flex flex-col">
+        <div className="flex-shrink-0 p-6 border-b border-gray-200 flex items-center justify-between">
           <h3 className="text-xl font-semibold text-gray-900">Prompt yang Dihasilkan</h3>
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <Button variant="outline" size="sm" onClick={() => navigator.clipboard.writeText(prompt)}>
               <Copy className="h-4 w-4 mr-1" />
               Salin
@@ -39,16 +33,23 @@ export const PromptDisplayModal: React.FC<PromptDisplayModalProps> = ({
               <Download className="h-4 w-4 mr-1" />
               Unduh
             </Button>
+            <button
+              onClick={onClose}
+              className="text-gray-500 hover:text-gray-800"
+            >
+              <X className="h-6 w-6" />
+            </button>
           </div>
         </div>
-        
-        <div className="bg-gray-50 rounded-lg p-4 max-h-[60vh] overflow-y-auto">
-          <pre className="text-sm text-gray-700 whitespace-pre-wrap font-mono">
-            {prompt}
-          </pre>
-        </div>
-        
-        <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+
+        <div className="overflow-y-auto p-6 space-y-4">
+          <div className="bg-gray-50 rounded-lg p-4 max-h-[40vh] overflow-y-auto">
+            <pre className="text-sm text-gray-700 whitespace-pre-wrap font-mono">
+              {prompt}
+            </pre>
+          </div>
+
+          <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
           <h4 className="font-semibold text-blue-900 mb-2">Langkah Selanjutnya: Gunakan Qwen AI</h4>
           <p className="text-sm text-blue-800 mb-3">
             Kami merekomendasikan **Qwen AI** untuk menghasilkan soal berkualitas tinggi.
@@ -73,17 +74,19 @@ export const PromptDisplayModal: React.FC<PromptDisplayModalProps> = ({
               **Kembali & Tempel**: Kembali ke aplikasi ini dan tempelkan kode JSON tersebut ke kolom **"Tempel JSON"** di tab sebelumnya.
             </li>
           </ol>
-          <div className="mt-4 flex justify-center gap-4">
-            <Button onClick={onCopy} size="lg">
-              <Copy className="h-5 w-5 mr-2" />
-              Salin Prompt & Buka AI
-            </Button>
-            <Button onClick={onClose} size="lg" variant="secondary">
-              Tutup
-            </Button>
-          </div>
         </div>
       </div>
+      
+      <div className="flex-shrink-0 p-6 border-t border-gray-200 flex justify-center gap-4">
+        <Button onClick={onCopy} size="lg">
+          <Copy className="h-5 w-5 mr-2" />
+          Salin Prompt & Buka AI
+        </Button>
+        <Button onClick={onClose} size="lg" variant="secondary">
+          Tutup
+        </Button>
+      </div>
     </div>
+  </div>
   );
 };

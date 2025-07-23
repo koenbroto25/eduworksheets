@@ -27,32 +27,28 @@ Investigasi yang mendalam mengungkapkan dua masalah utama yang saling terkait:
     4.  Sebuah migrasi tambahan (`...force_refresh_assignment_trigger.sql`) dibuat untuk secara eksplisit `DROP` dan `CREATE` ulang trigger, sebuah tindakan yang seharusnya memaksa database untuk menggunakan definisi fungsi yang baru.
 -   **Kesimpulan Akhir:** Kegagalan bahkan setelah me-refresh trigger menunjukkan masalah yang sangat persisten dengan keadaan database, di mana perubahan pada fungsi trigger tidak diterapkan seperti yang diharapkan.
 
-## 3. Rencana Solusi Definitif (Revisi Final)
+## 3. Investigasi & Resolusi Final
 
-Karena semua upaya untuk memperbaiki dan me-refresh trigger yang ada telah gagal, pendekatan yang paling aman dan dijamin berhasil adalah dengan **mengisolasi dan mengganti sepenuhnya logika yang bermasalah**.
+Investigasi lebih lanjut pada riwayat migrasi mengungkapkan akar masalah yang sebenarnya.
 
-### Langkah 1: Nonaktifkan Trigger yang Bermasalah (Isolasi)
+### Langkah 1: Implementasi Awal (Benar Sebagian)
 
-Langkah pertama adalah membuktikan secara definitif bahwa `on_new_assignment_trigger` adalah sumber error. Kita akan menonaktifkannya sementara.
+-   **Aksi:** Migrasi `...115000_disable_faulty_assignment_trigger.sql` dibuat untuk menonaktifkan trigger `on_new_assignment_trigger` yang bermasalah. Ini adalah langkah diagnosis yang benar.
+-   **Aksi Berikutnya:** Migrasi `...115500_recreate_assignment_notification_trigger.sql` dibuat untuk menciptakan fungsi (`handle_new_assignment_notification`) dan trigger (`trigger_notify_on_new_assignment`) baru yang benar dan terisolasi.
 
--   **Aksi:** Membuat file migrasi baru yang hanya berisi perintah: `ALTER TABLE public.class_exercises DISABLE TRIGGER on_new_assignment_trigger;`.
--   **Tujuan:** Jika penugasan berhasil setelah ini, maka kita 100% yakin bahwa trigger tersebut adalah penyebabnya. Notifikasi untuk sementara tidak akan berfungsi, tetapi error akan hilang.
+### Langkah 2: Kesalahan Kritis dalam Migrasi
 
-### Langkah 2: Membuat Fungsi & Trigger Notifikasi yang Baru dan Terisolasi (Penggantian)
+-   **Masalah:** Di akhir migrasi `...115500_recreate...`, terdapat baris `ALTER TABLE public.class_exercises ENABLE TRIGGER on_new_assignment_trigger;`.
+-   **Dampak:** Perintah ini **mengaktifkan kembali trigger lama yang salah**. Akibatnya, setiap kali `INSERT` ke `class_exercises` terjadi, **dua trigger** akan berjalan: satu yang benar dan satu yang salah. Trigger yang salah inilah yang terus menyebabkan transaksi gagal dan memunculkan error.
 
-Daripada mencoba memperbaiki fungsi `handle_notification_creation` yang kompleks dan digunakan bersama, kita akan membuat fungsi dan trigger baru yang didedikasikan **hanya** untuk penugasan latihan.
+### Langkah 3: Solusi Definitif (Pembersihan)
 
--   **Nama Fungsi Baru:** `handle_new_assignment_notification`
--   **Logika:** Fungsi ini akan berisi **hanya** logika yang diperlukan untuk menangani notifikasi penugasan baru. Ia akan mengambil `NEW.class_id`, mencari semua `student_id` di `class_students`, dan membuat notifikasi yang sesuai. Fungsi ini akan ramping dan mudah diverifikasi.
--   **Nama Trigger Baru:** `trigger_notify_on_new_assignment`
--   **Aksi:** Membuat file migrasi baru untuk membuat fungsi dan trigger baru ini, yang akan dipasang pada `AFTER INSERT ON public.class_exercises`.
+-   **Aksi:** Migrasi `...122500_definitively_drop_faulty_trigger.sql` dibuat untuk menyelesaikan masalah ini secara permanen.
+-   **Logika:** Migrasi ini secara eksplisit dan permanen **menghapus** trigger `on_new_assignment_trigger` dari database menggunakan perintah `DROP TRIGGER`.
+-   **Hasil:** Hanya trigger `trigger_notify_on_new_assignment` yang benar yang tersisa, memastikan logika notifikasi berjalan seperti yang diharapkan tanpa konflik.
 
-### Langkah 3: Membersihkan Trigger Lama (Opsional, Direkomendasikan)
+## 4. Kesimpulan Akhir
 
-Setelah fungsi dan trigger baru terbukti berfungsi, kita dapat dengan aman menghapus trigger `on_new_assignment_trigger` yang lama dari fungsi `handle_notification_creation` untuk menghindari kebingungan di masa depan.
+Masalah ini bukan lagi tentang logika yang salah, melainkan tentang **status database yang tidak konsisten** akibat urutan migrasi yang keliru. Solusi yang benar telah ada di dalam kode melalui migrasi `...122500_definitively_drop_faulty_trigger.sql`.
 
-## 4. Hasil Akhir yang Diharapkan
-
--   **Error Teratasi:** Dengan menonaktifkan trigger yang lama dan menggantinya dengan yang baru dan terisolasi, error `record "new" has no field "student_id"` akan hilang secara definitif.
--   **Fungsionalitas Kembali:** Notifikasi untuk tugas baru akan berfungsi kembali seperti yang diharapkan.
--   **Kode yang Lebih Baik:** Memisahkan logika notifikasi ke dalam fungsi-fungsi yang lebih kecil dan terfokus adalah praktik terbaik yang membuat sistem lebih mudah dipelihara dan di-debug di masa depan.
+Langkah selanjutnya adalah memastikan semua migrasi telah diterapkan dengan benar di lingkungan database untuk menyinkronkan statusnya dengan kode yang terbaru.
