@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
   ];
 
   const studentNavItems = [
-    { to: '/dashboard', label: 'Dasbor Saya' },
+    { to: '/student-dashboard', label: 'Dasbor Saya' },
     { to: '/library', label: 'Perpustakaan Latihan' },
     { to: '/classes', label: 'Kelas Saya' }
   ];

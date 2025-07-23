@@ -1088,19 +1088,22 @@ export const supabaseService = {
   },
 
   async findByCode(supabase: SupabaseClient, code: string) {
+    // The RPC now returns a single JSON object or NULL.
     const { data, error } = await supabase
-      .rpc('find_by_code', { p_code: code })
-      .single();
-    
+      .rpc('find_by_code', { p_code: code });
+
     if (error) {
-      // Handle "multiple (or no) rows returned" specifically
-      if (error.code === 'PGRST116') {
-        return { data: null, error: new Error('Code not found.') };
-      }
+      // Pass through any real database errors.
       return { data: null, error };
     }
 
-    return { data, error };
+    // If data is null, it means the code was not found. This is the new, robust check.
+    if (!data) {
+      return { data: null, error: new Error('Code not found.') };
+    }
+
+    // The data is the JSON object we need.
+    return { data, error: null };
   },
 
   updateClassExerciseSettings: async (supabase: SupabaseClient, classExerciseId: string, settings: any) => {
