@@ -5,11 +5,14 @@ import { FilterDropdown } from '../common/FilterDropdown';
 import { Button } from '../common/Button';
 import { fetchFilterOptions, sortOptions } from '../../data/filterOptions';
 import { EditExerciseInfoModal } from './EditExerciseInfoModal';
+import { AssignToClassModal } from '../classroom/AssignToClassModal';
+import { supabase } from '../../services/supabaseClient';
 
 const MyExercises = () => {
-  const { user, supabase } = useAuth();
+  const { user, supabase: authSupabase } = useAuth();
   const [exercises, setExercises] = useState<any[]>([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isAssignModalOpen, setIsAssignModalOpen] = useState(false);
   const [selectedExercise, setSelectedExercise] = useState<any>(null);
   const [filters, setFilters] = useState({
     grade: 'all',
@@ -39,8 +42,8 @@ const MyExercises = () => {
 
   useEffect(() => {
     const fetchExercises = async () => {
-      if (user && supabase) {
-        const { data, error } = await supabaseService.getUserExercises(supabase, user.id, filters);
+      if (user && authSupabase) {
+        const { data, error } = await supabaseService.getUserExercises(authSupabase, user.id, filters);
         if (data) {
           setExercises(data);
         } else if (error) {
@@ -63,6 +66,11 @@ const MyExercises = () => {
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setSelectedExercise(null);
+  };
+
+  const handleAssign = (exercise: any) => {
+    setSelectedExercise(exercise);
+    setIsAssignModalOpen(true);
   };
 
   const handleSaveModal = (updatedExercise: any) => {
@@ -165,6 +173,7 @@ const MyExercises = () => {
                 </div>
               </div>
               <div className="mt-4 flex justify-end items-center space-x-2">
+                <Button size="sm" variant="primary" onClick={() => handleAssign(exercise)}>+ Gunakan di Kelas Saya</Button>
                 <Button size="sm" variant="outline" onClick={() => handleEdit(exercise)}>Edit</Button>
                 <Button size="sm">Share</Button>
                 <Button size="sm" variant="danger" onClick={() => handleDelete(exercise.id)}>Delete</Button>
@@ -175,12 +184,41 @@ const MyExercises = () => {
           <p>You haven't created any exercises yet.</p>
         )}
       </div>
-      {selectedExercise && (
+      {selectedExercise && isModalOpen && (
         <EditExerciseInfoModal
           exercise={selectedExercise}
           isOpen={isModalOpen}
           onClose={handleCloseModal}
           onSave={handleSaveModal}
+        />
+      )}
+      {selectedExercise && isAssignModalOpen && (
+        <AssignToClassModal
+          exercise={selectedExercise}
+          onClose={() => setIsAssignModalOpen(false)}
+          onAssign={async (selectedClassIds) => {
+            if (!user) {
+              alert('You must be logged in to assign exercises.');
+              return;
+            }
+            const assignments = selectedClassIds.map((classId) => {
+              const dueDate = new Date();
+              dueDate.setDate(dueDate.getDate() + 7);
+              return {
+                class_id: classId,
+                exercise_id: selectedExercise.id,
+                due_date: dueDate.toISOString(),
+              };
+            });
+            const { error } = await supabase.from('class_exercises').insert(assignments);
+            if (error) {
+              console.error('Error assigning exercise:', error);
+              alert(`Gagal menugaskan latihan: ${error.message}`);
+            } else {
+              alert('Latihan berhasil ditugaskan!');
+              setIsAssignModalOpen(false);
+            }
+          }}
         />
       )}
     </div>

@@ -19,24 +19,37 @@ export const AssignToClassModal: React.FC<AssignToClassModalProps> = ({
   const { user } = useAuth();
   const [classes, setClasses] = useState<Class[]>([]);
   const [selectedClasses, setSelectedClasses] = useState<string[]>([]);
+  const [assignedClassIds, setAssignedClassIds] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchClasses = async () => {
+    const fetchInitialData = async () => {
       if (user && user.role === 'teacher') {
-        const { data, error } = await supabaseService.getUserClasses(supabase, user.id, 'teacher');
+        setLoading(true);
+        // Fetch all classes the teacher owns
+        const { data: classData, error: classError } = await supabaseService.getUserClasses(supabase, user.id, 'teacher');
+        if (classError) {
+          console.error('Error fetching classes:', classError);
+        } else if (classData) {
+          setClasses(classData as Class[]);
+        }
 
-        if (error) {
-          console.error('Error fetching classes:', error);
-        } else if (data) {
-          setClasses(data as Class[]);
+        // Fetch classes where the exercise is already assigned
+        const exerciseId = 'exercise_id' in exercise ? exercise.exercise_id : exercise.id;
+        const { data: assignedData, error: assignedError } = await supabase
+          .rpc('get_assigned_class_ids_for_exercise', { p_exercise_id: exerciseId });
+
+        if (assignedError) {
+          console.error('Error fetching assigned classes:', assignedError);
+        } else if (assignedData) {
+          setAssignedClassIds(assignedData.map((item: any) => item.class_id));
         }
       }
       setLoading(false);
     };
 
-    fetchClasses();
-  }, [user]);
+    fetchInitialData();
+  }, [user, exercise]);
 
   const handleCheckboxChange = (classId: string) => {
     setSelectedClasses((prev) =>
@@ -66,10 +79,19 @@ export const AssignToClassModal: React.FC<AssignToClassModalProps> = ({
                     id={`class-${cls.id}`}
                     checked={selectedClasses.includes(cls.id)}
                     onChange={() => handleCheckboxChange(cls.id)}
-                    className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                    disabled={assignedClassIds.includes(cls.id)}
+                    className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500 disabled:bg-gray-200 disabled:cursor-not-allowed"
                   />
-                  <label htmlFor={`class-${cls.id}`} className="ml-2 block text-sm text-gray-900">
+                  <label
+                    htmlFor={`class-${cls.id}`}
+                    className={`ml-2 block text-sm ${
+                      assignedClassIds.includes(cls.id) ? 'text-gray-500' : 'text-gray-900'
+                    }`}
+                  >
                     {cls.name}
+                    {assignedClassIds.includes(cls.id) && (
+                      <span className="text-xs text-gray-400 ml-2">(Sudah ditugaskan)</span>
+                    )}
                   </label>
                 </div>
               ))

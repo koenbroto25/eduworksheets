@@ -211,19 +211,10 @@ export const ExerciseCard: React.FC<ExerciseCardProps> = ({
               return;
             }
 
-            const assignments = selectedClassIds.map((classId) => {
-              const dueDate = new Date();
-              dueDate.setDate(dueDate.getDate() + 7); // Set due date to 7 days from now
-              return {
-                class_id: classId,
-                exercise_id: exerciseId,
-                due_date: dueDate.toISOString(),
-              };
+            const { error } = await supabase.rpc('assign_exercise_to_classes', {
+              p_exercise_id: exerciseId,
+              p_class_ids: selectedClassIds,
             });
-
-            const { error } = await supabase
-              .from('class_exercises')
-              .insert(assignments);
 
             if (error) {
               console.error('Error assigning exercise to classes:', error);

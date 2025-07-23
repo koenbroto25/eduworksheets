@@ -1,0 +1,290 @@
+Susunan Materi TIK (Informatika) Kelas 7 Semester 1 Kurikulum Merdeka dalam bentuk Bab dan Subbab:
+
+Bab 1: Informatika dan Keterampilan Generik
+Informatika untuk Pelajar SMP
+
+Informatika dan Profil Pelajar Pancasila
+
+Pengantar Keterampilan Generik (Kerja Kelompok & Komunikasi Hasil Kerja)
+
+Bab 2: Berpikir Komputasional
+Algoritma
+
+Optimasi Penjadwalan
+
+Struktur Data
+
+Representasi Data
+
+Bab 3: Teknologi Informasi dan Komunikasi
+Antarmuka Pengguna (User Interface)
+
+Pengelolaan Folder dan File di Windows
+
+Peramban (Browser) dan Mesin Pencari (Search Engine)
+
+Surat Elektronik (Email)
+
+Aplikasi Perkantoran (Sejarah & Penggunaan Pengolah Kata)
+
+Bab 4: Sistem Komputer
+Perangkat Keras (Input, Proses, Output, Penyimpanan, Lainnya)
+
+Spesifikasi Perangkat Keras
+
+Perangkat Lunak (Sistem Operasi & Aplikasi)
+
+Bilangan Biner
+
+Mesin Fax dan Modem
+
+Operasi Bilangan Biner (Lebih dari 31 & Pengembangan Bilangan Biner)
+
+
+Susunan Materi TIK (Informatika) Kelas 7 Semester 2 Kurikulum Merdeka dalam format Bab dan Subbab:
+
+Bab 1: Analisis Data
+Pengolahan dan analisis data menggunakan perangkat lunak lembar kerja (misalnya Excel)
+
+Bab 2: Algoritma dan Pemrograman
+Dasar-dasar algoritma
+
+Dasar-dasar pemrograman
+
+Penerapan berpikir komputasional
+
+Bab 3: Dampak Sosial Informatika
+Dampak positif dan negatif penggunaan teknologi informasi dalam kehidupan sosial
+
+Bab 4: Praktika Lintas Bidang Informatika
+Penerapan informatika dalam berbagai bidang pembelajaran (plugged & unplugged)
+
+Bab 5: Jaringan Komputer dan Internet
+Konsep dasar jaringan komputer
+
+Cara kerja internet
+
+Akses dan penggunaan informasi di internet
+
+Susunan Materi TIK (Informatika) Kelas 8 Semester 1 Kurikulum Merdeka dalam bentuk Bab dan Subbab:
+
+Bab 1: Perangkat Keras dan Perangkat Lunak Komputer
+Komponen perangkat keras komputer
+
+Jenis-jenis perangkat lunak komputer
+
+Bab 2: Sistem Operasi Komputer
+Fungsi dan peran sistem operasi
+
+Contoh sistem operasi
+
+Bab 3: Pengolah Kata (Word Processor)
+Pengenalan aplikasi pengolah kata
+
+Pembuatan dokumen dasar dan pengaturan format
+
+Penyisipan elemen dalam dokumen
+
+Bab 4: Internet dan Jaringan Komputer
+Pengertian internet dan jaringan komputer
+
+Pengiriman data dalam jaringan
+
+Teknologi komunikasi ponsel dan akses internet aman
+
+Bab 5: Keamanan dan Etika Digital
+Keamanan siber dan perlindungan data pribadi
+
+Malware dan ancaman digital
+
+Etika penggunaan internet
+
+Bab 6: Algoritma dan Pemrograman
+Konsep dasar algoritma dan pemrograman
+
+Struktur pemrograman: input, variabel, percabangan, perulangan
+
+Pengenalan Blockly Games dan penggunaan robot Ozobot
+
+Bab 7: Dampak Informatika pada Kehidupan Sosial
+Dampak media sosial dan informatika dalam kehidupan sosial
+
+Analisis kritis informasi media sosial
+
+Isu cyberbullying
+
+Bab 8: Praktik Lintas Bidang Informatika
+Studi kasus dan proyek berbasis kehidupan nyata
+
+Contoh penerapan proyek: media interaktif dan mesin hitung
+
+
+
+Susunan Materi TIK (Informatika) Kelas 8 Semester 2 Kurikulum Merdeka dalam bentuk Bab dan Subbab:
+
+Bab 1: Jaringan Komputer dan Internet
+Jaringan Komputer (LAN, Internet, konfigurasi jaringan, routing)
+
+Komunikasi Data pada Ponsel
+
+Cara Terhubung ke Internet secara Aman
+
+Bab 2: Analisis Data
+Pencarian Data (lookup dan reference)
+
+Visualisasi Data (tabel, grafik)
+
+Peringkasan Data (SUMIFS, COUNTIFS, Pivot Table)
+
+Pengelolaan Data
+
+Bab 3: Algoritma dan Pemrograman
+Eksplorasi Lanjutan Scratch
+
+Blockly Games (Puzzle Maze, Music, Sprites)
+
+Pengenalan Pemrograman Prosedural
+
+Modul Tambahan: Bermain dengan Robot Ozobot
+
+Bab 4: Dampak Sosial Informatika
+Media Sosial: Sejarah, Fungsi, Dampak
+
+Mengkaji Kritis Informasi di Media Sosial
+
+Cyberbullying dan Pencegahannya
+
+Bab 5: Praktik Lintas Bidang
+Pembuatan Media Interaktif Lempeng Bumi
+
+Modifikasi Mesin Hitung Uang Koin
+
+
+
+Susunan Materi Informatika (TIK) Kelas 9 Semester 1 Kurikulum Merdeka dalam format Bab dan Subbab:
+
+Bab 1: Berpikir Komputasional
+Pengertian dan Konsep Dasar Berpikir Komputasional
+
+Dekomposisi Masalah
+
+Pengenalan Pola (Pattern Recognition)
+
+Abstraksi Masalah
+
+Penyusunan dan Implementasi Algoritma
+
+Bab 2: Teknologi Informasi dan Komunikasi (TIK)
+Fungsi dan Manfaat TIK dalam Kehidupan Sehari-hari
+
+Perangkat Keras (Hardware)
+
+Perangkat Lunak (Software)
+
+Sistem Operasi (Operating System)
+
+Aplikasi TIK di Berbagai Bidang
+
+Bab 3: Sistem Komputer
+Komponen Sistem Komputer dan Fungsinya
+
+Cara Kerja Sistem Komputer
+
+Interaksi antara Hardware dan Software
+
+Sistem Komputer dalam Kehidupan Sehari-hari
+
+Bab 4: Jaringan Komputer dan Internet
+Konsep Dasar Jaringan Komputer
+
+Jenis-Jenis Jaringan Komputer
+
+Protokol Jaringan
+
+Cara Kerja Internet dan Keamanan Data
+
+Bab 5: Analisis Data
+Pengumpulan Data
+
+Pengolahan dan Penyajian Data
+
+Visualisasi Data (Tabel, Grafik, Chart)
+
+Penggunaan Aplikasi Pengolah Data (Microsoft Excel, Google Sheets)
+
+Susunan Materi Informatika (TIK) Kelas 9 Semester 2 Kurikulum Merdeka dalam format Bab dan Subbab:
+
+Bab 1: Berpikir Komputasional
+Struktur Data
+
+Pengenalan Struktur Data
+
+Struktur Data Pohon (Tree)
+
+Struktur Data Graf (Graph)
+
+Ekspresi dan Logika
+
+Operasi Logika Dasar
+
+Pemecahan Masalah dengan Logika
+
+Algoritma
+
+Konsep Dasar dan Penyusunan Algoritma
+
+Penerapan Algoritma dalam Pemrograman
+
+Bab 2: Teknologi Informasi dan Komunikasi (TIK)
+Internet dan Jaringan Komputer
+
+Cara Kerja Jaringan Komputer
+
+Cara Kerja Internet dan Protokol Dasarnya
+
+Perangkat Keras dan Perangkat Lunak Jaringan
+
+Browser dan Search Engine
+
+Pengenalan Browser
+
+Teknik Pencarian Informasi di Internet
+
+Aplikasi Sederhana
+
+Pengantar Pembuatan Aplikasi Sederhana
+
+Contoh dan Latihan Pembuatan Aplikasi
+
+Bab 3: Dampak Sosial Informatika
+Etika Digital
+
+Etika dalam Penggunaan Teknologi
+
+Tanggung Jawab dan Dampak Sosial
+
+Keamanan Digital
+
+Keamanan Data Pribadi
+
+Pencegahan Ancaman Siber
+
+Bab 4: Praktik Lintas Bidang Informatika
+Internet of Things (IoT)
+
+Konsep dan Contoh IoT
+
+Penerapan IoT di Kehidupan Sehari-hari
+
+Proyek Informatika
+
+Penerapan Berpikir Komputasional
+
+Proyek Kolaborasi dan Problem Solving
+
+Bab 5: Pengolahan Data dan Informasi
+Pengumpulan dan Analisis Data
+
+Visualisasi Data
+
+Penggunaan Software Pengolah Data (Excel/Google Sheets)

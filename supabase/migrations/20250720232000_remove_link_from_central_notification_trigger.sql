@@ -37,7 +37,7 @@ BEGIN
 
     -- Notify all students in the class
     FOR v_student_id IN
-      SELECT student_id FROM public.class_students WHERE class_id = v_class_id
+      SELECT cs.student_id FROM public.class_students cs WHERE cs.class_id = v_class_id
     LOOP
       v_message := 'Tugas baru di kelas ' || v_class_name || ': ' || v_exercise_title;
       INSERT INTO public.notifications (user_id, message, type)
@@ -52,7 +52,7 @@ BEGIN
 
     -- Notify all students in the class
     FOR v_student_id IN
-      SELECT student_id FROM public.class_students WHERE class_id = v_class_id
+      SELECT cs.student_id FROM public.class_students cs WHERE cs.class_id = v_class_id
     LOOP
       INSERT INTO public.notifications (user_id, message, type)
       VALUES (v_student_id, v_message, v_notification_type);
