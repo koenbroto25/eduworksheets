@@ -37,8 +37,9 @@ export const ExerciseCard: React.FC<ExerciseCardProps> = ({
     hard: 'bg-red-100 text-red-800',
   };
 
-  // This is the definitive exercise ID, whether it's a public exercise (id) or a class assignment (exercise_id)
-  const exerciseId = 'exercise_id' in exercise ? exercise.exercise_id : exercise.id;
+  // This is the definitive exercise ID. It handles multiple possible shapes for an "exercise" object.
+  // It prioritizes the nested exercise object's ID, which is the correct UUID for assignments.
+  const exerciseId = (exercise as any).exercise?.id || ('exercise_id' in exercise ? exercise.exercise_id : exercise.id);
 
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden group">

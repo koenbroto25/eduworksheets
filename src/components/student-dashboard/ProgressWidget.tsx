@@ -1,11 +1,10 @@
 import React from 'react';
+import { StudentAssignment } from '../../types';
 
-interface Grade {
-  id: string | number;
-  exercise: {
-    title: string;
-    subject: string;
-  };
+// We can reuse StudentAssignment here, assuming recentGrades has a similar structure.
+// Or create a new type if needed. For now, let's assume it's compatible.
+// A more accurate type might be needed if `recentGrades` has a different shape.
+interface Grade extends Partial<StudentAssignment> {
   score: number;
 }
 
@@ -24,8 +23,8 @@ const ProgressWidget: React.FC<ProgressWidgetProps> = ({ recentGrades = [] }) =>
           recentGrades.map((grade) => (
             <div key={grade.id} className="flex justify-between items-center">
               <div>
-                <p className="font-semibold">{grade.exercise.title}</p>
-                <p className="text-sm text-gray-500">{grade.exercise.subject}</p>
+                <p className="font-semibold">{grade.exercise?.title || 'Latihan Tanpa Judul'}</p>
+                <p className="text-sm text-gray-500">{grade.exercise?.subject || 'N/A'}</p>
               </div>
               <span className={`font-bold text-lg ${grade.score >= 75 ? 'text-green-600' : 'text-red-600'}`}>
                 {grade.score}

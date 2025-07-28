@@ -108,6 +108,20 @@ export interface Class {
   students: User[];
 }
 
+export interface StudentAssignment {
+  id: string; // This is the class_exercises.id (UUID)
+  exercise: {
+    id: string; // This is the exercises.id (UUID)
+    title: string;
+    subject: string;
+  };
+  due_date: string | null;
+  status: string; // This status is likely added client-side or needs to be fetched
+  source: {
+    name: string; // e.g., "Kelas 7A" or "Orang Tua"
+  };
+}
+
 export type NotificationType =
   | 'class_join'
   | 'assignment_new'

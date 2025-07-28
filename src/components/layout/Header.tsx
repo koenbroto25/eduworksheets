@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { BookOpen, LogOut, User, Settings } from 'lucide-react';
+import { BookOpen, LogOut, User, Settings, Menu, X } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 import { Button } from '../common/Button';
 import NotificationBell from '../common/NotificationBell';
 
 export const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { user, logout } = useAuth();
   const navigate = useNavigate();
 
@@ -59,14 +60,16 @@ export const Header: React.FC = () => {
     <header className="bg-white shadow-lg border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <BookOpen className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-900">EduWorksheets</span>
-          </Link>
+          <div className="flex items-center">
+            {/* Logo */}
+            <Link to="/" className="flex items-center space-x-2">
+              <BookOpen className="h-8 w-8 text-blue-600" />
+              <span className="text-2xl font-bold text-gray-900">EduWorksheets</span>
+            </Link>
+          </div>
 
-          {/* Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.to}
@@ -79,40 +82,102 @@ export const Header: React.FC = () => {
           </nav>
 
           {/* User Menu */}
-          {user ? (
-            <div className="flex items-center space-x-4">
-              <NotificationBell />
-              <span className="text-sm text-gray-700">
-                Selamat datang, {user.name}
-              </span>
-              <div className="flex items-center space-x-2">
-                <Link to="/profile">
-                  <Button variant="ghost" size="sm" title="Profil">
-                    <User className="h-4 w-4" />
+          <div className="hidden md:flex items-center space-x-4">
+            {user ? (
+              <>
+                <NotificationBell />
+                <span className="text-sm text-gray-700">
+                  Selamat datang, {user.name}
+                </span>
+                <div className="flex items-center space-x-2">
+                  <Link to="/profile">
+                    <Button variant="ghost" size="sm" title="Profil">
+                      <User className="h-4 w-4" />
+                    </Button>
+                  </Link>
+                  <Link to="/settings">
+                    <Button variant="ghost" size="sm" title="Pengaturan">
+                      <Settings className="h-4 w-4" />
+                    </Button>
+                  </Link>
+                  <Button variant="ghost" size="sm" onClick={handleLogout} title="Keluar">
+                    <LogOut className="h-4 w-4" />
                   </Button>
+                </div>
+              </>
+            ) : (
+              <div className="space-x-2">
+                <Link to="/login">
+                  <Button variant="outline" size="sm">Masuk</Button>
                 </Link>
-                <Link to="/settings">
-                  <Button variant="ghost" size="sm" title="Pengaturan">
-                    <Settings className="h-4 w-4" />
-                  </Button>
+                <Link to="/signup">
+                  <Button size="sm">Daftar</Button>
                 </Link>
-                <Button variant="ghost" size="sm" onClick={handleLogout} title="Keluar">
-                  <LogOut className="h-4 w-4" />
-                </Button>
               </div>
-            </div>
-          ) : (
-            <div className="space-x-2">
-              <Link to="/login">
-                <Button variant="outline" size="sm">Masuk</Button>
-              </Link>
-              <Link to="/signup">
-                <Button size="sm">Daftar</Button>
-              </Link>
-            </div>
-          )}
+            )}
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden flex items-center">
+            {user && <NotificationBell />}
+            <Button variant="ghost" size="sm" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </Button>
+          </div>
         </div>
       </div>
+
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="md:hidden">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            {navItems.map((item) => (
+              <Link
+                key={item.to}
+                to={item.to}
+                onClick={() => setIsMenuOpen(false)}
+                className="block text-gray-700 hover:text-blue-600 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium transition-colors"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+          <div className="pt-4 pb-3 border-t border-gray-200">
+            {user ? (
+              <div className="px-5 flex items-center justify-between">
+                <div>
+                  <div className="text-base font-medium text-gray-800">{user.name}</div>
+                  <div className="text-sm font-medium text-gray-500">{user.email}</div>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Link to="/profile" onClick={() => setIsMenuOpen(false)}>
+                    <Button variant="ghost" size="sm" title="Profil">
+                      <User className="h-5 w-5" />
+                    </Button>
+                  </Link>
+                  <Link to="/settings" onClick={() => setIsMenuOpen(false)}>
+                    <Button variant="ghost" size="sm" title="Pengaturan">
+                      <Settings className="h-5 w-5" />
+                    </Button>
+                  </Link>
+                  <Button variant="ghost" size="sm" onClick={() => { handleLogout(); setIsMenuOpen(false); }} title="Keluar">
+                    <LogOut className="h-5 w-5" />
+                  </Button>
+                </div>
+              </div>
+            ) : (
+              <div className="px-2 space-y-2">
+                <Link to="/login" className="block w-full">
+                  <Button variant="outline" size="sm" className="w-full">Masuk</Button>
+                </Link>
+                <Link to="/signup" className="block w-full">
+                  <Button size="sm" className="w-full">Daftar</Button>
+                </Link>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </header>
   );
 };

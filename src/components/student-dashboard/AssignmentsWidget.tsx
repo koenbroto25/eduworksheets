@@ -1,20 +1,9 @@
 import React, { useState } from 'react';
-
-interface Assignment {
-  id: string | number;
-  exercise: {
-    title: string;
-    subject: string;
-  };
-  due_date: string | null;
-  status: string;
-  source: {
-    name: string;
-  };
-}
+import { useNavigate } from 'react-router-dom';
+import { StudentAssignment } from '../../types';
 
 interface AssignmentsWidgetProps {
-  assignments: Assignment[];
+  assignments: StudentAssignment[];
 }
 
 type Status = 'Belum Dikerjakan' | 'Sedang Dikerjakan' | 'Selesai';
@@ -22,6 +11,17 @@ type Source = 'Semua' | 'Guru' | 'Orang Tua' | 'Mandiri';
 
 const AssignmentsWidget: React.FC<AssignmentsWidgetProps> = ({ assignments = [] }) => {
   const [filter, setFilter] = useState<Source>('Semua');
+  const navigate = useNavigate();
+
+  const handleNavigation = (task: StudentAssignment) => {
+    if (task.status === 'Selesai') {
+      // Navigate to a results page, which might need the assignment ID
+      navigate(`/student/results/${task.id}`);
+    } else {
+      // Navigate to the exercise page using the exercise's UUID
+      navigate(`/take-exercise/${task.exercise.id}`);
+    }
+  };
 
   const getStatusChip = (status: string) => {
     switch (status) {
@@ -39,10 +39,10 @@ const AssignmentsWidget: React.FC<AssignmentsWidgetProps> = ({ assignments = [] 
   );
 
   return (
-    <div className="bg-white p-6 rounded-lg shadow">
-      <div className="flex justify-between items-center mb-4">
+    <div className="bg-white p-4 sm:p-6 rounded-lg shadow">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4 gap-4">
         <h2 className="text-xl font-bold">Semua Tugas Aktif</h2>
-        <div className="flex space-x-2">
+        <div className="flex flex-wrap gap-2">
           {(['Semua', 'Guru', 'Orang Tua', 'Mandiri'] as Source[]).map((source) => (
             <button
               key={source}
@@ -68,8 +68,11 @@ const AssignmentsWidget: React.FC<AssignmentsWidgetProps> = ({ assignments = [] 
               </div>
               <div className="flex items-center space-x-4">
                 {getStatusChip(task.status as Status)}
-                <button className="text-blue-500 hover:underline">
-                  {task.status === 'Selesai' ? 'Lihat Hasil' : 'Lanjutkan'}
+                <button
+                  onClick={() => handleNavigation(task)}
+                  className="text-blue-500 hover:underline"
+                >
+                  {task.status === 'Selesai' ? 'Cek hasil latihan' : 'Lanjutkan'}
                 </button>
               </div>
             </li>

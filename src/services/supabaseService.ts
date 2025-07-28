@@ -682,8 +682,9 @@ export const supabaseService = {
     const { data: parentAssignments, error: parentAssignmentsError } = await supabase
       .from(TABLES.PARENT_ASSIGNMENTS)
       .select(`
-        *,
-        exercise:exercises(title)
+        id,
+        due_date:completed_at,
+        exercise:exercises(id, title, subject)
       `)
       .eq('child_id', studentId);
 
@@ -705,8 +706,9 @@ export const supabaseService = {
       const { data: fetchedTeacherAssignments, error: deadlinesError } = await supabase
         .from(TABLES.CLASS_EXERCISES)
         .select(`
-          *,
-          exercise:exercises(title),
+          id,
+          due_date,
+          exercise:exercises(id, title, subject),
           class:classes(name)
         `)
         .in('class_id', classIds)

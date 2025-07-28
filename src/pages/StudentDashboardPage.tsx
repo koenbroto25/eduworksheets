@@ -49,29 +49,29 @@ const StudentDashboardPage = () => {
   }
 
   return (
-    <div className="p-6 bg-gray-50 min-h-screen">
-      <header className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-800">My Dashboard</h1>
-        <div className="flex items-center space-x-6">
+    <div className="p-4 sm:p-6 bg-gray-50 min-h-screen">
+      <header className="flex flex-wrap justify-between items-center mb-8 gap-4">
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 w-full sm:w-auto">My Dashboard</h1>
+        <div className="flex items-center space-x-4 sm:space-x-6">
           <div className="flex items-center space-x-2">
-            <span className="text-2xl">✨</span>
-            <span className="text-lg font-semibold text-yellow-600">1,250 Poin</span>
+            <span className="text-xl sm:text-2xl">✨</span>
+            <span className="text-base sm:text-lg font-semibold text-yellow-600">1,250 Poin</span>
           </div>
           <button className="relative">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-7 sm:w-7 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
             </svg>
-            <span className="absolute top-0 right-0 block h-2.5 w-2.5 rounded-full bg-red-500 ring-2 ring-white" />
+            <span className="absolute top-0 right-0 block h-2 w-2 sm:h-2.5 sm:w-2.5 rounded-full bg-red-500 ring-2 ring-white" />
           </button>
           <img
             src={user?.avatar_url || `https://placehold.co/48x48`}
             alt="Avatar"
-            className="h-12 w-12 rounded-full border-2 border-blue-500"
+            className="h-10 w-10 sm:h-12 sm:w-12 rounded-full border-2 border-blue-500"
           />
         </div>
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
         {/* Kolom Kiri */}
         <div className="lg:col-span-2">
           <AssignmentsWidget assignments={dashboardData?.allAssignments} />

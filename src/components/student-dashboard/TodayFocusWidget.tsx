@@ -1,19 +1,8 @@
 import React from 'react';
-
-interface Assignment {
-  id: string | number;
-  exercise: {
-    title: string;
-    subject: string;
-  };
-  due_date: string | null;
-  source: {
-    name: string;
-  };
-}
+import { StudentAssignment } from '../../types';
 
 interface TodayFocusWidgetProps {
-  assignments: Assignment[];
+  assignments: StudentAssignment[];
 }
 
 const TodayFocusWidget: React.FC<TodayFocusWidgetProps> = ({ assignments = [] }) => {
