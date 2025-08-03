@@ -1,55 +1,115 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../services/supabaseClient';
 import { reportService } from '../services/reportService';
+import { classService } from '../services/classService';
 import { StudentReport, ReportAssignment } from '../types';
 import { useAuth } from '../hooks/useAuth';
 
-const ChildReportPage: React.FC = () => {
-  const { childId, classId } = useParams<{ childId: string; classId: string }>();
+// This interface now matches the flat structure returned by our RPC
+interface ClassInfo {
+  class_id: string;
+  class_name: string;
+}
+
+const StudentReportPage: React.FC = () => {
+  const { classId } = useParams<{ classId?: string }>();
   const { user } = useAuth();
+  const navigate = useNavigate();
+
   const [report, setReport] = useState<StudentReport | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loadingReport, setLoadingReport] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const [studentClasses, setStudentClasses] = useState<ClassInfo[]>([]);
+  const [loadingClasses, setLoadingClasses] = useState(true);
+
   useEffect(() => {
-    const fetchReport = async () => {
-      if (!classId || !childId || !user) {
-        setError('Class ID, Child ID, or user not found.');
-        setLoading(false);
-        return;
-      }
+    if (!user) {
+      setLoadingReport(false);
+      setLoadingClasses(false);
+      return;
+    }
 
-      // Basic authorization: ensure the user is a parent.
-      // More robust RLS policies on the backend should handle the rest.
-      if (user.role !== 'parent') {
-        setError('You are not authorized to view this page.');
-        setLoading(false);
-        return;
-      }
-
+    const fetchReport = async (currentClassId: string) => {
+      setLoadingReport(true);
+      setError(null);
       try {
-        setLoading(true);
-        const { data, error: rpcError } = await reportService.getStudentClassReport(supabase, childId, classId);
-
-        if (rpcError) {
-          throw new Error(rpcError.message);
-        }
-        
-        console.log('Fetched Child Report Data:', data); // Log data for debugging
+        const { data, error: rpcError } = await reportService.getStudentClassReport(supabase, user.id, currentClassId);
+        if (rpcError) throw rpcError;
+        console.log('Fetched Report Data:', data); // Log data for debugging
         setReport(data as StudentReport);
       } catch (err: any) {
         setError(err.message || 'Failed to fetch report.');
         console.error(err);
       } finally {
-        setLoading(false);
+        setLoadingReport(false);
       }
     };
 
-    fetchReport();
-  }, [classId, childId, user]);
+    const fetchClasses = async () => {
+      setLoadingClasses(true);
+      setError(null);
+      try {
+        const { data, error: classesError } = await classService.getStudentClasses(supabase, user.id);
+        if (classesError) throw classesError;
+        
+        // The RPC returns a clean, flat array. No complex mapping needed.
+        const classes = data || [];
+        setStudentClasses(classes);
 
-  if (loading) {
+        // If there's only one class, automatically redirect to its report
+        if (classes.length === 1 && !classId) {
+          navigate(`/student/report/${classes[0].class_id}`, { replace: true });
+        }
+
+      } catch (err: any) {
+        setError(err.message || 'Failed to fetch classes.');
+        console.error(err);
+      } finally {
+        setLoadingClasses(false);
+      }
+    };
+
+    if (classId) {
+      fetchReport(classId);
+    } else {
+      fetchClasses();
+    }
+  }, [classId, user, navigate]);
+
+  // Class Selection View
+  if (!classId) {
+    if (loadingClasses) {
+      return <div className="text-center p-8">Loading your classes...</div>;
+    }
+    if (error) {
+      return <div className="text-center p-8 text-red-500">Error: {error}</div>;
+    }
+    return (
+      <div className="container mx-auto p-6">
+        <h1 className="text-3xl font-bold mb-6">Pilih Rapor Kelas</h1>
+        {studentClasses.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {studentClasses.map((studentClass) => (
+              <Link
+                key={studentClass.class_id}
+                to={`/student/report/${studentClass.class_id}`}
+                className="block p-6 bg-white rounded-lg shadow hover:bg-blue-50 transition-colors"
+              >
+                <h2 className="text-xl font-semibold">{studentClass.class_name}</h2>
+              </Link>
+            ))}
+          </div>
+        ) : (
+          <p className="text-center text-gray-500">Anda belum terdaftar di kelas mana pun.</p>
+        )}
+      </div>
+    );
+  }
+
+  // Report Detail View
+  if (loadingReport) {
     return <div className="text-center p-8">Loading report...</div>;
   }
 
@@ -58,13 +118,13 @@ const ChildReportPage: React.FC = () => {
   }
 
   if (!report) {
-    return <div className="text-center p-8">No report data available for this child in this class.</div>;
+    return <div className="text-center p-8">No report data available for this class.</div>;
   }
 
   return (
     <div className="container mx-auto p-6 bg-gray-50 min-h-screen">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-800">Rapor Belajar Anak</h1>
+        <h1 className="text-4xl font-bold text-gray-800">Rapor Belajar</h1>
         <p className="text-lg text-gray-600">Kelas: {report.class_name}</p>
       </header>
 
@@ -132,4 +192,4 @@ const ChildReportPage: React.FC = () => {
   );
 };
 
-export default ChildReportPage;
+export default StudentReportPage;

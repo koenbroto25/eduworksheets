@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { supabaseService } from '../services/supabaseService';
+import { miscService } from '../services/supabaseService';
+import { parentService } from '../services/parentService';
 import { supabase } from '../services/supabaseClient';
 
 interface FindByCodeResult {
@@ -26,7 +27,7 @@ const SearchPage = () => {
     setError(null);
     setResult(null);
 
-    const { data, error: rpcError } = await supabaseService.findByCode(supabase, code.trim());
+    const { data, error: rpcError } = await miscService.findByCode(supabase, code.trim());
 
     setLoading(false);
 
@@ -70,7 +71,7 @@ const SearchPage = () => {
       return;
     }
 
-    const { error: linkError } = await supabaseService.linkParentToChild(supabase, user.id, childId);
+    const { error: linkError } = await parentService.linkParentToChild(supabase, user.id, childId);
 
     if (linkError) {
       setError(`Failed to link to child: ${linkError.message}`);

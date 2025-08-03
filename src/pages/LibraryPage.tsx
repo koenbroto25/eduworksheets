@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { PublicExerciseList } from '../components/public-library/PublicExerciseList';
-import { supabaseService } from '../services/supabaseService';
+import { exerciseService } from '../services/exerciseService';
+import { userService } from '../services/userService';
+import { parentService } from '../services/parentService';
 import { Exercise } from '../types';
 import { FilterDropdown } from '../components/common/FilterDropdown';
 import { AssignToChildModal } from '../components/classroom/AssignToChildModal';
@@ -61,7 +63,7 @@ export const LibraryPage: React.FC = () => {
     const fetchPublicExercises = async () => {
       try {
         setIsLoading(true);
-        const { data, error } = await supabaseService.getPublicExercises(
+        const { data, error } = await exerciseService.getPublicExercises(
           supabase,
           {
             creator: creatorFilter,
@@ -102,7 +104,7 @@ export const LibraryPage: React.FC = () => {
     };
 
     const fetchCreators = async () => {
-      const { data, error } = await supabaseService.getCreators(supabase);
+      const { data, error } = await userService.getCreators(supabase);
 
       if (error) {
         console.error('Error fetching creators:', error);
@@ -127,7 +129,7 @@ export const LibraryPage: React.FC = () => {
 
   const handleDeleteExercise = async (exerciseId: string) => {
     if (window.confirm('Apakah Anda yakin ingin menghapus latihan ini?')) {
-      const { error } = await supabaseService.deleteExercise(supabase, exerciseId);
+      const { error } = await exerciseService.deleteExercise(supabase, exerciseId);
       if (error) {
         alert('Gagal menghapus latihan.');
         console.error('Error deleting exercise:', error);
@@ -156,7 +158,7 @@ export const LibraryPage: React.FC = () => {
       // Use Promise.all to send all assignments
       await Promise.all(
         assignments.map(assignment => 
-          supabaseService.assignExerciseToChild(supabase, assignment)
+          parentService.assignExerciseToChild(supabase, assignment)
         )
       );
 

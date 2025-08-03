@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { supabaseService } from '../services/supabaseService';
+import { exerciseService } from '../services/exerciseService';
 import { supabase } from '../services/supabaseClient';
 import { Exercise } from '../types';
 import { TakeExercise } from '../components/student-exercise/TakeExercise';
@@ -23,7 +23,7 @@ const PublicTakeExercisePage: React.FC = () => {
       try {
         setLoading(true);
         // Fetch the core exercise details
-        const { data: exerciseData, error: exerciseError } = await supabaseService.getExerciseWithQuestions(supabase, exerciseId);
+        const { data: exerciseData, error: exerciseError } = await exerciseService.getExerciseWithQuestions(supabase, exerciseId);
         if (exerciseError) throw exerciseError;
         setExercise(exerciseData as Exercise);
 
@@ -61,7 +61,7 @@ const PublicTakeExercisePage: React.FC = () => {
         submitted_at: now,
       };
 
-      const { error: attemptError } = await supabaseService.submitExerciseAttempt(supabase, attemptData);
+      const { error: attemptError } = await exerciseService.submitExerciseAttempt(supabase, attemptData);
 
       if (attemptError) throw attemptError;
 

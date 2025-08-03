@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { supabaseService } from '../services/supabaseService';
+import { classService } from '../services/classService';
+import { userService } from '../services/userService';
+import { reportService } from '../services/reportService';
 import { useAuth } from '../hooks/useAuth';
 import { Class, User, FlatClassExercise, FullClassExercise, Exercise } from '../types';
 import { ExerciseCard } from '../components/public-library/ExerciseCard';
@@ -33,7 +35,7 @@ const ClassDetailPage: React.FC = () => {
       setError(null);
 
       // Step 1: Fetch basic class details using the robust, simple RPC
-      const { data: rpcData, error: classError } = await supabaseService.getClassDetails(supabase, classId);
+      const { data: rpcData, error: classError } = await classService.getClassDetails(supabase, classId);
       if (classError) throw classError;
       
       // The RPC returns an array, so we take the first element.
@@ -44,7 +46,7 @@ const ClassDetailPage: React.FC = () => {
 
       // Step 2: Once we have the teacher_id, fetch the teacher's profile
       if (classData.teacher_id) {
-        const { data: teacherData, error: teacherError } = await supabaseService.getUserProfile(supabase, classData.teacher_id);
+        const { data: teacherData, error: teacherError } = await userService.getUserProfile(supabase, classData.teacher_id);
         if (teacherError) console.error("Could not fetch teacher details:", teacherError.message);
         setTeacher(teacherData || null);
       }
@@ -53,7 +55,7 @@ const ClassDetailPage: React.FC = () => {
       setStudents(classData.students || []);
 
       // Step 4: Fetch exercises separately
-      const { data: exercisesData, error: exercisesError } = await supabaseService.getClassExercises(supabase, classId);
+      const { data: exercisesData, error: exercisesError } = await classService.getClassExercises(supabase, classId);
       if (exercisesError) throw exercisesError;
       setExercises(exercisesData || []);
 
@@ -88,7 +90,7 @@ const ClassDetailPage: React.FC = () => {
     setIsSettingsModalOpen(true);
 
     try {
-      const { data, error } = await supabaseService.getClassExerciseDetailsForTeacher(supabase, classId, exercise.exercise_id);
+      const { data, error } = await reportService.getClassExerciseDetailsForTeacher(supabase, classId, exercise.exercise_id);
       if (error) {
         throw error;
       }
@@ -116,7 +118,7 @@ const ClassDetailPage: React.FC = () => {
     // Let's ensure we can handle both cases if needed, but `selectedExercise.id` should be correct.
     const classExerciseId = (selectedExercise as any).class_exercise_id || selectedExercise.id;
 
-    const { error } = await supabaseService.updateClassExerciseSettings(
+    const { error } = await classService.updateClassExerciseSettings(
       supabase,
       classExerciseId,
       settings
@@ -135,7 +137,7 @@ const ClassDetailPage: React.FC = () => {
     if (!supabase || !classId) return;
     const confirmation = window.confirm('Are you sure you want to unassign this exercise?');
     if (confirmation) {
-      const { error } = await supabaseService.unassignExerciseFromClass(supabase, classId, exerciseId);
+      const { error } = await classService.unassignExerciseFromClass(supabase, classId, exerciseId);
       if (error) {
         alert('Failed to unassign exercise.');
       } else {

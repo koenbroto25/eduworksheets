@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ExerciseBuilder } from '../components/exercise-builder/ExerciseBuilder';
 import { useAuth } from '../contexts/AuthContext';
-import { supabaseService } from '../services/supabaseService';
+import { exerciseService } from '../services/exerciseService';
 import { Exercise, PromptBuilderForm as PromptData } from '../types';
 
 export const ExerciseBuilderPage: React.FC = () => {
@@ -85,7 +85,7 @@ export const ExerciseBuilderPage: React.FC = () => {
         tags: exerciseData.tags,
       };
 
-      const { data, error } = await supabaseService.createExercise(supabase, exerciseToSave);
+      const { data, error } = await exerciseService.createExercise(supabase, exerciseToSave);
 
       if (error) {
         console.error('Gagal menyimpan latihan:', error);

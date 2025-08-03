@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { supabaseService } from '../services/supabaseService';
+import { classService } from '../services/classService';
 import { useAuth } from '../contexts/AuthContext';
 import { Button } from '../components/common/Button';
 
@@ -29,12 +29,12 @@ const JoinClassPage: React.FC = () => {
         try {
           if (!supabase) return;
           setIsLoading(true);
-          const { isMember, error: memberError } = await supabaseService.isStudentInClass(supabase, classId, user.id);
+          const { isMember, error: memberError } = await classService.isStudentInClass(supabase, classId, user.id);
           if (memberError) throw memberError;
           setIsMember(isMember);
 
           if (!isMember) {
-            const { data, error } = await supabaseService.getClassDetails(supabase, classId);
+            const { data, error } = await classService.getClassDetails(supabase, classId);
             if (error) throw error;
             setClassDetails(data);
           }
@@ -48,7 +48,7 @@ const JoinClassPage: React.FC = () => {
         try {
           if (!supabase) return;
           setIsLoading(true);
-          const { data, error } = await supabaseService.getClassDetails(supabase, classId);
+          const { data, error } = await classService.getClassDetails(supabase, classId);
           if (error) throw error;
           setClassDetails(data);
         } catch (err: any) {
@@ -73,7 +73,7 @@ const JoinClassPage: React.FC = () => {
 
     try {
       if (!supabase) return;
-      const { error } = await supabaseService.joinClassWithCode(supabase, classDetails.class_code, user.id);
+      const { error } = await classService.joinClassWithCode(supabase, classDetails.class_code, user.id);
       if (error) {
         setError(error.message || 'Failed to join class');
       } else {

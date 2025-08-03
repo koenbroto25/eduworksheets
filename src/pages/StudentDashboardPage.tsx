@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { supabaseService } from '../services/supabaseService';
+import { studentService } from '../services/studentService';
 import AssignmentsWidget from '../components/student-dashboard/AssignmentsWidget';
 import ProgressWidget from '../components/student-dashboard/ProgressWidget';
 import TodayFocusWidget from '../components/student-dashboard/TodayFocusWidget';
@@ -19,7 +19,7 @@ const StudentDashboardPage = () => {
     setIsLoading(true);
     try {
       // Hanya mengambil data untuk student
-      const result = await supabaseService.getStudentDashboardData(supabase, user.id);
+      const result = await studentService.getStudentDashboardData(supabase, user.id);
 
       if (result.error) {
         console.error('Error fetching student dashboard data:', result.error);

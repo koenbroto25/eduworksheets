@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/common/Button';
-import { supabaseService } from '../services/supabaseService';
+import { classService } from '../services/classService';
 import { Class } from '../types';
 
 const ClassesPage: React.FC = () => {
@@ -20,7 +20,7 @@ const ClassesPage: React.FC = () => {
       }
       try {
         setIsLoading(true);
-        const { data, error } = await supabaseService.getUserClasses(supabase, user.id, user.role);
+        const { data, error } = await classService.getUserClasses(supabase, user.id, user.role);
         if (error) {
           throw error;
         }

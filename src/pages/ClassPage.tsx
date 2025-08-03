@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import { supabaseService } from '../services/supabaseService';
+import { classService } from '../services/classService';
 import { supabase } from '../services/supabaseClient';
 import ClassDetailPage from './ClassDetailPage';
 import StudentClassPage from './StudentClassPage';
@@ -15,7 +15,7 @@ const ClassPage: React.FC = () => {
   useEffect(() => {
     const checkMembership = async () => {
       if (user?.role === 'student' && classId) {
-        const { isMember, error } = await supabaseService.isStudentInClass(supabase, classId, user.id);
+        const { isMember, error } = await classService.isStudentInClass(supabase, classId, user.id);
         if (error) {
           console.error('Error checking student membership:', error);
         } else {

@@ -18,6 +18,7 @@ import { NotFoundPage } from '../pages/NotFoundPage';
 import { ProfilePage } from '../pages/ProfilePage';
 import { SettingsPage } from '../pages/SettingsPage';
 import StudentDashboardPage from '../pages/StudentDashboardPage';
+import StudentReportPage from '../pages/StudentReportPage';
 import ClassExercisesPage from '../pages/ClassExercisesPage';
 import TakeExercisePage from '../pages/TakeExercisePage';
 import JoinClassPage from '../pages/JoinClassPage';
@@ -194,6 +195,30 @@ const AppRoutes: React.FC = () => {
 
       <Route path="/child-report/:childId" element={
         <ProtectedRoute>
+          <MainLayout>
+            <ChildReportPage />
+          </MainLayout>
+        </ProtectedRoute>
+      } />
+
+      <Route path="/student/report" element={
+        <ProtectedRoute allowedRoles={['student']}>
+          <MainLayout>
+            <StudentReportPage />
+          </MainLayout>
+        </ProtectedRoute>
+      } />
+
+      <Route path="/student/report/:classId" element={
+        <ProtectedRoute allowedRoles={['student']}>
+          <MainLayout>
+            <StudentReportPage />
+          </MainLayout>
+        </ProtectedRoute>
+      } />
+
+      <Route path="/parent/report/:childId/:classId" element={
+        <ProtectedRoute allowedRoles={['parent']}>
           <MainLayout>
             <ChildReportPage />
           </MainLayout>

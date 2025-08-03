@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { supabase } from '../services/supabaseClient';
-import { supabaseService } from '../services/supabaseService';
+import { exerciseService } from '../services/exerciseService';
 import { Exercise } from '../types';
 
 const ExerciseDetailPage: React.FC = () => {
@@ -20,7 +20,7 @@ const ExerciseDetailPage: React.FC = () => {
 
     const fetchExerciseDetails = async () => {
       try {
-        const { data, error } = await supabaseService.getExerciseWithQuestions(supabase, exerciseId);
+        const { data, error } = await exerciseService.getExerciseWithQuestions(supabase, exerciseId);
 
         if (error) {
           setError(error.message);

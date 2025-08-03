@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { supabaseService } from '../services/supabaseService';
+import { parentService } from '../services/parentService';
 import { useAuth } from '../contexts/AuthContext';
 import { Button } from '../components/common/Button';
 
@@ -36,7 +36,7 @@ const AcceptInvitationPage: React.FC = () => {
           return;
         }
         console.log('[AcceptInvitationPage] Fetching parent invitation...');
-        const { data, error: invitationError } = await supabaseService.getParentInvitation(supabase, invitationId);
+        const { data, error: invitationError } = await parentService.getParentInvitation(supabase, invitationId);
         console.log('[AcceptInvitationPage] Invitation data:', data, 'Error:', invitationError);
 
         if (invitationError || !data) {
@@ -51,7 +51,7 @@ const AcceptInvitationPage: React.FC = () => {
 
         if (user && user.role === 'student' && data.parent_id && supabase) {
           console.log(`[AcceptInvitationPage] User is student. Checking if child ${user.id} is linked to parent ${data.parent_id}`);
-          const { data: isLinkedData, error: isLinkedError } = await supabaseService.isChildLinked(supabase, user.id, data.parent_id);
+          const { data: isLinkedData, error: isLinkedError } = await parentService.isChildLinked(supabase, user.id, data.parent_id);
           console.log('[AcceptInvitationPage] isChildLinked result:', isLinkedData, 'Error:', isLinkedError);
 
           if (isLinkedError) {
@@ -89,7 +89,7 @@ const AcceptInvitationPage: React.FC = () => {
     setError(''); // Clear previous errors
 
     try {
-      const { error } = await supabaseService.acceptParentInvitation(supabase, invitation.id, user.id);
+      const { error } = await parentService.acceptParentInvitation(supabase, invitation.id, user.id);
       if (error) {
         // The error from the edge function is already a string message
         setError(error.toString());

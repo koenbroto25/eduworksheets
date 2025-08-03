@@ -25,7 +25,7 @@ The investigation involved a comprehensive analysis of both the frontend React c
 
 -   **Root Cause Analysis:**
     -   This was a classic data mismatch between the frontend's expectations and the backend's response. The `TakeExercisePage.tsx` component expected a UUID-formatted `exerciseId` in the URL.
-    -   The `getStudentDashboardData` function in `supabaseService.ts` fetches assignments from two sources: `class_exercises` (from teachers) and `parent_assignments` (from parents).
+    -   The `getStudentDashboardData` function, originally in `supabaseService.ts` and later moved to its own `studentService.ts` during a major refactor, fetches assignments from two sources: `class_exercises` (from teachers) and `parent_assignments` (from parents).
     -   **Initial Bug:** The query for `class_exercises` was not explicit, causing an ID collision.
 -   **Recurring Bug (Final Root Cause):** After multiple fixes, the error persisted. Deeper investigation revealed the true root cause was not in the data-fetching logic itself, but in a reusable UI component. The `ExerciseCard.tsx` component, used to display various types of exercises and assignments, contained flawed logic to determine which ID to use for navigation. When it was passed an assignment object from a parent, its logic incorrectly chose the top-level numeric `id` (e.g., `2`) instead of the required UUID from the nested `exercise` object (`exercise.id`). This generated the incorrect `/take-exercise/2` link, which caused the downstream database error.
 
@@ -45,8 +45,9 @@ The investigation involved a comprehensive analysis of both the frontend React c
 
 -   **Plan:**
     1.  **Confirm the Root Cause:** Verify that the error was due to a data integrity issue by analyzing the `getStudentDashboardData` function and the data structure it returned.
-    2.  **Correct the Data Query:** Modify the `select` statement in the `getStudentDashboardData` function within `supabaseService.ts`. The plan was to explicitly select and alias the columns to avoid the ID collision, ensuring both the assignment ID and the exercise UUID were distinctly available.
-    3.  **Update Frontend Logic:** Adjust the `AssignmentsWidget.tsx` component to use the correct, aliased exercise UUID for navigation.
+    2.  **Correct the Data Query:** Modify the `select` statement in the `getStudentDashboardData` function. The plan was to explicitly select and alias the columns to avoid the ID collision, ensuring both the assignment ID and the exercise UUID were distinctly available.
+    3.  **Refactor Service Layer:** As part of a broader initiative, move the `getStudentDashboardData` function from the monolithic `supabaseService.ts` into a new, dedicated `studentService.ts` to improve separation of concerns.
+    4.  **Update Frontend Logic:** Adjust the `AssignmentsWidget.tsx` component to use the correct, aliased exercise UUID for navigation and import the data-fetching function from the new `studentService.ts`.
 
 -   **Execution & Verification:**
     -   **[Hardened]** The data queries in `getStudentDashboardData` for both teacher and parent assignments were made more explicit to ensure they always provide a consistent data structure with a nested `exercise` object containing the correct UUID.
@@ -57,12 +58,19 @@ The investigation involved a comprehensive analysis of both the frontend React c
         ```
     -   **[Refactored]** All dashboard widgets (`AssignmentsWidget`, `TodayFocusWidget`, `ProgressWidget`) were updated to use a centralized `StudentAssignment` type from `types/index.ts`, improving code quality and preventing future bugs.
 
-## 4. Final Plans and Recommendations
+## 4. Final Architecture and Systemic Improvements
 
-The immediate bugs have been resolved, but this incident highlights opportunities for systemic improvements to enhance the application's robustness.
+The resolution of these bugs led to a significant and beneficial refactoring of the entire service layer, moving the application towards a more robust and maintainable architecture.
 
--   **Future Plans:**
-    1.  **Backend Data Integrity Review:** Conduct a full review of all data-fetching functions in `supabaseService.ts`. Ensure that all queries explicitly define the columns they select and use aliases where necessary to prevent future ID collisions. This is especially important for queries involving joins.
-    2.  **Establish a Centralized Type System:** The `Assignment` interface was defined locally in the component. A centralized `types/index.ts` file should be the single source of truth for all major data structures. This will ensure consistency between the frontend's expectations and the backend's responses.
-        -   **[COMPLETED]** I have created a new `StudentAssignment` interface in `src/types/index.ts` that accurately reflects the data structure. The local interface in `AssignmentsWidget.tsx` has been removed, and the component now imports the centralized type. This improves maintainability and type safety.
-    3.  **Implement Comprehensive End-to-End Testing:** Introduce end-to-end tests using a framework like Cypress or Playwright. These tests should simulate user flows on various screen sizes to automatically catch responsive layout bugs and functional errors like broken navigation before they reach production.
+-   **Systemic Improvements Implemented:**
+    1.  **[COMPLETED] Refactoring the Monolithic `supabaseService.ts`:** The investigation highlighted the risks of a single, oversized service file. I have successfully refactored `supabaseService.ts` into a collection of domain-specific services, each responsible for a distinct area of the application:
+        -   `authService.ts`: Manages user authentication and profiles.
+        -   `classService.ts`: Handles all logic related to classes, members, and teacher-specific actions.
+        -   `exerciseService.ts`: Manages creating, fetching, and submitting exercises.
+        -   `parentService.ts`: Contains logic for parent-child linking and assignments.
+        -   `studentService.ts`: Dedicated to student-specific data, including the `getStudentDashboardData` function.
+        -   `reportService.ts`: Manages generation of all reports.
+        -   `userService.ts`: Handles user-related operations.
+        This separation of concerns greatly improves code organization, reduces the risk of unintended side effects, and makes the codebase easier to navigate and maintain. All relevant pages and components across the application have been updated to use these new services.
+    2.  **[COMPLETED] Establish a Centralized Type System:** The `Assignment` interface was defined locally in the component. A centralized `types/index.ts` file is now the single source of truth for all major data structures. I created a new `StudentAssignment` interface in `src/types/index.ts` that accurately reflects the data structure. The local interface in `AssignmentsWidget.tsx` has been removed, and the component now imports the centralized type. This improves maintainability and type safety.
+    3.  **[RECOMMENDED] Implement Comprehensive End-to-End Testing:** Introduce end-to-end tests using a framework like Cypress or Playwright. These tests should simulate user flows on various screen sizes to automatically catch responsive layout bugs and functional errors like broken navigation before they reach production.

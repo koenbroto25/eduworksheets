@@ -4,7 +4,7 @@ import { LinkIcon, AlertCircle, CheckCircle, UserSearch, UserPlus } from 'lucide
 import { Input } from '../components/common/Input';
 import { Button } from '../components/common/Button';
 import { useAuth } from '../contexts/AuthContext';
-import { supabaseService } from '../services/supabaseService';
+import { parentService } from '../services/parentService';
 import { supabase } from '../services/supabaseClient';
 
 interface FoundChild {
@@ -42,7 +42,7 @@ export const LinkChildPage: React.FC = () => {
     }
 
     try {
-      const { data: childProfile, error: findError } = await supabaseService.findChildByCode(supabase, childCode.trim());
+      const { data: childProfile, error: findError } = await parentService.findChildByCode(supabase, childCode.trim());
 
       if (findError) {
         throw findError;
@@ -52,7 +52,7 @@ export const LinkChildPage: React.FC = () => {
         throw new Error('Kode Anak tidak valid atau tidak ditemukan.');
       }
       
-      const { data: isLinked, error: linkCheckError } = await supabaseService.isChildLinked(supabase, childProfile.id, user.id);
+      const { data: isLinked, error: linkCheckError } = await parentService.isChildLinked(supabase, childProfile.id, user.id);
 
       if (linkCheckError) {
         throw linkCheckError;
@@ -83,7 +83,7 @@ export const LinkChildPage: React.FC = () => {
     setSuccess('');
 
     try {
-      const { error: linkError } = await supabaseService.linkParentToChild(supabase, user.id, foundChild.id);
+      const { error: linkError } = await parentService.linkParentToChild(supabase, user.id, foundChild.id);
 
       if (linkError) {
         throw linkError;

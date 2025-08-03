@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { supabaseService } from '../services/supabaseService';
+import { classService } from '../services/classService';
+import { parentService } from '../services/parentService';
 import { Link, useLocation, Navigate } from 'react-router-dom';
 import MyExercises from '../components/dashboard/MyExercises';
 import ParentDashboard from '../components/dashboard/ParentDashboard';
@@ -25,9 +26,9 @@ const DashboardPage: React.FC = () => {
     try {
       let result;
       if (user.role === 'teacher') {
-        result = await supabaseService.getTeacherDashboardData(supabase, user.id);
+        result = await classService.getTeacherDashboardData(supabase, user.id);
       } else if (user.role === 'parent') {
-        result = await supabaseService.getParentDashboardData(supabase, user.id);
+        result = await parentService.getParentDashboardData(supabase, user.id);
       } else {
         setDashboardData(null);
         return;

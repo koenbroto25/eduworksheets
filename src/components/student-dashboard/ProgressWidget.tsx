@@ -1,9 +1,7 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { StudentAssignment } from '../../types';
 
-// We can reuse StudentAssignment here, assuming recentGrades has a similar structure.
-// Or create a new type if needed. For now, let's assume it's compatible.
-// A more accurate type might be needed if `recentGrades` has a different shape.
 interface Grade extends Partial<StudentAssignment> {
   score: number;
 }
@@ -13,8 +11,18 @@ interface ProgressWidgetProps {
 }
 
 const ProgressWidget: React.FC<ProgressWidgetProps> = ({ recentGrades = [] }) => {
-  // For now, we'll just list the recent grades.
-  // A more complex implementation could calculate average scores per subject.
+  const navigate = useNavigate();
+
+  // Simplified: The button will always navigate to the central report page.
+  // That page will handle the logic for selecting a class if needed.
+  const handleViewReport = () => {
+    navigate('/student/report');
+  };
+
+  // The button is enabled as long as there are grades.
+  // The report page will inform the user if they have no classes.
+  const canViewReport = recentGrades.length > 0;
+
   return (
     <div className="bg-white p-6 rounded-lg shadow">
       <h2 className="text-xl font-bold mb-4">Nilai Terbaru</h2>
@@ -35,7 +43,11 @@ const ProgressWidget: React.FC<ProgressWidgetProps> = ({ recentGrades = [] }) =>
           <p className="text-gray-500 text-center py-4">Belum ada nilai yang masuk.</p>
         )}
       </div>
-      <button className="mt-6 w-full bg-gray-100 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-200 transition-colors">
+      <button
+        onClick={handleViewReport}
+        disabled={!canViewReport}
+        className="mt-6 w-full bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors disabled:bg-gray-300 disabled:cursor-not-allowed"
+      >
         Lihat Rapor Lengkap
       </button>
     </div>

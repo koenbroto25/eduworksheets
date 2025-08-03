@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Input } from '../components/common/Input';
 import { Button } from '../components/common/Button';
-import { supabaseService } from '../services/supabaseService';
+import { classService } from '../services/classService';
 import { useAuth } from '../contexts/AuthContext';
 
 const CreateClassPage: React.FC = () => {
@@ -29,7 +29,7 @@ const CreateClassPage: React.FC = () => {
       if (!supabase) {
         throw new Error("Supabase client is not available.");
       }
-      const { data, error } = await supabaseService.createClass(supabase, {
+      const { data, error } = await classService.createClass(supabase, {
         name,
         description,
       });

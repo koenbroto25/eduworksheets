@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { supabase } from '../services/supabaseClient';
-import { supabaseService } from '../services/supabaseService';
+import { classService } from '../services/classService';
 import { useAuth } from '../contexts/AuthContext';
 import { ClassExercise } from '../types';
 import ClassMembers from '../components/classroom/ClassMembers';
@@ -33,11 +33,11 @@ const StudentClassPage: React.FC = () => {
 
       try {
         setIsLoading(true);
-        const { data: classData, error: classError } = await supabaseService.getClassDetails(supabase, classId);
+        const { data: classData, error: classError } = await classService.getClassDetails(supabase, classId);
         if (classError) throw classError;
         setClassDetails(classData);
 
-        const { data: exerciseData, error: exerciseError } = await supabaseService.getStudentClassAssignments(supabase, classId);
+        const { data: exerciseData, error: exerciseError } = await classService.getStudentClassAssignments(supabase, classId);
         if (exerciseError) throw exerciseError;
         
         const exercises = exerciseData?.map((ex: any) => ({

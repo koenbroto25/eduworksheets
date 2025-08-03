@@ -309,3 +309,18 @@ export interface FindByCodeResponse {
   type: 'class' | 'exercise' | 'user';
   details: any; // Can be Class, Exercise, or User
 }
+
+export interface ReportAssignment {
+  exercise_title: string;
+  best_score: number | null;
+  attempts_count: number;
+  status: string;
+}
+
+export interface StudentReport {
+  class_name: string;
+  total_assignments_completed: number;
+  average_score: number | null;
+  total_time_spent: number; // in seconds
+  assignments: ReportAssignment[];
+}
