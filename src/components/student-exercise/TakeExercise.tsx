@@ -141,6 +141,7 @@ export const TakeExercise: React.FC<TakeExerciseProps> = ({
       {/* Question */}
       <div className="bg-white rounded-xl shadow-lg p-8">
         <QuestionRenderer
+          key={currentQuestion}
           question={currentQ}
           userAnswer={answers[currentQuestion]}
           onAnswer={handleAnswer}
