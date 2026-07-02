@@ -1,0 +1,1276 @@
+﻿{
+  "subject": "Bahasa Indonesia",
+  "grades": {
+    "Kelas 1": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Keterampilan Berbahasa",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak teks fiksi dan nonfiksi yang dibacakan guru", "Fokus pada tema kebersihan dan kesehatan diri"] },
+            { "topic": "Berbicara", "sub_topics": ["Memperkenalkan diri", "Menyapa", "Bercerita secara lisan"] },
+            { "topic": "Membaca", "sub_topics": ["Mengeja huruf", "Membaca suku kata dan kata sederhana", "Fokus pada huruf yang familiar, seperti huruf “k”"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis huruf (kapital dan kecil)", "Menulis suku kata", "Menulis kata dan kalimat sederhana"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Kosakata dan Tata Bahasa",
+          "topics": [
+            { "topic": "Pengenalan Huruf", "sub_topics": ["Mengenal huruf abjad: huruf kapital dan kecil"] },
+            { "topic": "Pengenalan Suku Kata dan Kata", "sub_topics": ["Membaca dan menyusun suku kata menjadi kata sederhana"] },
+            { "topic": "Kosakata Baru", "sub_topics": ["Mengenal kosakata berdasarkan tema (benda, hewan, anggota tubuh, dll.)"] },
+            { "topic": "Kalimat Sederhana", "sub_topics": ["Menyusun kalimat dari kosakata yang telah dipelajari"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Tema Pembelajaran",
+          "topics": [
+            { "topic": "Bunyi Apa?", "sub_topics": ["Mengenal bunyi alam dan buatan di sekitar"] },
+            { "topic": "Ayo Bermain!", "sub_topics": ["Mengenal permainan tradisional dan modern", "Memahami aturan bermain"] },
+            { "topic": "Awas Kuman!", "sub_topics": ["Pentingnya menjaga kebersihan diri dan lingkungan"] },
+            { "topic": "Aku Bisa!", "sub_topics": ["Mengenal kemampuan diri sendiri dan keberanian mencoba"] },
+            { "topic": "Teman Baru", "sub_topics": ["Belajar menjalin persahabatan dan berteman"] },
+            { "topic": "Temanku Berbeda", "sub_topics": ["Menghargai perbedaan dan keberagaman"] },
+            { "topic": "Aku Ingin", "sub_topics": ["Mengungkapkan keinginan dan cita-cita"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Aktivitas Kreatif",
+          "topics": [
+            { "topic": "Bercerita", "sub_topics": ["Menceritakan pengalaman pribadi atau membuat cerita sederhana"] },
+            { "topic": "Membuat Karya Sederhana", "sub_topics": ["Membuat gambar, kolase, atau kerajinan tangan berdasarkan tema pembelajaran"] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Tema Pembelajaran",
+          "topics": [
+            { "topic": "Teman Baru", "sub_topics": ["Memperkenalkan diri dan teman", "Mengenal nama dan sifat teman", "Belajar menjalin pertemanan"] },
+            { "topic": "Temanku Berbeda", "sub_topics": ["Mengenali keberagaman dalam penampilan, budaya, dan hobi", "Menghargai perbedaan", "Menjalin kerja sama meskipun berbeda"] },
+            { "topic": "Aku Ingin", "sub_topics": ["Mengenal keinginan dan kebutuhan pribadi", "Mengungkapkan keinginan melalui lisan dan tulisan", "Menyampaikan cita-cita secara sederhana"] },
+            { "topic": "Di Sekitar Rumah", "sub_topics": ["Mengenal benda-benda di lingkungan rumah", "Mendeskripsikan rumah dan sekitarnya", "Membuat cerita sederhana tentang rumah"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Keterampilan Literasi Dasar",
+          "topics": [
+            { "topic": "Membaca dan Menulis Permulaan", "sub_topics": ["Membaca huruf, suku kata, kata, dan kalimat sederhana", "Menulis huruf dengan bentuk dan ukuran yang benar", "Menulis kata dan kalimat dengan ejaan yang tepat"] },
+            { "topic": "Membaca Teks", "sub_topics": ["Membaca teks pendek dengan intonasi dan lafal yang sesuai", "Membaca cerita anak-anak dan puisi sederhana", "Menjawab pertanyaan berdasarkan isi teks"] },
+            { "topic": "Menulis Kalimat dan Karangan Pendek", "sub_topics": ["Menulis kalimat sederhana dari kosakata yang telah dipelajari", "Menulis paragraf pendek atau cerita pendek tentang pengalaman pribadi", "Menggunakan tanda baca (titik, koma) dan huruf kapital dengan tepat"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Kosakata dan Tata Bahasa",
+          "topics": [
+            { "topic": "Kosakata Tematik", "sub_topics": ["Memperkaya kosakata sesuai dengan tema pembelajaran (contoh: rumah, teman, cita-cita)", "Menggunakan kosakata baru dalam kalimat lisan dan tulisan"] },
+            { "topic": "Struktur Kalimat Sederhana", "sub_topics": ["Mengenal subjek dan predikat dalam kalimat", "Menyusun kalimat sederhana dengan urutan yang tepat", "Mengenali penggunaan huruf kapital di awal kalimat dan tanda titik di akhir kalimat"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Keterampilan Berbahasa Lisan dan Tulis",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak cerita pendek dan instruksi lisan", "Mengidentifikasi informasi penting dari cerita yang didengarkan", "Menjawab pertanyaan secara lisan berdasarkan cerita"] },
+            { "topic": "Berbicara", "sub_topics": ["Berbicara dengan lafal dan intonasi yang jelas", "Mengungkapkan gagasan, perasaan, dan pengalaman secara sederhana", "Menceritakan kembali isi cerita atau pengalaman pribadi"] }
+          ]
+        }
+      ]
+    },
+    "Kelas 2": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Pengenalan Jenis Teks",
+          "topics": [
+            { "topic": "Teks Cerita Pendek (Cerpen) Sederhana", "sub_topics": ["Mengenal cerita fabel, cerita rakyat, dan cerita sehari-hari", "Mengenali struktur cerita: awal, tengah, akhir", "Menyimpulkan isi cerita dan pesan moral"] },
+            { "topic": "Teks Deskripsi", "sub_topics": ["Mendeskripsikan benda, orang, atau tempat", "Menggunakan kata sifat untuk menggambarkan objek", "Mengenali ciri-ciri dari teks deskripsi"] },
+            { "topic": "Teks Prosedur Sederhana", "sub_topics": ["Mengenal teks prosedur melalui kegiatan sehari-hari", "Menyebutkan tujuan dan langkah-langkah secara berurutan", "Membuat petunjuk sederhana (misalnya: cara mencuci tangan)"] },
+            { "topic": "Teks Puisi Anak", "sub_topics": ["Membaca puisi pendek dengan lafal dan intonasi yang tepat", "Mengenali rima dan pengulangan bunyi", "Membuat puisi sederhana berdasarkan tema tertentu"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Keterampilan Berbahasa",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan cerita atau informasi dari guru", "Menanggapi pertanyaan berdasarkan cerita", "Menyimak instruksi lisan dengan tepat"] },
+            { "topic": "Berbicara", "sub_topics": ["Mengungkapkan pendapat dan perasaan secara lisan", "Menggunakan kalimat tanya, perintah, dan berita secara tepat", "Berbicara dengan lafal jelas dan percaya diri"] },
+            { "topic": "Membaca", "sub_topics": ["Membaca lancar huruf, kata, dan kalimat sederhana", "Membaca nyaring teks pendek dengan intonasi yang benar", "Memahami isi teks yang dibaca melalui pertanyaan"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis kalimat sederhana dengan struktur yang benar", "Menulis cerita pendek berdasarkan gambar", "Menulis puisi anak sederhana"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Kosakata dan Tata Bahasa",
+          "topics": [
+            { "topic": "Kosakata Sehari-hari", "sub_topics": ["Memperluas kosakata berdasarkan tema (contoh: lingkungan, keluarga, sekolah)", "Menggunakan kosakata dalam kalimat lisan dan tulisan"] },
+            { "topic": "Penggunaan Kata", "sub_topics": ["Kata ganti (aku, kamu, dia)", "Kata sifat (panjang, besar, cantik)", "Kata kerja (berlari, makan, membaca)"] },
+            { "topic": "Jenis Kalimat", "sub_topics": ["Kalimat tanya", "Kalimat perintah", "Kalimat berita"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Keterampilan Berpikir dan Literasi Visual",
+          "topics": [
+            { "topic": "Berpikir Kritis terhadap Teks", "sub_topics": ["Menyimpulkan isi bacaan", "Mengidentifikasi perasaan tokoh", "Membedakan fakta dan opini sederhana"] },
+            { "topic": "Literasi Visual dan Simbol", "sub_topics": ["Membaca informasi dari gambar atau ikon", "Menghubungkan gambar dengan teks", "Mengamati dan mendeskripsikan gambar sebagai bahan menulis"] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Kegiatan Pembelajaran Kontekstual",
+          "topics": [
+            { "topic": "Membaca Nyaring dan Diskusi Cerita", "sub_topics": ["Membaca cerita anak dan berdiskusi isi serta pesan cerita"] },
+            { "topic": "Menulis Cerita Pendek Berdasarkan Gambar", "sub_topics": ["Membuat kalimat atau paragraf dari urutan gambar"] },
+            { "topic": "Bermain Peran dan Latihan Percakapan", "sub_topics": ["Menggunakan kalimat tanya dan perintah dalam bermain peran"] },
+            { "topic": "Mendengarkan dan Merangkum Informasi", "sub_topics": ["Mendengarkan teks lalu menuliskan pokok-pokok informasi"] },
+            { "topic": "Membuat Puisi Sederhana", "sub_topics": ["Menyusun puisi berdasarkan tema tertentu seperti alam, keluarga, atau sekolah"] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Membaca dan Memahami Teks",
+          "topics": [
+            { "topic": "Membaca Cerita Rakyat dan Fabel", "sub_topics": ["Membaca cerita rakyat dan fabel sederhana", "Mengidentifikasi tokoh, alur, dan pesan moral dalam cerita"] },
+            { "topic": "Membaca Kosakata Baru", "sub_topics": ["Mengenali dan memahami kosakata baru terkait benda, hewan, dan tempat", "Menggunakannya dalam konteks sederhana"] },
+            { "topic": "Membaca Teks Pendek dan Instruksi", "sub_topics": ["Membaca pengumuman, petunjuk, dan informasi sederhana", "Menyimpulkan isi teks"] },
+            { "topic": "Membaca Teks Prosedur Sederhana", "sub_topics": ["Membaca cara membuat sesuatu (contoh: mainan dari barang bekas)", "Menjawab pertanyaan berdasarkan isi teks"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menulis Teks dan Kalimat Sederhana",
+          "topics": [
+            { "topic": "Menulis Kalimat Sederhana", "sub_topics": ["Menyusun kalimat tunggal dan kalimat majemuk sederhana", "Menggunakan tanda baca dengan benar (titik, koma)"] },
+            { "topic": "Menulis Cerita Pendek", "sub_topics": ["Menulis cerita berdasarkan pengalaman pribadi atau imajinasi", "Menggunakan gambar sebagai bantuan"] },
+            { "topic": "Menulis Surat Sederhana", "sub_topics": ["Menulis surat untuk mengucapkan selamat, terima kasih, atau permintaan maaf", "Menggunakan struktur surat yang tepat"] },
+            { "topic": "Menulis Kosakata Baru", "sub_topics": ["Menuliskan dan menggunakan kosakata baru dalam kalimat", "Menyusun daftar kata dan arti"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Keterampilan Berbicara",
+          "topics": [
+            { "topic": "Menyampaikan Informasi Secara Lisan", "sub_topics": ["Menceritakan pengalaman pribadi atau menjelaskan benda", "Menggunakan urutan logis dan bahasa yang jelas"] },
+            { "topic": "Bertanya dan Menjawab Pertanyaan", "sub_topics": ["Menggunakan kata tanya: apa, siapa, di mana, kapan, mengapa", "Memberikan jawaban yang sesuai"] },
+            { "topic": "Bercerita dan Bermain Peran", "sub_topics": ["Menceritakan cerita pendek dengan runtut", "Bermain peran sesuai situasi sederhana (misalnya: di pasar, di sekolah)"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Tata Bahasa dan Penggunaan Bahasa",
+          "topics": [
+            { "topic": "Kalimat Tanya dan Kalimat Perintah", "sub_topics": ["Mengenali dan membedakan bentuk serta penggunaan kalimat tanya dan perintah"] },
+            { "topic": "Tanda Baca", "sub_topics": ["Menggunakan tanda titik (.), tanda tanya (?), dan tanda seru (!) secara tepat dalam tulisan"] },
+            { "topic": "Penggunaan Kata Ganti", "sub_topics": ["Kata ganti orang pertama (saya, aku), kedua (kamu), dan ketiga (dia, mereka)"] },
+            { "topic": "Penggunaan Kata Sambung", "sub_topics": ["Menggunakan kata sambung \"dan\" serta \"tetapi\" untuk menggabungkan kalimat sederhana"] },
+            { "topic": "Penggunaan Kata Keterangan", "sub_topics": ["Mengenali dan menggunakan kata keterangan waktu (sekarang, kemarin), tempat (di rumah, di sekolah), dan cara (dengan hati-hati)"] },
+            { "topic": "Penggunaan Kata Ulang", "sub_topics": ["Mengenali dan menggunakan kata ulang seperti “kura-kura”, “anak-anak”, “rumah-rumah”"] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Kegiatan Berbahasa Kontekstual",
+          "topics": [
+            { "topic": "Menyampaikan Pesan", "sub_topics": ["Menyampaikan pesan secara lisan atau tertulis, misalnya menjaga kebersihan"] },
+            { "topic": "Membaca dan Membahas Fabel", "sub_topics": ["Berdiskusi isi dan pesan moral dari cerita fabel"] },
+            { "topic": "Menulis Berdasarkan Pengalaman", "sub_topics": ["Menulis cerita atau surat berdasarkan pengalaman pribadi"] },
+            { "topic": "Bermain Peran Komunikatif", "sub_topics": ["Melatih kemampuan berbicara dan menyusun dialog dengan teman"] }
+          ]
+        }
+      ]
+    },
+    "Kelas 3": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Keterampilan Menyimak dan Berbicara",
+          "topics": [
+            { "topic": "Menyimak Teks Lisan dan Audiovisual", "sub_topics": ["Menyimak dengan tenang dan fokus", "Menyimpulkan ide pokok dari teks yang didengarkan", "Memahami instruksi dan perintah lisan yang lebih kompleks"] },
+            { "topic": "Berbicara dan Berdiskusi", "sub_topics": ["Menyampaikan ide atau pendapat secara lisan", "Menanggapi pendapat orang lain dengan bahasa yang sopan", "Menggunakan ungkapan seperti “tolong”, “terima kasih”, dan “maaf” secara tepat"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Keterampilan Membaca dan Memahami Teks",
+          "topics": [
+            { "topic": "Membaca dengan Pemahaman", "sub_topics": ["Membaca berbagai jenis teks (cerita, deskripsi, laporan)", "Menemukan informasi penting dalam teks", "Menentukan ide pokok dalam paragraf"] },
+            { "topic": "Jenis Teks: Fiksi dan Nonfiksi", "sub_topics": ["Membedakan teks fiksi (cerita imajinatif) dan nonfiksi (informasi faktual)", "Menyebutkan ciri-ciri teks fiksi dan nonfiksi"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menulis Teks dan Kalimat",
+          "topics": [
+            { "topic": "Menulis Kalimat dan Paragraf Sederhana", "sub_topics": ["Menulis dengan struktur awal, tengah, dan akhir", "Menggunakan kosakata yang sesuai tema dan konteks"] },
+            { "topic": "Menulis Cerita Pendek dan Laporan Sederhana", "sub_topics": ["Menulis cerita berdasarkan pengalaman atau imajinasi", "Menulis laporan sederhana berdasarkan pengamatan"] },
+            { "topic": "Penggunaan Tanda Baca dan Huruf Kapital", "sub_topics": ["Menggunakan tanda titik (.), koma (,), tanda tanya (?), dan tanda seru (!) dengan tepat", "Menggunakan huruf kapital untuk: Awal kalimat, Nama tempat, Nama orang, Hari, bulan, dan tahun"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Tata Bahasa dan Struktur Kalimat",
+          "topics": [
+            { "topic": "Penggunaan Kata Tanya", "sub_topics": ["Apa, siapa, kapan, di mana, mengapa, dan bagaimana"] },
+            { "topic": "Jenis Kalimat", "sub_topics": ["Kalimat tanya", "Kalimat perintah", "Kalimat berita", "Kalimat aktif dan pasif"] },
+            { "topic": "Unsur Kalimat", "sub_topics": ["Mengenal subjek, predikat, objek", "Menentukan ide pokok dan informasi penjelas"] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Pemahaman Cerita dan Unsur Naratif",
+          "topics": [
+            { "topic": "Mengenal Tokoh dan Masalah dalam Cerita", "sub_topics": ["Tokoh utama dan tokoh tambahan", "Masalah dan penyelesaian dalam cerita", "Konflik sederhana yang dialami tokoh"] },
+            { "topic": "Berpendapat tentang Cerita", "sub_topics": ["Memberi tanggapan terhadap isi cerita", "Menyampaikan pendapat pribadi tentang tokoh atau peristiwa dalam cerita"] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Tema-tema Pembelajaran Kontekstual",
+          "topics": [
+            { "topic": "Ayo, Main!", "sub_topics": ["Tema seputar permainan tradisional dan interaksi sosial"] },
+            { "topic": "Kawan Searah", "sub_topics": ["Mengenal teman dan nilai persahabatan"] },
+            { "topic": "Pengobar Semangat", "sub_topics": ["Mengenal tokoh inspiratif dan sikap pantang menyerah"] },
+            { "topic": "Senyum di Sekitarku", "sub_topics": ["Mengenal emosi dan lingkungan sosial sekitar"] },
+            { "topic": "Bola-bola Cokelat", "sub_topics": ["Proses dan kegiatan membuat sesuatu"] },
+            { "topic": "Sahabat dari Seberang", "sub_topics": ["Mengenal keragaman budaya dan persahabatan lintas daerah"] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Membaca dan Memahami Teks",
+          "topics": [
+            { "topic": "Menemukan Informasi dalam Teks", "sub_topics": ["Mengidentifikasi informasi penting", "Menjawab pertanyaan berdasarkan teks bacaan"] },
+            { "topic": "Mengajukan Pertanyaan", "sub_topics": ["Membuat pertanyaan yang relevan terhadap bacaan", "Menggunakan kata tanya: apa, siapa, kapan, di mana, mengapa, dan bagaimana"] },
+            { "topic": "Memahami Ide Pokok", "sub_topics": ["Menentukan ide pokok dalam paragraf", "Menyimpulkan isi teks secara keseluruhan"] },
+            { "topic": "Menganalisis Unsur Cerita", "sub_topics": ["Mengenal tokoh, alur, dan latar (setting)", "Menentukan masalah dan penyelesaian dalam cerita"] },
+            { "topic": "Membaca Nyaring dengan Intonasi Tepat", "sub_topics": ["Melatih lafal dan intonasi saat membaca teks", "Meningkatkan pemahaman dan ekspresi saat membaca"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menulis Kalimat dan Teks Sederhana",
+          "topics": [
+            { "topic": "Menulis Cerita Sederhana", "sub_topics": ["Menulis cerita dengan struktur awal, tengah, dan akhir", "Menyampaikan pesan atau tema dalam cerita"] },
+            { "topic": "Menulis Kalimat dengan Struktur SPOK", "sub_topics": ["Menyusun kalimat lengkap dengan subjek, predikat, objek, dan keterangan"] },
+            { "topic": "Penggunaan Tanda Baca", "sub_topics": ["Tanda titik (.), koma (,), tanda tanya (?), dan tanda seru (!)", "Penggunaan sesuai dengan jenis kalimat"] },
+            { "topic": "Penggunaan Huruf Kapital", "sub_topics": ["Huruf kapital di awal kalimat", "Huruf kapital untuk nama orang, tempat, hari, bulan"] },
+            { "topic": "Memperluas Kosakata", "sub_topics": ["Mempelajari dan menggunakan kata-kata baru", "Menggunakan kosakata dalam konteks lisan dan tulisan"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Keterampilan Berbicara dan Mendengarkan",
+          "topics": [
+            { "topic": "Berpendapat dalam Diskusi", "sub_topics": ["Menyampaikan pendapat dengan sopan", "Menanggapi pendapat teman dengan baik"] },
+            { "topic": "Menyampaikan Informasi Secara Lisan", "sub_topics": ["Menyampaikan cerita, pengalaman, atau laporan secara runtut", "Menggunakan bahasa yang jelas dan mudah dipahami"] },
+            { "topic": "Berbicara dengan Volume yang Sesuai", "sub_topics": ["Menyesuaikan volume suara dengan situasi dan tempat"] },
+            { "topic": "Menyimak dengan Fokus", "sub_topics": ["Mendengarkan informasi dari guru atau teman", "Merespons dengan tepat setelah menyimak"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Tata Bahasa dan Jenis Kata",
+          "topics": [
+            { "topic": "Jenis-jenis Kata", "sub_topics": ["Kata benda, kata sifat, kata kerja", "Kata depan dan kata sambung"] },
+            { "topic": "Kata Ulang", "sub_topics": ["Penggunaan dan contoh kata ulang (contoh: anak-anak, lari-lari)"] },
+            { "topic": "Kata Majemuk", "sub_topics": ["Pengertian dan contoh kata majemuk (contoh: rumah sakit, meja makan)"] },
+            { "topic": "Kata Serapan", "sub_topics": ["Mengenal kata serapan dari bahasa asing (contoh: televisi, komputer)", "Menggunakannya dalam kalimat"] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Nilai-Nilai Budaya dan Karakter dalam Bahasa",
+          "topics": [
+            { "topic": "Nilai Budaya dan Sastra dalam Teks", "sub_topics": ["Menemukan nilai budaya dan pesan moral dalam cerita", "Mengenali adat dan kebiasaan dari berbagai daerah melalui cerita"] },
+            { "topic": "Penerapan Nilai dalam Kehidupan Sehari-hari", "sub_topics": ["Mengaitkan nilai-nilai dari teks dengan sikap dan tindakan sehari-hari", "Menulis atau menceritakan pengalaman pribadi yang mencerminkan nilai karakter"] }
+          ]
+        }
+      ]
+    },
+    "Kelas 4": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Membaca dan Memahami Teks",
+          "topics": [
+            { "topic": "Ide Pokok dan Informasi Penting", "sub_topics": ["Mengidentifikasi ide pokok dalam paragraf", "Menemukan informasi penting dari teks lisan dan tulisan"] },
+            { "topic": "Kalimat Transitif dan Intransitif", "sub_topics": ["Mengenali ciri-ciri kalimat transitif (memerlukan objek)", "Mengenali kalimat intransitif (tidak memerlukan objek)", "Contoh penggunaannya dalam kalimat"] },
+            { "topic": "Kosakata Baru", "sub_topics": ["Memahami arti kata-kata baru dalam konteks", "Menggunakan kosakata baru dalam lisan dan tulisan"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Keterampilan Menulis",
+          "topics": [
+            { "topic": "Menulis Surat Pribadi", "sub_topics": ["Menyusun surat pribadi dengan struktur yang benar: salam pembuka, isi, dan penutup", "Menulis dengan bahasa yang santun dan komunikatif"] },
+            { "topic": "Menyusun Kalimat yang Efektif", "sub_topics": ["Menulis kalimat yang jelas dan sesuai kaidah bahasa", "Menghindari kalimat tidak lengkap dan kalimat rancu"] },
+            { "topic": "Menulis Teks Sederhana", "sub_topics": ["Menulis teks diskusi atau opini tentang suatu permasalahan", "Mengungkapkan pendapat dan alasan dengan runtut"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Keterampilan Berbahasa Lisan",
+          "topics": [
+            { "topic": "Berbicara Efektif", "sub_topics": ["Mengutarakan pendapat dalam diskusi sederhana", "Bercerita dan menjelaskan sesuatu secara runtut dan jelas"] },
+            { "topic": "Mendengarkan dengan Cermat", "sub_topics": ["Menyimak teks atau percakapan lisan", "Menjawab pertanyaan berdasarkan informasi yang didengar"] },
+            { "topic": "Penggunaan Tanda Baca dalam Lisan dan Tulisan", "sub_topics": ["Mengetahui dan menerapkan fungsi tanda baca: titik, koma, tanda tanya, tanda seru", "Membaca kalimat dengan intonasi sesuai tanda baca"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Struktur dan Jenis Kata dalam Bahasa Indonesia",
+          "topics": [
+            { "topic": "Kata Dasar dan Perubahan Bentuk Kata", "sub_topics": ["Mengenal kata dasar dan perubahan bentuknya (imbuhan)"] },
+            { "topic": "Kata Ulang, Majemuk, dan Serapan", "sub_topics": ["Menyebutkan dan menggunakan kata ulang (contoh: pohon-pohon)", "Menyusun dan memahami arti kata majemuk (contoh: rumah sakit)", "Mengenal kata serapan dari bahasa daerah atau asing"] },
+            { "topic": "Kata Ganti dan Kata Sambung", "sub_topics": ["Menggunakan kata ganti orang dan benda dalam kalimat", "Menggunakan kata sambung: dan, tetapi, karena, agar, supaya"] },
+            { "topic": "Kata Sifat dan Kata Keterangan", "sub_topics": ["Menggunakan kata sifat untuk menggambarkan benda atau orang", "Menggunakan kata keterangan waktu, tempat, dan cara dalam kalimat"] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 5: Bertukar atau Membayar",
+          "topics": [
+            { "topic": "Memahami Tujuan Penulis", "sub_topics": ["Menjelaskan maksud atau tujuan penulis dalam teks cerita"] },
+            { "topic": "Keaslian Uang", "sub_topics": ["Mengenali ciri-ciri keaslian uang (dilihat, diraba, diterawang)", "Menyampaikan kembali informasi berdasarkan pengamatan"] },
+            { "topic": "Tanda Baca dalam Penulisan Uang", "sub_topics": ["Menggunakan tanda titik (.) dan koma (,) dalam penulisan angka dan nilai uang"] },
+            { "topic": "Menulis Teks Prosedur", "sub_topics": ["Menyusun teks prosedur (langkah-langkah melakukan sesuatu)", "Menggunakan urutan yang sistematis dan kalimat perintah"] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Satu Titik",
+          "topics": [
+            { "topic": "Memahami Kosakata Baru", "sub_topics": ["Mencari makna kata baru dari konteks bacaan atau kamus", "Menggunakan kata baru dalam kalimat"] },
+            { "topic": "Berpendapat tentang Teks dan Ilustrasi", "sub_topics": ["Mengungkapkan pendapat terhadap isi dan gambar pendukung dalam teks", "Memberikan alasan yang logis"] },
+            { "topic": "Perubahan Emosi Tokoh", "sub_topics": ["Menyimpulkan perasaan tokoh berdasarkan alur cerita", "Mengidentifikasi perubahan kejadian dan akibatnya"] },
+            { "topic": "Menggunakan Kalimat Efektif", "sub_topics": ["Menyusun kalimat yang ringkas, jelas, dan logis", "Menghindari pengulangan kata yang tidak perlu"] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Asal-usul",
+          "topics": [
+            { "topic": "Menyimak Instruksi Lisan", "sub_topics": ["Mendengarkan petunjuk atau instruksi secara audio", "Melaksanakan atau menjelaskan kembali isi instruksi"] },
+            { "topic": "Menemukan Informasi dari Teks dan Gambar", "sub_topics": ["Mengidentifikasi informasi utama dari teks naratif dan ilustrasi", "Menjawab pertanyaan berdasarkan isi"] },
+            { "topic": "Menyampaikan Pendapat tentang Informasi Teks", "sub_topics": ["Mengutarakan pendapat terhadap isi informasi secara lisan atau tulisan", "Menggunakan kalimat yang sesuai kaidah bahasa"] },
+            { "topic": "Menulis Teks Narasi Sederhana", "sub_topics": ["Menyusun cerita naratif menggunakan kata penghubung antarkalimat (seperti: lalu, kemudian, setelah itu)", "Mengembangkan ide cerita dengan alur yang logis"] }
+          ]
+        },
+        {
+          "chapter": "Bab 8: Sehatlah Ragaku",
+          "topics": [
+            { "topic": "Menyebutkan Permasalahan Tokoh dalam Cerita", "sub_topics": ["Mengidentifikasi konflik atau masalah yang dialami tokoh", "Menjelaskan solusi yang diambil dalam cerita"] },
+            { "topic": "Menilai Ilustrasi dan Isi Teks", "sub_topics": ["Menilai kesesuaian antara gambar dan isi bacaan", "Menyampaikan pendapat dengan alasan"] },
+            { "topic": "Membedakan Fakta dan Opini", "sub_topics": ["Mengklasifikasikan kalimat fakta dan opini dalam teks", "Memberi contoh kalimat fakta dan opini dari kehidupan sehari-hari"] },
+            { "topic": "Menulis Teks dengan Struktur Lengkap", "sub_topics": ["Menulis teks narasi dengan bagian awal, tengah, dan akhir", "Menggunakan kosakata baku, tanda baca, dan struktur kalimat yang benar"] }
+          ]
+        }
+      ]
+    },
+    "Kelas 5": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Aku yang Unik",
+          "topics": [
+            { "topic": "Mengenal Diri dan Kepercayaan Diri", "sub_topics": ["Menyampaikan pendapat tentang keunikan diri", "Menulis deskripsi tentang diri sendiri"] },
+            { "topic": "Makna Denotasi dan Konotasi", "sub_topics": ["Membedakan makna denotatif (makna lugas) dan konotatif (makna kiasan)", "Menggunakan kedua jenis makna dalam konteks kalimat"] },
+            { "topic": "Penggunaan Kata Tanya", "sub_topics": ["Menggunakan kata tanya: apa, siapa, di mana, kapan, mengapa, dan bagaimana", "Membuat pertanyaan berdasarkan bacaan"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Buku Jendela Dunia",
+          "topics": [
+            { "topic": "Cerita Rakyat Nusantara", "sub_topics": ["Membaca dan memahami cerita rakyat (legenda, mite, fabel)", "Menentukan tokoh, latar, dan pesan moral"] },
+            { "topic": "Unsur Intrinsik dan Ekstrinsik Cerita", "sub_topics": ["Unsur intrinsik: tokoh, alur, tema, latar, sudut pandang", "Unsur ekstrinsik: nilai budaya, latar belakang sosial"] },
+            { "topic": "Analisis Cerita Rakyat", "sub_topics": ["Menyusun ringkasan dan tanggapan terhadap cerita", "Membandingkan dua cerita dari daerah berbeda"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Ekspresi Diri Melalui Hobi",
+          "topics": [
+            { "topic": "Teks Prosedur", "sub_topics": ["Mengenal struktur teks prosedur: tujuan, alat/bahan, langkah-langkah", "Menulis teks prosedur: membuat mainan, kerajinan, atau makanan sederhana"] },
+            { "topic": "Kosakata Terkait Hobi", "sub_topics": ["Memahami dan menggunakan kata sifat untuk mendeskripsikan hasil karya", "Mempelajari sinonim dan antonim dalam konteks"] },
+            { "topic": "Penggunaan Awalan \"pe-\"", "sub_topics": ["Mengenali dan menggunakan kata berawalan \"pe-\" (pembuat, pelaku)", "Contoh: pembuat, pelukis, pemikir"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Belajar Berwirausaha",
+          "topics": [
+            { "topic": "Mengenali Informasi Faktual dan Aktual", "sub_topics": ["Menyaring informasi dari bacaan atau media", "Membedakan fakta dan opini"] },
+            { "topic": "Teks Deskripsi", "sub_topics": ["Menulis teks deskriptif tentang barang dagangan, tempat usaha, atau produk buatan sendiri", "Menggunakan kalimat yang menggambarkan ciri fisik, warna, bentuk, dan fungsi"] },
+            { "topic": "Mempresentasikan Informasi", "sub_topics": ["Melatih keterampilan berbicara untuk mempresentasikan ide atau produk", "Menggunakan alat bantu visual dalam presentasi"] }
+          ]
+        },
+        {
+          "chapter": "Bab Pendukung: Keterampilan Bahasa",
+          "topics": [
+            { "topic": "Membaca dan Mendengarkan Teks Beragam", "sub_topics": ["Dongeng, cerita pendek, puisi, teks nonfiksi", "Menyimak informasi dan menyampaikan tanggapan secara lisan/tulisan"] },
+            { "topic": "Berbicara dan Presentasi", "sub_topics": ["Menyampaikan hasil pengamatan atau proyek", "Melatih penggunaan bahasa yang sopan dan percaya diri"] },
+            { "topic": "Penggunaan Kamus dan Makna Kata", "sub_topics": ["Mencari arti kata dengan kamus cetak dan digital", "Mengelompokkan kata berdasarkan makna"] },
+            { "topic": "Penggunaan Huruf Kapital", "sub_topics": ["Huruf kapital pada awal kalimat, nama orang, tempat, hari, dan judul karya", "Penerapan dalam kalimat dan paragraf"] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 5: Menjelaskan Sesuatu Melalui Teks Eksplanasi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan lisan atau video tentang proses alam/sosial (misalnya: proses terjadinya hujan)"] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksplanasi dan mengidentifikasi struktur: pernyataan umum, penjelasan, penutup"] },
+            { "topic": "Berbicara", "sub_topics": ["Menjelaskan proses terjadinya sesuatu secara lisan"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks eksplanasi berdasarkan topik yang diamati"] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan antara informasi fakta dan opini dalam teks"] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Dunia Iklan dan Informasi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak iklan audio/visual dan memahami pesan yang disampaikan"] },
+            { "topic": "Membaca", "sub_topics": ["Membaca berbagai jenis iklan dan teks informatif"] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat tentang iklan yang menarik atau tidak etis"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis iklan sederhana dan mengolah informasi dari bacaan"] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengidentifikasi fakta dan opini dalam iklan"] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Merangkum dan Mengarang",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak teks narasi atau berita untuk dirangkum"] },
+            { "topic": "Membaca", "sub_topics": ["Membaca berbagai jenis teks untuk menentukan ide pokok dan informasi penting"] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan ringkasan atau hasil karangan secara lisan"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis ringkasan dan menyusun karangan sesuai tema"] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Memilih informasi utama dan mengabaikan hal yang tidak penting"] }
+          ]
+        },
+        {
+          "chapter": "Bab 8: Bermain dengan Kata: Pantun dan Drama",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan pantun atau dialog drama"] },
+            { "topic": "Membaca", "sub_topics": ["Membaca pantun dan naskah drama dengan intonasi yang sesuai"] },
+            { "topic": "Berbicara", "sub_topics": ["Membacakan pantun dan berdialog dalam drama"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis pantun dan menyusun naskah drama sederhana"] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis unsur dalam drama (tokoh, alur, konflik, latar)"] }
+          ]
+        },
+        {
+          "chapter": "Bab 9: Berbicara dan Berpendapat",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pidato atau presentasi teman dan memberi tanggapan"] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks pidato dan mencermati strukturnya"] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pidato atau pendapat secara lisan"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis pidato singkat dan menuliskan tanggapan atas pendapat orang lain"] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Memberi alasan logis dalam menyampaikan pendapat"] }
+          ]
+        },
+        {
+          "chapter": "Bab 10: Peduli dan Bertanggung Jawab",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak cerita atau diskusi tentang perundungan, cinta tanah air, dan lingkungan"] },
+            { "topic": "Membaca", "sub_topics": ["Membaca cerita inspiratif, artikel lingkungan, dan kisah tokoh nasional"] },
+            { "topic": "Berbicara", "sub_topics": ["Diskusi kelompok tentang cara mencegah perundungan dan menjaga bumi"] },
+            { "topic": "Menulis", "sub_topics": ["Menulis cerita, surat, atau ajakan bertema kepedulian dan tanggung jawab"] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengidentifikasi nilai-nilai dalam teks dan menerapkannya dalam kehidupan"] }
+          ]
+        }
+      ]
+    },
+    "Kelas 6": {
+      "Semester 2": [
+        {
+          "chapter": "Bab 5: Anak-Anak yang Mengubah Dunia",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak teks biografi tokoh anak inspiratif melalui video atau audio."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks biografi dan cerita faktual; mengidentifikasi informasi penting dan nilai-nilai yang ditunjukkan tokoh."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat tentang tindakan positif tokoh dalam kehidupan nyata."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks biografi pendek berdasarkan tokoh inspiratif."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membandingkan dua tokoh anak dunia dan menilai dampak perubahan yang mereka bawa."] },
+            { "topic": "Bahasa", "sub_topics": ["Membedakan kata baku dan tidak baku dalam teks biografi."] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Liburan Perpisahan Kelas",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak cerita tentang pengalaman liburan atau kegiatan perpisahan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks naratif; mengenali unsur cerita: tokoh, latar, alur, konflik, dan amanat."] },
+            { "topic": "Berbicara", "sub_topics": ["Berdiskusi dan menyampaikan pendapat dalam debat sederhana terkait cerita atau pengalaman."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis cerita pendek bertema liburan dengan struktur yang runtut."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis tindakan tokoh dan menyimpulkan pesan cerita."] },
+            { "topic": "Bahasa", "sub_topics": ["Menggunakan sinonim, antonim, dan imbuhan dengan benar dalam narasi."] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Aku Bisa Berempati",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak cerita fiksi atau pengalaman orang lain tentang empati."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca cerpen untuk mengidentifikasi emosi dan perasaan tokoh."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan kembali cerita dengan menunjukkan empati secara lisan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis cerita pendek bertema empati berdasarkan pengalaman pribadi atau ilustrasi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menghubungkan perasaan tokoh dengan situasi sosial di dunia nyata."] },
+            { "topic": "Bahasa", "sub_topics": ["Menyusun kalimat majemuk dan menggunakan kata sifat secara tepat."] }
+          ]
+        },
+        {
+          "chapter": "Bab 8: Aman di Dunia Maya",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak teks informasi atau video edukatif tentang etika dan keamanan internet."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksplanasi dan artikel tentang dunia maya; menentukan ide pokok dan informasi penting."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat tentang perilaku yang baik di internet secara lisan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis esai sederhana atau poster digital tentang pentingnya etika berinternet."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan fakta dan opini dalam informasi digital."] },
+            { "topic": "Bahasa", "sub_topics": ["Menggunakan kata serapan dan imbuhan dalam teks eksplanasi."] }
+          ]
+        }
+      ]
+    },
+    "Kelas 7": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Jelajah Nusantara (Teks Deskripsi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak paparan lisan tentang tempat atau budaya Nusantara."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks deskripsi dan mengidentifikasi struktur (identifikasi objek dan deskripsi rinci)."] },
+            { "topic": "Berbicara", "sub_topics": ["Mendeskripsikan tempat, benda, atau kebudayaan secara lisan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks deskripsi tentang objek, peristiwa, atau tempat."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis deskripsi yang baik dan menilai penggunaan informasi detail."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Menggunakan kata konkret, frasa deskriptif, kata sifat, dan majas perbandingan (metafora, simile)."] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Berkelana di Dunia Imajinasi (Teks Narasi/Fantasi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak cerita fantasi dan menangkap unsur cerita (tokoh, alur, latar)."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks cerita fantasi dan memahami struktur naratif (orientasi, komplikasi, resolusi)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan kembali cerita fantasi dengan runtut dan ekspresif."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks narasi/cerita fantasi berdasarkan pengalaman atau imajinasi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengidentifikasi konflik dan pesan moral dalam cerita."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Menggunakan kalimat langsung dan tidak langsung, konjungsi kronologis (kemudian, lalu), serta kata kerja aksi dan emosi."] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Hal yang Baik bagi Tubuh (Teks Prosedur)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan langkah-langkah dalam membuat atau melakukan sesuatu."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks prosedur dan mengenali bagian tujuan, alat/bahan, dan langkah-langkah."] },
+            { "topic": "Berbicara", "sub_topics": ["Menjelaskan prosedur secara lisan kepada teman/kelompok."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks prosedur secara runtut dan jelas."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi kejelasan dan efektivitas teks prosedur."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Menggunakan kalimat perintah (imperatif), kata kerja aktif, konjungsi urutan (pertama, kemudian, akhirnya), dan kata keterangan cara/waktu."] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Aksi Nyata Para Pelindung Bumi (Teks Eksposisi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak paparan lisan tentang isu lingkungan dan argumen yang dikemukakan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksposisi dan mengenali struktur (tesis, argumentasi, penegasan ulang)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat atau argumen secara lisan dengan alasan yang jelas."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks eksposisi berdasarkan topik yang dipilih."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan antara fakta dan opini serta menilai kekuatan argumen."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Menggunakan konjungsi sebab-akibat (karena, sehingga), kata modalitas (sebaiknya, harus), kata kerja opini, dan kalimat kompleks."] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Membuka Gerbang Dunia (Teks Negosiasi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak contoh dialog negosiasi dan mencermati strategi dalam mencapai kesepakatan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks negosiasi dan memahami tahap-tahapnya (pembuka, penawaran, kesepakatan)."] },
+            { "topic": "Berbicara", "sub_topics": ["Melakukan simulasi negosiasi dengan memperhatikan ekspresi dan bahasa sopan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks dialog negosiasi berdasarkan konteks yang diberikan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi posisi tawar dan hasil negosiasi yang adil."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Menggunakan kalimat efektif, ungkapan persuasif, kata sapaan, serta kalimat sopan dan ajakan."] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 6: Aksi Nyata Para Pelindung Bumi (Teks Berita dan Media Informasi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak berita audiovisual dari berbagai media dan mengidentifikasi informasi penting."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca berita cetak dan digital dengan strategi prediksi dan identifikasi unsur berita (apa, siapa, kapan, di mana, mengapa, bagaimana)."] },
+            { "topic": "Berbicara", "sub_topics": ["Melaporkan kembali isi berita secara lisan dengan kalimat runtut dan intonasi tepat."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks berita sederhana berdasarkan kejadian nyata atau fiktif."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis perbedaan antara fakta dan opini dalam teks berita."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Penggunaan kalimat berita (deklaratif), kata kerja pewarta (melaporkan, mengabarkan), konjungsi temporal, dan kata kerja pasif/aktif."] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Membuka Gerbang Dunia (Buku Bergambar dan Literasi Buku)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan tentang bagian-bagian buku (judul, isi, indeks, glosarium)."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca dan menelaah isi buku bergambar, baik fiksi maupun nonfiksi."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat atau tanggapan terhadap isi dan ilustrasi dalam buku."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis resensi singkat atau ringkasan isi buku."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis hubungan antara gambar, teks, dan pesan dalam buku."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Penggunaan kata sifat deskriptif, konjungsi penyebab/akibat, dan kata rujukan."] }
+          ]
+        },
+        {
+          "chapter": "Bab 8: Sampaikan Melalui Surat (Surat Pribadi dan Surat Dinas)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan surat pribadi dan dinas, serta memahami isinya."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca contoh surat pribadi dan dinas, menelaah struktur (tempat/tanggal, salam, isi, penutup, tanda tangan)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan maksud atau perasaan secara sopan dalam bentuk lisan sebelum dituangkan dalam surat."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis surat pribadi dan surat dinas dengan memperhatikan format dan bahasa yang sesuai."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membandingkan fungsi dan penggunaan surat pribadi dan surat resmi dalam konteks sosial."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Penggunaan pronomina (saya, kami, Anda), kata baku dan tidak baku, ekspresi santun, serta kalimat langsung dan tidak langsung."] }
+          ]
+        },
+        {
+          "chapter": "Bab 9: Merangkai Cerita dan Pesan (Fabel dan Legenda)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak dongeng, fabel, dan legenda yang dibacakan atau ditayangkan secara audio."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks fabel dan legenda, mengidentifikasi unsur intrinsik (tokoh, latar, alur, pesan moral)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan kembali fabel/legenda dengan ekspresi yang sesuai."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis cerita fabel/legenda berdasarkan imajinasi atau adaptasi dari cerita yang sudah ada."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis nilai-nilai moral yang terkandung dalam cerita."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Penggunaan kata kerja tindakan, kalimat langsung, kata sambung waktu, dan kata sifat."] }
+          ]
+        },
+        {
+          "chapter": "Bab 10: Bermain Kata dalam Puisi Rakyat (Pantun, Gurindam, Syair)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan pembacaan pantun/gurindam/syair dan menangkap isi atau makna tersirat."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca puisi rakyat dan mengidentifikasi ciri-ciri bentuk, rima, dan maknanya."] },
+            { "topic": "Berbicara", "sub_topics": ["Membacakan puisi rakyat dengan lafal, intonasi, dan ekspresi yang tepat."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis pantun, gurindam, atau syair sederhana dengan memperhatikan rima dan isi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menafsirkan pesan moral yang terkandung dalam puisi rakyat."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Penggunaan rima, majas, perulangan bunyi, serta pilihan kata kiasan dan konkret."] }
+          ]
+        }
+      ]
+    },
+    "Kelas 8": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Menyampaikan Peristiwa Lewat Teks Berita",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak siaran berita audio atau video dan mengidentifikasi informasi penting (5W+1H)."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca berbagai teks berita dan menemukan struktur orientasi dan peristiwa."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan kembali isi berita secara lisan dengan runtut dan objektif."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks berita berdasarkan fakta aktual dengan struktur dan kaidah yang benar."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan antara fakta dan opini dalam berita."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat berita (deklaratif), kata kerja pasif, penggunaan kata baku dan ejaan yang benar, penggunaan konjungsi temporal dan kausal."] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menarik Perhatian Lewat Iklan, Slogan, dan Poster",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak iklan radio atau televisi dan menangkap pesan persuasif yang disampaikan."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis poster dan slogan dalam media cetak atau digital."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pesan persuasif secara lisan dalam bentuk presentasi iklan."] },
+            { "topic": "Menulis", "sub_topics": ["Membuat iklan, slogan, atau poster sesuai dengan tujuan dan sasaran audiens."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan antara informasi dan ajakan dalam media persuasif."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Pilihan kata persuasif, kalimat ajakan (imperatif), kata emotif, rima dan repetisi, kalimat pendek dan menarik."] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Mengemukakan Pendapat dalam Teks Eksposisi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan atau argumentasi lisan dan memahami gagasan utama yang disampaikan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksposisi untuk mengidentifikasi struktur (tesis, argumentasi, penegasan ulang)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat dan argumen secara lisan dengan logis dan santun."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks eksposisi dengan menyusun gagasan secara logis dan sistematis."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi kekuatan dan kelemahan argumen dalam teks eksposisi."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata hubung argumentatif (sebab, karena, oleh karena itu), konjungsi logis, kata teknis, kalimat kompleks."] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Menghayati Makna dalam Puisi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan puisi dan mengidentifikasi perasaan serta makna tersirat."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca puisi dengan memperhatikan diksi, rima, dan struktur bait."] },
+            { "topic": "Berbicara", "sub_topics": ["Membacakan puisi dengan ekspresi, lafal, dan intonasi yang tepat."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis puisi bebas atau puisi lama (pantun/gurindam) berdasarkan tema tertentu."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis makna simbolis, citraan, dan pesan moral dalam puisi."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Diksi, majas (metafora, personifikasi, hiperbola), rima, pengulangan (anafora)."] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Menjelaskan Proses Melalui Teks Eksplanasi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan lisan tentang proses alam/sosial dan memahami runtutan peristiwa."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksplanasi dan menemukan struktur: pernyataan umum, deretan penjelas, kesimpulan."] },
+            { "topic": "Berbicara", "sub_topics": ["Menjelaskan proses tertentu (misal: gunung meletus, daur air) secara lisan dengan runtut."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks eksplanasi berdasarkan topik ilmiah atau sosial yang diamati."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kebenaran dan ketepatan informasi dalam teks eksplanasi."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata teknis, konjungsi kronologis dan sebab-akibat, kata kerja pasif, kalimat penjelas."] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Menyajikan Hasil Observasi dalam Bentuk Teks LHO",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak laporan lisan hasil observasi dan mencatat informasi penting."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks laporan hasil observasi dan mengidentifikasi struktur serta objek yang diamati."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan hasil observasi secara lisan dengan sistematis dan jelas."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks laporan hasil observasi berdasarkan objek nyata atau eksperimen."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai keakuratan dan kelengkapan informasi dalam teks LHO."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat definisi dan deskripsi, kata teknis dan ilmiah, struktur SPOK yang lengkap, penggunaan kata ganti netral."] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Menyampaikan Fakta Lewat Teks Berita",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak berita audio atau video, mencatat fakta dan unsur 5W+1H."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks berita cetak/digital dan menemukan unsur orientasi, peristiwa, dan sumber berita."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan kembali isi berita secara lisan secara objektif."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks berita berdasarkan fakta aktual."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan fakta dan opini dalam teks berita."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat langsung, kata kerja mental, kata keterangan waktu/tempat, konjungsi temporal, bahasa baku."] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Memengaruhi Lewat Iklan, Slogan, dan Poster",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak iklan visual/audio dan memahami pesan persuasifnya."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis unsur teks iklan, slogan, dan poster dalam media cetak atau digital."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan presentasi iklan secara lisan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis iklan, slogan, dan poster sederhana sesuai kaidah."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi pesan dan efek iklan terhadap audiens."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat persuasif, kata emotif, kalimat ajakan (imperatif), kata ganti orang kedua, konjungsi sebab-akibat."] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menyampaikan Pendapat Melalui Teks Eksposisi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak argumen lisan dan mencatat gagasan utamanya."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksposisi untuk mengenali struktur dan pola pengembangan argumen."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat secara lisan dengan argumen logis."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks eksposisi dengan struktur tesis, argumentasi, dan penegasan ulang."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis kekuatan argumen dan bukti dalam teks."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Konjungsi argumentatif (karena, sebab, oleh karena itu), kalimat kompleks, kata teknis, kalimat fakta-opini."] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Menjelaskan Proses Lewat Teks Eksplanasi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan proses ilmiah atau sosial dan memahami urutan peristiwa."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksplanasi dan mengidentifikasi struktur (pernyataan umum – penjelas – simpulan)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menjelaskan proses terjadinya fenomena secara lisan dengan urutan logis."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks eksplanasi berdasarkan hasil observasi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kebenaran dan urutan sebab-akibat dalam proses."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata kerja pasif, konjungsi kronologis, istilah ilmiah, kalimat penjelas, kata teknis."] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Menghargai Karya Melalui Teks Ulasan",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak ulasan film, buku, atau pertunjukan secara lisan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks ulasan dan mengidentifikasi kelebihan/kekurangan karya."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan ulasan karya fiksi/nonfiksi secara lisan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks ulasan terhadap buku, film, atau novel pendek."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Memberikan alasan logis atas penilaian terhadap karya."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata evaluatif (menarik, membosankan), kata sifat, kalimat opini, konjungsi sebab-akibat."] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Berbicara di Depan Umum dengan Pidato",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pidato tokoh atau teman, mengenali struktur dan pesan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca naskah pidato dan menandai bagian pembukaan, isi, penutup."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pidato singkat secara lisan dengan percaya diri."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks pidato sesuai konteks tema (peringatan, ajakan, motivasi)."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menyusun argumen dan ajakan yang tepat sasaran."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat ajakan, kata sapaan, konjungsi persuasif, penggunaan bahasa sopan dan baku."] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Mengapresiasi Lewat Puisi dan Novel",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan deklamasi puisi dan menanggapi makna tersirat."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca puisi dan kutipan novel, menemukan tema dan amanat."] },
+            { "topic": "Berbicara", "sub_topics": ["Membacakan puisi atau mengulas novel secara lisan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis puisi bebas dan membuat ringkasan novel."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis unsur intrinsik novel (tokoh, latar, alur, tema)."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Diksi, majas (metafora, simile, personifikasi), citraan, kalimat deskriptif, kalimat langsung."] }
+          ]
+        }
+      ]
+    },
+    "Kelas 9": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Melaporkan Fakta Lewat Teks Laporan Percobaan",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak hasil percobaan yang dipaparkan secara lisan dan mencatat poin penting."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks laporan percobaan dan mengidentifikasi struktur (tujuan, alat/bahan, langkah kerja, hasil, simpulan)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan hasil percobaan secara lisan kepada kelompok."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks laporan percobaan berdasarkan kegiatan laboratorium/sederhana."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi kelengkapan dan kejelasan data dalam laporan."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata teknis, kalimat pasif, konjungsi kronologis, kata bilangan, kalimat imperatif."] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Meyakinkan Audiens Melalui Pidato Persuasif",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pidato persuasif dari video/audio dan mencatat gagasan utama."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks pidato dan mengidentifikasi struktur: pembukaan, isi, penutup."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pidato singkat untuk menyampaikan ajakan atau pendapat."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks pidato dengan tema sosial, lingkungan, atau pendidikan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengkaji keefektifan argumen dan retorika dalam pidato."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat persuasif, kata emotif, kata sapaan, konjungsi argumentatif (karena, oleh karena itu)."] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menyampaikan Kisah Lewat Cerpen",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan cerpen dan mengidentifikasi unsur cerita."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca cerpen untuk menemukan unsur intrinsik (tokoh, alur, latar, tema, amanat)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan ulang cerpen dengan intonasi dan ekspresi yang tepat."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis cerpen pendek dengan struktur orientasi–komplikasi–resolusi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis konflik, nilai-nilai kehidupan, dan penokohan dalam cerpen."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Diksi, kalimat langsung-tak langsung, penggunaan majas (metafora, personifikasi), kalimat deskriptif."] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Memberi Apresiasi dan Kritik Lewat Teks Tanggapan",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak tanggapan lisan terhadap karya, dan mengidentifikasi pujian atau kritik."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks tanggapan dan menelaah struktur: evaluasi, deskripsi, penegasan ulang."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan tanggapan terhadap cerpen, film, atau artikel secara sopan dan logis."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks tanggapan terhadap karya sastra atau fenomena sosial."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kelebihan dan kekurangan karya secara objektif."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat opini, kata evaluatif (bagus, kurang, menarik), konjungsi perbandingan dan sebab-akibat."] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Meningkatkan Literasi dengan Membaca Buku",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan guru/tokoh literasi tentang strategi membaca efektif (SQ3R)."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca buku fiksi dan nonfiksi, memahami unsur dan isi buku."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan hasil ringkasan atau resensi buku di depan kelas."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis rangkuman isi buku dengan metode SQ3R."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membandingkan buku fiksi dan nonfiksi dari segi isi, tujuan, dan struktur."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata kerja berpikir (menyimpulkan, menyarankan), kalimat ringkasan, kosakata akademik, sinonim-antonim."] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Memberi Tanggapan secara Kritis dan Santun (Teks Tanggapan)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penyampaian pendapat atau ulasan secara lisan untuk memahami pujian dan kritik."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks tanggapan (terhadap karya, peristiwa, atau pendapat) dan mengidentifikasi strukturnya (evaluasi, deskripsi, penegasan ulang)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan tanggapan secara lisan terhadap karya teman atau teks yang dibaca dengan bahasa yang santun dan logis."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks tanggapan yang berisi pujian atau kritik terhadap suatu karya atau pendapat."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi kelayakan tanggapan: adakah alasan yang logis, data pendukung, atau sudut pandang yang adil?"] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata evaluatif (baik, kurang, menarik), kalimat opini, konjungsi sebab-akibat dan perbandingan, kalimat kompleks."] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menimbang Dua Sisi melalui Teks Diskusi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak diskusi kelas tentang topik sosial atau lingkungan, mencatat argumen pro dan kontra."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks diskusi dan mengidentifikasi struktur (isu, argumen pro, argumen kontra, simpulan) serta isi argumen dari kedua sisi."] },
+            { "topic": "Berbicara", "sub_topics": ["Berpartisipasi dalam diskusi kelompok dengan menyampaikan argumen yang jelas dan mendengarkan lawan bicara."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks diskusi berdasarkan topik yang telah dikaji bersama, dengan menyusun argumen secara berimbang."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kekuatan dan kelemahan argumen dari kedua sisi dan menarik simpulan yang adil."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat kompleks, konjungsi perbandingan (namun, sementara itu), kata kerja opini (berpendapat, menyatakan), kalimat pasif dan aktif."] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menginspirasi Lewat Cerita (Cerita Inspiratif)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan cerita inspiratif untuk mengidentifikasi nilai-nilai positif dan karakter tokoh."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca cerita inspiratif dan menelaah struktur cerita: orientasi – peristiwa – penyelesaian – amanat."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan ulang cerita inspiratif dengan ekspresi dan intonasi yang sesuai."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis cerita inspiratif berdasarkan pengalaman nyata atau fiksi yang mengandung pesan moral."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menafsirkan makna di balik peristiwa cerita dan mengevaluasi pesan yang disampaikan."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat langsung dan tidak langsung, majas (metafora, personifikasi), konjungsi kronologis, kata kerja tindakan dan perasaan."] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Menjadi Pembaca Kritis dan Produktif",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan guru atau tokoh literasi tentang manfaat membaca fiksi dan nonfiksi."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca buku fiksi dan nonfiksi lalu mengidentifikasi isi, struktur, dan pesan dalam buku."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan resensi buku secara lisan kepada teman-teman atau dalam kelompok."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis rangkuman dan resensi buku dengan struktur yang tepat."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membandingkan dua jenis bacaan berdasarkan gaya penulisan, tujuan, dan manfaat."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat ringkasan, sinonim dan antonim, penggunaan paragraf deduktif-induktif, kosakata akademik."] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Menyunting dan Menyempurnakan Tulisan",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak masukan dari guru atau teman terhadap tulisan yang telah dibuat."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca ulang teks sendiri dan teman untuk menemukan kesalahan struktur, ejaan, dan tanda baca."] },
+            { "topic": "Berbicara", "sub_topics": ["Memberikan saran perbaikan terhadap teks dalam diskusi kelompok kecil."] },
+            { "topic": "Menulis", "sub_topics": ["Menyunting dan memperbaiki teks berdasarkan masukan dan pedoman penulisan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kelengkapan isi, koherensi paragraf, dan keefektifan kalimat dalam teks yang disunting."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Penggunaan EYD (Ejaan Yang Disempurnakan), kalimat efektif, kohesi dan koherensi paragraf, tanda baca."] }
+          ]
+        }
+      ]
+    },
+    "Kelas 10": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Mengamati dan Melaporkan (Teks Laporan Hasil Observasi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak paparan hasil observasi atau video dokumenter dan mencatat informasi penting."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks laporan hasil observasi dan mengidentifikasi struktur: klasifikasi umum dan deskripsi bagian."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan hasil observasi secara lisan dalam presentasi kelompok."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks laporan hasil observasi berdasarkan pengalaman atau pengamatan langsung."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis keakuratan dan keobjektifan isi laporan berdasarkan data."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Penggunaan kata baku, kata kerja pasif, kata istilah ilmiah, dan konjungsi kronologis."] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menyampaikan Gagasan secara Logis (Teks Eksposisi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak paparan argumen dalam video atau diskusi, mencatat gagasan utama dan pendukung."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks eksposisi dan mengidentifikasi struktur: tesis, argumentasi, dan penegasan ulang."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat atau argumentasi tentang isu aktual secara lisan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks eksposisi tentang topik sosial atau pendidikan secara logis dan meyakinkan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan fakta dan opini dalam teks eksposisi."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat opini, kata kerja mental, konjungsi kausal dan argumentatif, kosakata akademik."] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menyisipkan Kritik dalam Humor (Teks Anekdot)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak kisah anekdot dari audio atau video dan menangkap pesan/kritik sosialnya."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks anekdot dan mengidentifikasi struktur: orientasi, krisis, reaksi, dan koda."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan anekdot secara ekspresif dalam kelompok atau kelas."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis anekdot berdasarkan pengalaman lucu yang mengandung kritik sosial."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis isu yang disampaikan dalam anekdot dan bagaimana kritik dikemas dengan humor."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat langsung, kata kerja aksi dan perasaan, majas ironi, konjungsi kronologis."] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Memahami Nilai Budaya dan Moral (Cerita Rakyat / Hikayat)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan hikayat atau cerita rakyat secara lisan dan menangkap alur serta tokohnya."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca hikayat dan membandingkan dengan cerpen dari segi unsur intrinsik."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan kembali cerita rakyat dengan bahasa sendiri."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis kembali hikayat dalam versi modern atau bentuk sinopsis."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai nilai moral dan budaya dalam hikayat serta perbedaan karakterisasi dengan cerpen."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat lampau, kata kerja naratif, majas hiperbola, dan kosakata klasik."] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Mencapai Kesepakatan bersama (Teks Negosiasi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak simulasi negosiasi atau wawancara dan mencermati strategi tawar-menawar."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks negosiasi dan menelaah struktur: pembukaan, isi negosiasi, dan penutup."] },
+            { "topic": "Berbicara", "sub_topics": ["Melakukan praktik negosiasi dalam simulasi peran."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks negosiasi berdasarkan topik pilihan (jual beli, kesepakatan kerja, dll)."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai efektivitas argumen dalam negosiasi dan mencari solusi yang menguntungkan dua pihak."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata kerja persuasif, kalimat imperatif, konjungsi syarat, kalimat langsung dan tidak langsung."] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Menggali Inspirasi dari Kehidupan (Teks Biografi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak kisah hidup tokoh dari podcast/video dan mencatat peristiwa penting dalam hidupnya."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks biografi dan mengidentifikasi struktur: orientasi, peristiwa penting, dan reorientasi."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan kembali kisah tokoh secara lisan dengan urutan kronologis."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis biografi tokoh lokal atau nasional berdasarkan sumber literatur atau wawancara."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengidentifikasi pesan moral dan karakter unggul yang bisa diteladani."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat pasif, kata kerja transitif, konjungsi kronologis, dan istilah kepribadian."] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Mengekspresikan Jiwa lewat Puisi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan pembacaan puisi dan mengidentifikasi suasana dan makna tersirat."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca puisi modern dan tradisional serta memahami unsur intrinsik: tema, diksi, imaji, dan amanat."] },
+            { "topic": "Berbicara", "sub_topics": ["Mendeklamasikan puisi dengan ekspresi, intonasi, dan irama yang tepat."] },
+            { "topic": "Menulis", "sub_topics": ["Menciptakan puisi dengan memperhatikan pilihan diksi, rima, dan pesan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menafsirkan makna simbolik dan emosi dalam puisi serta merefleksikan relevansinya."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Diksi, majas (metafora, simile, personifikasi), kata konotasi, dan simbolisme."] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Mencapai Kesepakatan melalui Teks Negosiasi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak video/simulasi percakapan negosiasi dan mencatat tujuan, pihak yang terlibat, dan strategi yang digunakan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks negosiasi dan mengidentifikasi struktur: pembukaan, pengajuan, penawaran, persetujuan."] },
+            { "topic": "Berbicara", "sub_topics": ["Melakukan simulasi peran negosiasi dengan menggunakan strategi komunikasi yang persuasif."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks negosiasi naratif yang menggambarkan proses tawar-menawar antara dua pihak."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi hasil negosiasi dan mencari solusi yang bersifat win-win solution."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat langsung dan tidak langsung", "Kata kerja persuasif", "Konjungsi syarat dan pilihan (jika, apabila, atau, tetapi)", "Kalimat imperatif halus"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menginspirasi lewat Kisah Nyata (Teks Biografi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak kisah tokoh dalam bentuk video/audio dan mencatat peristiwa penting dalam kehidupannya."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca teks biografi untuk mengidentifikasi ide pokok, ide penjelas, dan struktur biografi: orientasi, rangkaian peristiwa, reorientasi."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan secara lisan kisah tokoh inspiratif dan menjelaskan nilai-nilai yang bisa diteladani."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks biografi tokoh lokal/nasional dengan mengembangkan alur cerita secara logis dan kronologis."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis keteladanan tokoh dan dampak kontribusinya terhadap masyarakat."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata kerja aksi dan peristiwa (menghadiri, mengalami, memimpin)", "Penggunaan kata sambung kronologis (kemudian, setelah itu, akhirnya)", "Tanda baca titik, koma, tanda petik, dan tanda kutip", "Kata serapan dari bahasa daerah dan asing"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Mengekspresikan Perasaan dalam Puisi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan puisi untuk memahami suasana, makna, dan imaji yang ditampilkan."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca puisi dan mengidentifikasi unsur intrinsik (tema, diksi, majas, rima, dan amanat)."] },
+            { "topic": "Berbicara", "sub_topics": ["Mendeklamasikan puisi dengan ekspresi, artikulasi, intonasi, dan gerak yang sesuai."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis puisi berdasarkan pengalaman pribadi, perasaan, atau tema tertentu dengan pemilihan diksi yang tepat."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menafsirkan makna simbolik dan pesan moral dalam puisi serta menghubungkannya dengan konteks kehidupan."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Diksi (pemilihan kata)", "Majas (metafora, personifikasi, hiperbola, simile)", "Kata konotatif dan simbolik", "Rima dan irama"] }
+          ]
+        }
+      ]
+    },
+    "Kelas 11": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Menyuarakan Pendapat (Teks Argumentasi dan Persuasi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pidato, debat, atau iklan layanan masyarakat."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur dan gagasan utama teks argumentasi dan persuasi."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks persuasif dan argumentatif tentang isu sosial atau lingkungan."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan opini dalam diskusi atau debat kelas."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi argumen lawan bicara atau penulis."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata-kata persuasif, konjungsi argumentatif (karena, sebab, oleh karena itu)", "Kalimat efektif dan retoris", "Modalitas dan makna emotif"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menyampaikan Fakta Lewat Teks Berita",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak berita audio/visual dari media massa."] },
+            { "topic": "Membaca", "sub_topics": ["Menemukan unsur 5W+1H, membedakan fakta dan opini."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks berita dengan informasi faktual dan aktual."] },
+            { "topic": "Berbicara", "sub_topics": ["Membacakan atau mempresentasikan berita."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai akurasi, keberimbangan, dan daya tarik berita."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat langsung dan tidak langsung", "Kata kerja mental, keterangan waktu dan tempat", "Bahasa baku dan formal"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menggali Nilai Lewat Cerpen",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan cerpen dan mendiskusikan nilai-nilainya."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis unsur intrinsik dan ekstrinsik cerpen."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun cerpen bertema sejarah atau nilai budaya lokal."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan kembali isi cerpen."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menginterpretasi pesan moral dan nilai sejarah."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata ganti orang, kata kerja tindakan", "Majas dan diksi naratif", "Kalimat naratif-deskriptif"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Menyentuh Rasa Lewat Puisi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan puisi yang dibacakan dan mengidentifikasi pesan tersirat."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis diksi, citraan, irama, dan tema puisi."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis puisi bertema sosial, lingkungan, atau spiritual."] },
+            { "topic": "Berbicara", "sub_topics": ["Mendeklamasikan puisi dengan penghayatan dan intonasi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menafsirkan makna simbolik dan reflektif."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata konotatif, majas (personifikasi, metafora, simile)", "Rima dan enjambemen", "Bahasa figuratif"] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Mengenal Indonesia Lewat Drama",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pertunjukan drama atau pembacaan naskah."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis alur, tokoh, dialog, dan konflik."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun naskah drama bertema keberagaman sosial atau budaya."] },
+            { "topic": "Berbicara", "sub_topics": ["Memerankan tokoh drama (bermain peran)."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai relevansi pesan drama dengan kehidupan nyata."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Dialog langsung, petunjuk laku (stage direction)", "Kalimat ekspresif dan interjektif", "Penggunaan ekspresi spontan dalam bahasa"] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Berkontribusi untuk Bumi Lewat Karya Ilmiah",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan presentasi ilmiah, mencatat data utama."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur karya ilmiah (pendahuluan, isi, penutup)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun karya ilmiah bertema lingkungan atau pangan lokal."] },
+            { "topic": "Berbicara", "sub_topics": ["Mempresentasikan karya ilmiah dengan alat bantu visual."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi logika dan data dalam karya ilmiah."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat pasif, konjungsi sebab-akibat", "Istilah ilmiah dan kata teknis", "Grafik dan kutipan data"] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Mempromosikan Produk Lokal",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak presentasi promosi produk dari media atau rekan."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis teks promosi dan strategi kebahasaan yang digunakan."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis teks iklan/promosi dengan kata yang menggugah minat."] },
+            { "topic": "Berbicara", "sub_topics": ["Mempraktikkan pitching atau presentasi produk."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai keunggulan, manfaat, dan keberlanjutan produk."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat ajakan, imperatif halus", "Kata sifat superlatif dan hiperbola", "Penggunaan metafora atau analogi promosi"] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Meyakinkan dengan Kata (Teks Argumentasi dan Persuasi)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pidato atau debat untuk mengidentifikasi gagasan utama dan argumen pendukung."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur teks argumentasi dan persuasi (tesis – argumen – penegasan)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks argumentatif atau persuasif bertema sosial atau lingkungan."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan argumen secara lisan dalam diskusi kelompok atau debat kelas."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi argumen dan memeriksa validitas data pendukung."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata penghubung argumentatif (oleh karena itu, sebab, akibat)", "Modalitas (harus, sebaiknya)", "Kata emotif, repetisi, dan metafora retoris"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Merekam Fakta Lewat Teks Berita",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak siaran berita dan mengidentifikasi informasi utama (5W+1H)."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur dan bahasa dalam teks berita cetak/digital."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks berita berdasarkan data atau hasil wawancara."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan berita dalam format pembacaan atau siaran."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kredibilitas sumber dan objektivitas isi berita."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata kerja mental (menyatakan, mengatakan, berpendapat)", "Keterangan waktu dan tempat", "Kalimat langsung dan tidak langsung"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menggugah Rasa Lewat Cerpen",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan cerpen dan mencatat peristiwa penting."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis unsur intrinsik (tokoh, latar, alur, tema) dan ekstrinsik (nilai sosial, budaya)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun cerpen bertema pengalaman pribadi atau sosial."] },
+            { "topic": "Berbicara", "sub_topics": ["Menceritakan ulang atau mendramatisasi bagian dari cerpen."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menafsirkan pesan, amanat, atau simbolisme dalam cerpen."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata ganti, kalimat naratif", "Majas (metafora, hiperbola, ironi)", "Diksi dan sudut pandang"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Menyuarakan Jiwa dalam Puisi",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan pembacaan puisi dan menginterpretasi maknanya."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis unsur puisi: tema, diksi, majas, irama, imaji."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun puisi dengan tema tertentu (misalnya: harapan, cinta tanah air, refleksi diri)."] },
+            { "topic": "Berbicara", "sub_topics": ["Mendeklamasikan puisi dengan penghayatan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menafsirkan simbol atau pesan tersirat dalam puisi."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata konotatif dan simbolik", "Rima dan ritme", "Majas: personifikasi, metafora, repetisi"] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Mengekspresikan Kisah lewat Drama",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pertunjukan drama atau pembacaan naskah."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis unsur drama: tokoh, konflik, dialog, latar, amanat."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun naskah drama sederhana berdasarkan isu sosial."] },
+            { "topic": "Berbicara", "sub_topics": ["Bermain peran atau membaca naskah drama dengan ekspresi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai relevansi tema dan konflik dalam kehidupan nyata."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Dialog langsung, ekspresi spontan", "Kata kerja aksi, petunjuk laku", "Kalimat ajakan dan seru"] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Menyajikan Fakta dan Gagasan Ilmiah (Karya Ilmiah)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak presentasi karya ilmiah dan mencatat ide pokok serta data pendukung."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur karya ilmiah (pendahuluan, metodologi, pembahasan, simpulan)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun karya ilmiah (makalah atau laporan) berdasarkan hasil observasi atau studi pustaka."] },
+            { "topic": "Berbicara", "sub_topics": ["Mempresentasikan karya ilmiah dengan alat bantu (slide, poster)."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi data dan menyusun argumen berbasis bukti."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat pasif", "Konjungsi sebab-akibat", "Istilah ilmiah dan teknis"] }
+          ]
+        },
+        {
+          "chapter": "Bab 7: Meresensi Buku atau Karya",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak ulasan buku dan mencatat struktur resensi."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca buku fiksi/nonfiksi dan menilai kekuatan serta kelemahan isinya."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks resensi berdasarkan buku yang dibaca."] },
+            { "topic": "Berbicara", "sub_topics": ["Memaparkan resensi dalam diskusi kelompok."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menganalisis nilai-nilai dalam karya serta implikasinya terhadap pembaca."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata sifat evaluatif (menarik, lemah, kuat)", "Kalimat opini dan fakta", "Kata sambung argumentatif"] }
+          ]
+        }
+      ]
+    },
+    "Kelas 12": {
+      "Semester 1": [
+        {
+          "chapter": "Bab 1: Menjadi Profesional Lewat Surat Lamaran Pekerjaan",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan pembacaan surat lamaran kerja atau wawancara HRD."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur surat lamaran kerja (tempat/tanggal, tujuan, lampiran, isi, penutup)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun surat lamaran kerja yang baik dan sesuai kaidah."] },
+            { "topic": "Berbicara", "sub_topics": ["Mensimulasikan wawancara kerja berdasarkan surat yang ditulis."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai keefektifan isi surat dan ketepatan bahasanya."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat efektif, kata kerja formal", "Sapaan dan salam resmi", "Tata letak surat resmi"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Merangkai Fakta dalam Cerita Sejarah",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak kisah sejarah atau testimoni tokoh."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis teks cerita sejarah (peristiwa faktual dengan unsur narasi)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks cerita sejarah berdasarkan sumber (lisan atau tertulis)."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan ringkasan cerita sejarah kepada teman sebaya."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kebenaran dan sudut pandang dalam penulisan sejarah."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Konjungsi kronologis (kemudian, setelah itu)", "Kata kerja pasif dan waktu lampau", "Kalimat deskriptif dan naratif"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Menyuarakan Opini lewat Teks Editorial",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan tajuk rencana atau editorial."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur teks editorial (permasalahan, argumentasi, penegasan sikap)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun teks editorial berdasarkan isu aktual."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan opini dalam diskusi kelas berdasarkan topik editorial."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi argumen dan validitas data dalam editorial."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat opini dan fakta", "Konjungsi argumentatif (sebab, karena itu)", "Kata emotif dan modalitas (harus, penting)"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Mengenali Dunia Kecerdasan Buatan (AI)",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak penjelasan atau berita tentang AI dari video/rekaman."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca artikel informatif tentang kecerdasan buatan dan dampaknya."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis esai pendek tentang dampak positif dan negatif AI."] },
+            { "topic": "Berbicara", "sub_topics": ["Berdiskusi atau debat mengenai isu etika AI dalam kehidupan manusia."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengkritisi informasi populer atau hoaks terkait AI."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Istilah teknis (algoritma, otomatisasi, neural network)", "Kalimat definisi dan kausalitas", "Kalimat kompleks"] }
+          ]
+        },
+        {
+          "chapter": "Bab 5: Menilai dan Mengapresiasi melalui Kritik Sastra dan Esai",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan kritik sastra dari tokoh atau pembaca lain."] },
+            { "topic": "Membaca", "sub_topics": ["Membandingkan contoh kritik sastra dan esai (struktur, gaya, tujuan)."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis kritik terhadap cerpen atau puisi yang telah dibaca."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan pendapat terhadap karya sastra secara lisan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan antara analisis subjektif dan objektif dalam kritik sastra."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata evaluatif (kuat, lemah, mengesankan)", "Kalimat opini yang logis", "Sinonim dan antonim untuk penilaian"] }
+          ]
+        },
+        {
+          "chapter": "Bab 6: Menyelami Makna dalam Novel",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan pembacaan cuplikan novel."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis unsur intrinsik dan ekstrinsik novel (tema, tokoh, konflik, latar)."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis sinopsis atau resensi novel pilihan."] },
+            { "topic": "Berbicara", "sub_topics": ["Memaparkan pendapat tentang tokoh atau peristiwa dalam novel."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menghubungkan konflik dalam novel dengan situasi sosial/psikologis di kehidupan nyata."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Diksi naratif dan deskriptif", "Kalimat dialog", "Kata kerja perasaan dan pikiran"] }
+          ]
+        }
+      ],
+      "Semester 2": [
+        {
+          "chapter": "Bab 1: Menyelami Makna Lewat Novel",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak cuplikan pembacaan novel atau audio book."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis unsur intrinsik dan ekstrinsik novel (tema, tokoh, alur, latar, sudut pandang)."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis sinopsis, resensi, atau ulasan novel berdasarkan bacaan."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan tanggapan dan interpretasi terhadap tokoh atau peristiwa dalam novel."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menghubungkan pesan dalam novel dengan isu sosial dan nilai kehidupan."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat deskriptif dan naratif", "Kata kerja ekspresif dan konjungsi waktu", "Majas dan diksi sastra"] }
+          ]
+        },
+        {
+          "chapter": "Bab 2: Menganalisis dan Menyusun Artikel",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak artikel berita atau opini yang dibacakan."] },
+            { "topic": "Membaca", "sub_topics": ["Mengidentifikasi struktur artikel (judul, pembuka, isi, penutup) dan jenisnya (ilmiah populer, opini, berita)."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis artikel sesuai dengan struktur dan kaidah kebahasaan yang tepat."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan isi artikel dalam bentuk presentasi atau diskusi."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Mengevaluasi keakuratan dan relevansi informasi dalam artikel."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kata baku dan istilah ilmiah/populer", "Kalimat fakta dan opini", "Konjungsi argumentatif dan sebab-akibat"] }
+          ]
+        },
+        {
+          "chapter": "Bab 3: Mengekspresikan Gagasan melalui Kritik dan Esai",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Menyimak pembacaan kritik atau esai oleh penulis atau narasumber."] },
+            { "topic": "Membaca", "sub_topics": ["Menganalisis struktur kritik dan esai (tesis/gagasan utama, argumen, penegasan ulang)."] },
+            { "topic": "Menulis", "sub_topics": ["Menyusun kritik sastra atau esai berdasarkan pengalaman membaca atau mengamati fenomena."] },
+            { "topic": "Berbicara", "sub_topics": ["Menyampaikan gagasan esai secara lisan dalam forum diskusi kelas."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Menilai kelayakan argumen, ketepatan data, dan konsistensi sikap dalam kritik/esai."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat argumentatif dan evaluatif", "Sinonim dan antonim penilaian", "Kata hubung logis (selain itu, meskipun demikian, oleh karena itu)"] }
+          ]
+        },
+        {
+          "chapter": "Bab 4: Menyampaikan Pendapat Secara Efektif",
+          "topics": [
+            { "topic": "Menyimak", "sub_topics": ["Mendengarkan opini atau editorial yang disampaikan melalui podcast/video."] },
+            { "topic": "Membaca", "sub_topics": ["Membaca opini, tanggapan pembaca, atau surat pembaca untuk dianalisis struktur dan isinya."] },
+            { "topic": "Menulis", "sub_topics": ["Menulis pendapat atau tanggapan terhadap isu aktual secara runtut dan logis."] },
+            { "topic": "Berbicara", "sub_topics": ["Berlatih debat atau diskusi terstruktur dengan menyampaikan argumen yang meyakinkan."] },
+            { "topic": "Berpikir Kritis", "sub_topics": ["Membedakan antara pendapat, asumsi, dan fakta. Mengevaluasi kekuatan argumen."] },
+            { "topic": "Unsur Kebahasaan", "sub_topics": ["Kalimat aktif dan pasif", "Modalitas (harus, sebaiknya, mungkin)", "Kata evaluatif dan ajakan"] }
+          ]
+        }
+      ]
+    }
+  }
+}

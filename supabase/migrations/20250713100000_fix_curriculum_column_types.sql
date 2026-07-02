@@ -1,0 +1,1 @@
+-- SKIPPED: public.curriculum table does not exist

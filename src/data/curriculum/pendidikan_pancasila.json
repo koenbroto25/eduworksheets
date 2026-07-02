@@ -1,0 +1,225 @@
+{
+  "subject": "Pendidikan Pancasila",
+  "grades": {
+    "Kelas 1": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Mengenal Pancasila, Dasar Negara Kita", "topics": ["Apa Itu Pancasila?", "Bunyi dan Urutan Sila-sila Pancasila", "Lambang Tiap Sila dalam Pancasila"] },
+        { "chapter": "Bab 2: Garuda Pancasila, Lambang Negara Kita", "topics": ["Mengenal Bentuk Garuda Pancasila", "Warna dan Simbol pada Garuda Pancasila", "Arti Pita “Bhinneka Tunggal Ika”"] },
+        { "chapter": "Bab 3: Aku Anak Pancasila", "topics": ["Penerapan Sila Ke-1 sampai Ke-5", "Bermain Peran Nilai-nilai Pancasila"] },
+        { "chapter": "Bab 4: Taat Aturan, Hidup Nyaman", "topics": ["Aturan di Rumah", "Aturan di Sekolah", "Aturan di Tempat Bermain"] },
+        { "chapter": "Bab 5: Lingkunganku Bersih dan Asri", "topics": ["Mengenal Lingkungan Sekitar", "Menjaga Kebersihan Lingkungan", "Peduli Terhadap Lingkungan"] },
+        { "chapter": "Bab 6: Hak dan Kewajibanku", "topics": ["Hak Sebagai Anak di Rumah dan Sekolah", "Kewajiban sebagai Anak", "Menyeimbangkan Hak dan Kewajiban"] },
+        { "chapter": "Bab 7: Ayo Bekerja Sama!", "topics": ["Apa Itu Kerja Sama?", "Contoh Kerja Sama di Rumah", "Contoh Kerja Sama di Sekolah"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Aku Cinta Lingkunganku", "topics": ["Mengenal Lingkungan Sekitar", "Menjaga Kebersihan Lingkungan", "Hidup Rukun dan Damai"] },
+        { "chapter": "Bab 2: Aku Suka Bergotong Royong", "topics": ["Apa Itu Gotong Royong?", "Bergotong Royong di Rumah", "Bergotong Royong di Sekolah"] },
+        { "chapter": "Bab 3: Mengenal Lingkungan Rumah dan Tetanggaku", "topics": ["Mengenal Denah Rumah", "Menjaga Kebersihan Rumah", "Mengenal dan Menyapa Tetangga"] },
+        { "chapter": "Bab 4: Aku Peduli Lingkungan Sekitar", "topics": ["Mengenal Lingkungan Tempat Tinggal", "Perilaku yang Baik di Lingkungan", "Norma dan Aturan di Lingkungan"] },
+        { "chapter": "Bab 5: Pancasila dalam Kehidupan Sehari-Hari", "topics": ["Mengingat Kembali 5 Sila Pancasila", "Penerapan Sila di Rumah dan Sekolah", "Pancasila dalam Perilaku Sehari-hari"] },
+        { "chapter": "Bab 6: Aku Anak yang Hebat dan Berakhlak Baik", "topics": ["Sikap Mandiri dan Tanggung Jawab", "Sopan Santun dalam Bertutur Kata", "Anak yang Jujur dan Disiplin"] }
+      ]
+    },
+    "Kelas 2": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Mengenal Simbol-Simbol Pancasila", "topics": ["Simbol Pancasila", "Mengenal Bentuk dan Warna Simbol", "Makna dari Setiap Simbol"] },
+        { "chapter": "Bab 2: Hubungan Simbol dan Sila Pancasila", "topics": ["Menyebutkan Bunyi Kelima Sila", "Hubungan Simbol dan Sila", "Contoh Perilaku Sesuai Sila"] },
+        { "chapter": "Bab 3: Peran dan Tugas di Sekitar Kita", "topics": ["Peran dalam Keluarga", "Peran di Sekolah", "Peran dalam Permainan dan Kegiatan Bersama"] },
+        { "chapter": "Bab 4: Hal-Hal Penting dalam Kehidupan Sehari-hari", "topics": ["Menjaga Kebersihan Diri dan Lingkungan", "Menjaga Kesehatan", "Bersikap Sopan dan Santun"] },
+        { "chapter": "Bab 5: Menerapkan Nilai-Nilai Pancasila", "topics": ["Gotong Royong", "Keadilan dalam Pergaulan", "Bermusyawarah"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Kita Beragam Tetapi Tetap Satu", "topics": ["Mengenal Identitas Diri dan Teman", "Menghargai Perbedaan", "Gotong Royong dalam Keberagaman"] },
+        { "chapter": "Bab 2: Negara Kesatuan Republik Indonesia", "topics": ["Aturan di Rumah dan Sekolah", "Musyawarah untuk Kebersamaan", "Hak dan Kewajiban"] },
+        { "chapter": "Bab 3: Simbol dan Nilai Dasar Negara", "topics": ["Lambang Negara Garuda Pancasila", "Bunyi dan Makna Sila-Sila Pancasila", "Mengenal Tokoh Perumus Pancasila"] },
+        { "chapter": "Bab 4: Menjaga Keutuhan NKRI", "topics": ["Aturan di Lingkungan Sekitar", "Musyawarah untuk Mufakat", "Menjaga Keutuhan NKRI"] }
+      ]
+    },
+    "Kelas 3": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Aku Anak Indonesia", "topics": ["Mengenal Identitas Diri", "Ciri Khas dan Keunikan Budaya Indonesia", "Bangga Menjadi Anak Indonesia"] },
+        { "chapter": "Bab 2: Aku Patuh Aturan", "topics": ["Aturan di Rumah", "Aturan di Sekolah", "Aturan di Masyarakat", "Akibat Melanggar Aturan"] },
+        { "chapter": "Bab 3: Berbeda Itu Indah", "topics": ["Mengenal Keberagaman di Sekitar", "Menghargai Perbedaan", "Hidup Rukun dalam Keberagaman", "Toleransi sebagai Sikap Mulia"] },
+        { "chapter": "Bab 4: Ayo Mengenal Pancasila", "topics": ["Mengenal Sila-Sila Pancasila", "Lambang Negara: Garuda Pancasila", "Pengamalan Sila Pancasila", "Pancasila dalam Kehidupan Sehari-hari"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Aku Anak Indonesia", "topics": ["Mengenal Diri sebagai Anak Indonesia", "Keberagaman Budaya di Indonesia", "Menumbuhkan Rasa Cinta Tanah Air"] },
+        { "chapter": "Bab 2: Aku Patuh Aturan", "topics": ["Aturan di Rumah", "Aturan di Sekolah dan Masyarakat", "Pentingnya Menaati Aturan"] },
+        { "chapter": "Bab 3: Berbeda Itu Indah", "topics": ["Mengenal Perbedaan", "Menghargai Perbedaan", "Toleransi dan Kerukunan"] },
+        { "chapter": "Bab 4: Ayo Mengenal Pancasila", "topics": ["Mengenal dan Menghafal Sila-Sila Pancasila", "Lambang Negara: Garuda Pancasila", "Pengamalan Sila Pancasila"] },
+        { "chapter": "Bab 5: Kerja Sama dalam Keberagaman", "topics": ["Pentingnya Kerja Sama", "Kerja Sama Meski Berbeda", "Mengatasi Perbedaan Pendapat"] },
+        { "chapter": "Bab 6: Hak dan Kewajiban", "topics": ["Hak Sebagai Anak dan Siswa", "Kewajiban di Rumah dan Sekolah", "Menyeimbangkan Hak dan Kewajiban"] },
+        { "chapter": "Bab 7: Mengenal Lingkungan Sekitar", "topics": ["Mengenal Wilayah Tempat Tinggal", "Menjaga Lingkungan Sekitar", "Bagian dari NKRI"] },
+        { "chapter": "Bab 8: Pengamalan Nilai-Nilai Pancasila dalam Kehidupan", "topics": ["Gotong Royong", "Musyawarah", "Keadilan dan Kepedulian"] }
+      ]
+    },
+    "Kelas 4": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pancasila sebagai Nilai Kehidupan", "topics": ["Mengenal Arti dan Fungsi Pancasila", "Nilai-Nilai dalam Setiap Sila", "Pengamalan Pancasila Sehari-hari"] },
+        { "chapter": "Bab 2: Konstitusi dan Norma di Masyarakat", "topics": ["Pengenalan Undang-Undang Dasar 1945", "Norma dalam Kehidupan Bermasyarakat", "Menjadi Warga Negara yang Patuh Aturan"] },
+        { "chapter": "Bab 3: Membangun Jati Diri dalam Kebhinekaan", "topics": ["Mengenal Keberagaman di Indonesia", "Menghargai Perbedaan dan Membangun Persatuan", "Jati Diri Bangsa Indonesia"] },
+        { "chapter": "Bab 4: Negaraku Indonesia", "topics": ["Mengenal Negara Kesatuan Republik Indonesia (NKRI)", "Simbol-Simbol Negara", "Cinta Tanah Air dan Bangsa"] },
+        { "chapter": "Bab 5: Pola Hidup Bergotong Royong", "topics": ["Arti Gotong Royong", "Bentuk-Bentuk Gotong Royong", "Menerapkan Gotong Royong dalam Kehidupan"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Pancasila sebagai Dasar Negara", "topics": ["Memahami Makna Sila-Sila Pancasila", "Nilai Kebersamaan dalam Perumusan Pancasila", "Menghargai Pendapat dan Karya Orang Lain"] },
+        { "chapter": "Bab 2: Negara Kesatuan Republik Indonesia (NKRI)", "topics": ["Mengenal Bentuk dan Sistem Pemerintahan Indonesia", "Wilayah NKRI Menurut Undang-Undang Dasar", "Faktor-Faktor Pemersatu Bangsa", "Menjaga Keutuhan NKRI di Lingkungan Sehari-hari"] },
+        { "chapter": "Bab 3: Norma-Norma di Masyarakat", "topics": ["Norma di Rumah", "Norma di Sekolah", "Norma di Masyarakat"] },
+        { "chapter": "Bab 4: Hak dan Kewajiban sebagai Warga Negara", "topics": ["Hak Anak di Rumah dan Sekolah", "Kewajiban Anak di Rumah dan Sekolah", "Hak dan Kewajiban di Lingkungan Masyarakat"] },
+        { "chapter": "Bab 5: Bangga Menjadi Anak Indonesia", "topics": ["Mengenal Identitas sebagai Anak Indonesia", "Meningkatkan Harga Diri Bangsa", "Kegiatan yang Mengharumkan Nama Bangsa"] }
+      ]
+    },
+    "Kelas 5": {
+      "Semester 1": [
+        { "chapter": "Bab 4: Perilaku yang Sesuai dengan Nilai-Nilai Pancasila", "topics": ["Menghormati Keragaman Agama", "Menghargai Hak Asasi Manusia (HAM)", "Menghargai Keragaman Budaya", "Mendukung Demokrasi di Lingkungan Sekitar", "Memperjuangkan Kesetaraan"] },
+        { "chapter": "Bab 5: Norma-Norma dalam Kehidupan Sehari-hari", "topics": ["Memahami Jenis-Jenis Norma", "Norma dalam Keluarga dan Sekolah", "Norma di Masyarakat", "Pentingnya Mentaati Norma"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 3: Keragaman Budaya Indonesia", "topics": ["Keragaman Budaya sebagai Kekayaan Bangsa", "Keanekaragaman Suku dan Bahasa Daerah", "Adat Istiadat dan Kesenian Nusantara", "Cinta dan Bangga terhadap Budaya Bangsa", "Menghargai Perbedaan dan Menjaga Persatuan"] },
+        { "chapter": "Bab 4: Aku dan Lingkungan Sekitarku", "topics": ["Makna Gotong Royong dalam Kehidupan Sehari-Hari", "Manfaat Gotong Royong", "Sikap Gotong Royong dalam Berbagai Lingkungan", "Gotong Royong dan Nilai Pancasila"] }
+      ]
+    },
+    "Kelas 6": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pancasila sebagai Dasar Negara dan Pandangan Hidup Bangsa", "topics": ["Arti dan Makna Sila-sila Pancasila", "Penerapan Nilai Pancasila dalam Kehidupan Sehari-hari", "Hubungan Antar Sila Pancasila"] },
+        { "chapter": "Bab 2: Hak dan Kewajiban Warga Negara", "topics": ["Hak Asasi Manusia", "Kewajiban Sebagai Warga Negara", "Menghormati Hak Orang Lain"] },
+        { "chapter": "Bab 3: Persatuan dan Kesatuan dalam Keberagaman", "topics": ["Keberagaman Budaya di Indonesia", "Toleransi dan Hidup Rukun", "Gotong Royong sebagai Perekat Persatuan"] },
+        { "chapter": "Bab 4: Sistem Pemerintahan Indonesia", "topics": ["Pembagian Kekuasaan", "Fungsi dan Peran Lembaga Negara", "Undang-Undang Dasar 1945"] },
+        { "chapter": "Bab 5: Peran Indonesia dalam Kancah Global", "topics": ["Kerja Sama Internasional", "Politik Luar Negeri Indonesia"] },
+        { "chapter": "Bab 6: Demokrasi, Pemilu, dan Pilkada", "topics": ["Pemilu sebagai Wujud Demokrasi", "Pilkada dan Partisipasi Masyarakat"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Pancasila sebagai Dasar Negara dan Ideologi Bangsa", "topics": ["Makna Pancasila sebagai Dasar Negara", "Nilai-Nilai Pancasila sebagai Ideologi Bangsa"] },
+        { "chapter": "Bab 2: Bhinneka Tunggal Ika", "topics": ["Makna Semboyan Bhinneka Tunggal Ika", "Menghargai Keberagaman", "Persatuan dalam Perbedaan"] },
+        { "chapter": "Bab 3: Hak dan Kewajiban Warga Negara", "topics": ["Hak sebagai Warga Negara", "Kewajiban sebagai Warga Negara", "Saling Menghormati Hak dan Kewajiban"] },
+        { "chapter": "Bab 4: Sistem Pemerintahan Indonesia", "topics": ["Sistem Pemerintahan Republik Indonesia", "Pembagian Kekuasaan"] },
+        { "chapter": "Bab 5: Peran Indonesia dalam Lingkup Regional dan Global", "topics": ["Indonesia di Kawasan Asia Tenggara", "Peran Indonesia di Dunia Internasional", "Pentingnya Kerja Sama Internasional"] },
+        { "chapter": "Bab 6: Musyawarah dan Mufakat dalam Kehidupan Sehari-hari", "topics": ["Pengertian Musyawarah dan Mufakat", "Penerapan Musyawarah di Lingkungan Sekitar"] },
+        { "chapter": "Bab 7: Kehidupan Berbangsa dan Bernegara", "topics": ["Cinta Tanah Air dan Nasionalisme", "Menjaga Persatuan dan Kesatuan Bangsa", "Partisipasi dalam Pembangunan Bangsa"] }
+      ]
+    },
+    "Kelas 7": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Sejarah Kelahiran Pancasila", "topics": ["Latar Belakang Perumusan Pancasila", "Pembentukan BPUPKI dan PPKI", "Rumusan Dasar Negara", "Penetapan Pancasila sebagai Dasar Negara"] },
+        { "chapter": "Bab 2: Penerapan Nilai-Nilai Pancasila dalam Kehidupan", "topics": ["Nilai Ketuhanan (Sila 1)", "Nilai Kemanusiaan (Sila 2)", "Nilai Persatuan (Sila 3)", "Nilai Kerakyatan (Sila 4)", "Nilai Keadilan (Sila 5)"] },
+        { "chapter": "Bab 3: Patuh Terhadap Norma", "topics": ["Pengertian dan Jenis-Jenis Norma", "Contoh Penerapan Norma", "Menjaga Tertib Sosial"] },
+        { "chapter": "Bab 4: Keberagaman Bangsa Indonesia dalam Bingkai Bhinneka Tunggal Ika", "topics": ["Keberagaman Suku, Agama, Ras, dan Budaya", "Semboyan Bhinneka Tunggal Ika", "Menghargai Perbedaan"] },
+        { "chapter": "Bab 5: Wilayah Negara Kesatuan Republik Indonesia (NKRI)", "topics": ["Batas Wilayah Negara Indonesia", "Pentingnya Menjaga Wilayah NKRI", "Wawasan Nusantara"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Keberagaman Bangsa Indonesia dalam Bingkai Bhinneka Tunggal Ika", "topics": ["Identifikasi Keberagaman", "Makna Bhinneka Tunggal Ika", "Menghargai Keberagaman", "Peran Aktif dalam Keberagaman"] },
+        { "chapter": "Bab 2: Wilayah Negara Kesatuan Republik Indonesia", "topics": ["Batas Wilayah NKRI", "Karakteristik Daerah", "Menjaga Kedaulatan dan Keutuhan Wilayah"] },
+        { "chapter": "Bab 3: Norma, Hukum, dan Peraturan dalam Kehidupan Bermasyarakat", "topics": ["Pengertian Norma, Hukum, dan Peraturan", "Pentingnya Mematuhi Aturan", "Peran Siswa dalam Menegakkan Norma dan Hukum"] },
+        { "chapter": "Bab 4: Hak dan Kewajiban Warga Negara", "topics": ["Pengertian Hak dan Kewajiban", "Pentingnya Menyeimbangkan Hak dan Kewajiban", "Menghormati Hak Orang Lain"] },
+        { "chapter": "Bab 5: Kerja Sama dalam Berbagai Bidang Kehidupan", "topics": ["Makna Kerja Sama", "Bentuk Kerja Sama di Lingkungan Siswa", "Kerja Sama sebagai Pengamalan Pancasila"] },
+        { "chapter": "Bab 6: Globalisasi dan Tantangannya terhadap Nilai Pancasila", "topics": ["Pengertian Globalisasi", "Tantangan Globalisasi terhadap Jati Diri Bangsa", "Pancasila sebagai Filter Globalisasi"] }
+      ]
+    },
+    "Kelas 8": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pancasila sebagai Dasar Negara dan Pandangan Hidup Bangsa", "topics": ["Pancasila sebagai Dasar Negara", "Pancasila sebagai Pandangan Hidup", "Fungsi dan Kedudukan Pancasila", "Nilai-Nilai dalam Pancasila", "Dinamika Perwujudan Pancasila"] },
+        { "chapter": "Bab 2: Bentuk dan Kedaulatan Negara", "topics": ["Bentuk Negara", "Kedaulatan Negara", "Sistem Pemerintahan Indonesia"] },
+        { "chapter": "Bab 3: Tata Negara dan Pemerintahan", "topics": ["Lembaga-Lembaga Negara", "Hubungan Antar Lembaga Negara", "Penyelenggaraan Pemerintahan"] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Semangat Kebangkitan Nasional Tahun 1908", "topics": ["Kondisi Bangsa Indonesia Sebelum Tahun 1908", "Perjuangan Bangsa Sebelum Tahun 1908", "Peran Organisasi Pemuda", "Mewujudkan Persatuan Indonesia"] },
+        { "chapter": "Bab 2: Sumpah Pemuda dalam Bingkai Bhinneka Tunggal Ika", "topics": ["Latar Belakang Lahirnya Sumpah Pemuda", "Isi dan Makna Ikrar Sumpah Pemuda", "Nilai-Nilai dalam Sumpah Pemuda"] },
+        { "chapter": "Bab 3: Memperkuat Komitmen Kebangsaan", "topics": ["Semangat Pendiri Bangsa", "Perilaku Pelajar dalam Menjaga Keutuhan NKRI"] }
+      ]
+    },
+    "Kelas 9": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Dinamika Perwujudan Pancasila dalam Kehidupan", "topics": [] },
+        { "chapter": "Bab 2: Hubungan Pancasila dengan UUD Negara Republik Indonesia Tahun 1945", "topics": [] },
+        { "chapter": "Bab 3: Hubungan Pancasila dengan Bhinneka Tunggal Ika", "topics": [] },
+        { "chapter": "Bab 4: Hubungan Pancasila dengan Negara Kesatuan Republik Indonesia (NKRI)", "topics": [] },
+        { "chapter": "Bab 5: Makna Pembukaan UUD Negara Republik Indonesia Tahun 1945", "topics": [] },
+        { "chapter": "Bab 6: Kedaulatan Negara Kesatuan Republik Indonesia", "topics": [] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Hakikat Hak dan Kewajiban Asasi Manusia", "topics": [] },
+        { "chapter": "Bab 2: Pelanggaran Hak dan Pengingkaran Kewajiban Warga Negara", "topics": [] },
+        { "chapter": "Bab 3: Nilai-nilai Pancasila dalam Sistem Pemerintahan", "topics": [] },
+        { "chapter": "Bab 4: Sistem dan Dinamika Demokrasi Pancasila", "topics": [] },
+        { "chapter": "Bab 5: Peran Indonesia dalam Perdamaian Dunia", "topics": [] }
+      ]
+    },
+    "Kelas 10": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pancasila sebagai Dasar Negara dan Pandangan Hidup", "topics": [] },
+        { "chapter": "Bab 2: Undang-Undang Dasar Negara Republik Indonesia Tahun 1945", "topics": [] },
+        { "chapter": "Bab 3: Hak Asasi Manusia (HAM)", "topics": [] },
+        { "chapter": "Bab 4: Demokrasi dan Partisipasi Politik", "topics": [] },
+        { "chapter": "Bab 5: Persatuan dan Kesatuan Bangsa", "topics": [] },
+        { "chapter": "Bab 6: Norma, Hukum, dan Peraturan dalam Kehidupan Bermasyarakat", "topics": [] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Identitas Individu dan Kelompok", "topics": [] },
+        { "chapter": "Bab 2: Kolaborasi Antarbudaya", "topics": [] },
+        { "chapter": "Bab 3: Pancasila dan Kebhinekaan", "topics": [] },
+        { "chapter": "Bab 4: NKRI dalam Konteks Bentuk Pemerintahan", "topics": [] },
+        { "chapter": "Bab 5: Desentralisasi dan Otonomi Daerah", "topics": [] },
+        { "chapter": "Bab 6: Hubungan Antar Perundang-Undangan", "topics": [] },
+        { "chapter": "Bab 7: Proyek Gotong Royong Kewarganegaraan", "topics": [] },
+        { "chapter": "Bab 8: Pancasila sebagai Dasar Negara dan Pandangan Hidup", "topics": [] },
+        { "chapter": "Bab 9: UUD NRI Tahun 1945 dan Sistem Ketatanegaraan", "topics": [] },
+        { "chapter": "Bab 10: Hak Asasi Manusia dan Implementasinya", "topics": [] },
+        { "chapter": "Bab 11: Demokrasi dan Partisipasi Politik", "topics": [] }
+      ]
+    },
+    "Kelas 11": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Pemikiran Pendiri Bangsa tentang Pancasila", "topics": [] },
+        { "chapter": "Bab 2: Penerapan Pancasila dalam Kehidupan", "topics": [] },
+        { "chapter": "Bab 3: Peluang dan Tantangan Penerapan Pancasila di Era Global", "topics": [] },
+        { "chapter": "Bab 4: Proyek Gotong Royong Kewarganegaraan", "topics": [] },
+        { "chapter": "Bab 5: Ide Pendiri Bangsa tentang Konstitusi", "topics": [] },
+        { "chapter": "Bab 6: Hubungan Antarregulasi di Indonesia", "topics": [] },
+        { "chapter": "Bab 7: Hak dan Kewajiban Asasi Manusia dalam Pancasila", "topics": [] },
+        { "chapter": "Bab 8: Perlindungan dan Penegakan HAM di Indonesia", "topics": [] },
+        { "chapter": "Bab 9: Sistem dan Dinamika Demokrasi Pancasila", "topics": [] },
+        { "chapter": "Bab 10: Demokrasi dan Partisipasi Politik Warga Negara", "topics": [] },
+        { "chapter": "Bab 11: Peran Indonesia dalam Perdamaian Dunia", "topics": [] },
+        { "chapter": "Bab 12: Sistem Hukum dan Peradilan di Indonesia", "topics": [] },
+        { "chapter": "Bab 13: Hukum dan Keadilan sebagai Penopang Kehidupan Bangsa", "topics": [] },
+        { "chapter": "Bab 14: Menjaga Keutuhan Negara Kesatuan Republik Indonesia", "topics": [] },
+        { "chapter": "Bab 15: Harmoni dalam Keberagaman (Bhinneka Tunggal Ika)", "topics": [] },
+        { "chapter": "Bab 16: Ancaman terhadap Indonesia dan Strategi Penanggulangan", "topics": [] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Hak Asasi Manusia (HAM)", "topics": [] },
+        { "chapter": "Bab 2: Sistem dan Dinamika Demokrasi Pancasila", "topics": [] },
+        { "chapter": "Bab 3: Sistem Hukum dan Peradilan di Indonesia", "topics": [] },
+        { "chapter": "Bab 4: Peran Indonesia dalam Perdamaian Dunia", "topics": [] },
+        { "chapter": "Bab 5: Ancaman terhadap Indonesia", "topics": [] },
+        { "chapter": "Bab 6: Pancasila sebagai Ideologi Negara", "topics": [] }
+      ]
+    },
+    "Kelas 12": {
+      "Semester 1": [
+        { "chapter": "Bab 1: Ber-Pancasila dalam Keseharian di Masyarakat", "topics": [] },
+        { "chapter": "Bab 2: Ber-Pancasila dalam Kehidupan Global", "topics": [] },
+        { "chapter": "Bab 3: Hak dan Kewajiban Warga Negara", "topics": [] },
+        { "chapter": "Bab 4: Kasus Pelanggaran Hak dan Pengingkaran Kewajiban Warga Negara", "topics": [] },
+        { "chapter": "Bab 5: Peran Lembaga Negara dalam Menjamin Hak dan Kewajiban Warga", "topics": [] }
+      ],
+      "Semester 2": [
+        { "chapter": "Bab 1: Pancasila sebagai Dasar Negara", "topics": [] },
+        { "chapter": "Bab 2: Undang-Undang Dasar Negara Republik Indonesia Tahun 1945", "topics": [] },
+        { "chapter": "Bab 3: Negara Kesatuan Republik Indonesia (NKRI)", "topics": [] },
+        { "chapter": "Bab 4: Bhinneka Tunggal Ika", "topics": [] },
+        { "chapter": "Bab 5: Persatuan dan Kesatuan Bangsa", "topics": [] },
+        { "chapter": "Bab 6: Norma, Hukum, dan Peraturan", "topics": [] },
+        { "chapter": "Bab 7: Hak Asasi Manusia (HAM)", "topics": [] },
+        { "chapter": "Bab 8: Kebutuhan Warga Negara", "topics": [] },
+        { "chapter": "Bab 9: Konstitusi Negara", "topics": [] },
+        { "chapter": "Bab 10: Kekuasaan dan Politik", "topics": [] },
+        { "chapter": "Bab 11: Globalisasi", "topics": [] },
+        { "chapter": "Bab 12: Dinamika Persatuan dan Kesatuan Bangsa", "topics": [] },
+        { "chapter": "Bab 13: Pengaruh Kemajuan IPTEK (Ilmu Pengetahuan dan Teknologi)", "topics": [] },
+        { "chapter": "Bab 14: Kasus Pelanggaran Hak dan Pengingkaran Kewajiban", "topics": [] },
+        { "chapter": "Bab 15: Perlindungan dan Penegakan Hukum", "topics": [] }
+      ]
+    }
+  }
+}

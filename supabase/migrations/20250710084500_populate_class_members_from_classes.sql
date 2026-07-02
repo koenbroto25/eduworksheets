@@ -1,0 +1,1 @@
+-- SKIPPED: class_members does not exist; teachers identified via classes.teacher_id

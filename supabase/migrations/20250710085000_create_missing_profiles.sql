@@ -1,0 +1,1 @@
+-- SKIPPED: public.profiles does not exist; app uses public.users

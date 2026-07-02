@@ -1,0 +1,94 @@
+SD,Pendidikan Agama Islam dan Budi Pekerti
+SD,Pendidikan Agama Kristen dan Budi Pekerti
+SD,Pendidikan Agama Katolik dan Budi Pekerti
+SD,Pendidikan Agama Hindu dan Budi Pekerti
+SD,Pendidikan Agama Buddha dan Budi Pekerti
+SD,Pendidikan Agama Khonghucu dan Budi Pekerti
+SD,Bahasa Indonesia
+SD,Matematika
+SD Kelas 4, 5, 6,Ilmu Pengetahuan Alam dan Sosial (IPAS)
+SD,Ilmu Pengetahuan Sosial (IPS)
+SD,Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)
+SD,Seni Budaya dan Prakarya (SBdP)
+SD,Bimbingan Konseling (BK)
+SMP,Pendidikan Agama Kristen dan Budi Pekerti
+SMP,Pendidikan Agama Katolik dan Budi Pekerti
+SMP,Pendidikan Agama Hindu dan Budi Pekerti
+SMP,Pendidikan Agama Buddha dan Budi Pekerti
+SMP,Pendidikan Agama Khonghucu dan Budi Pekerti
+SMP,Pendidikan Pancasila
+SMP,Bahasa Indonesia
+SMP,Matematika
+SMP,Ilmu Pengetahuan Alam (IPA)
+SMP,Ilmu Pengetahuan Sosial (IPS)
+SMP,Bahasa Inggris
+SMP,Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)
+SMP,Seni Budaya
+SMP,Prakarya
+SMP,Bimbingan Konseling (BK)
+SMA,Pendidikan Agama Kristen dan Budi Pekerti
+SMA,Pendidikan Agama Katolik dan Budi Pekerti
+SMA,Pendidikan Agama Hindu dan Budi Pekerti
+SMA,Pendidikan Agama Buddha dan Budi Pekerti
+SMA,Pendidikan Agama Khonghucu dan Budi Pekerti
+SMA,Pendidikan Pancasila
+SMA,Bahasa Indonesia
+SMA,Matematika
+SMA,Bahasa Inggris
+SMA,Fisika
+SMA,Kimia
+SMA,Biologi
+SMA,Sejarah
+SMA,Geografi
+SMA,Ekonomi
+SMA,Sosiologi
+SMA,Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)
+SMA,Seni Budaya
+SMA,Prakarya dan Kewirausahaan
+SMA,Bimbingan Konseling (BK)
+SMK,Pendidikan Agama Kristen dan Budi Pekerti
+SMK,Pendidikan Agama Katolik dan Budi Pekerti
+SMK,Pendidikan Agama Hindu dan Budi Pekerti
+SMK,Pendidikan Agama Buddha dan Budi Pekerti
+SMK,Pendidikan Agama Khonghucu dan Budi Pekerti
+SMK,Pendidikan Pancasila
+SMK,Bahasa Indonesia
+SMK,Matematika
+SMK,Bahasa Inggris
+SMK,Simulasi Digital
+SMK,Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK)
+SMK,Seni Budaya
+SMK,Prakarya dan Kewirausahaan
+SMK,Bimbingan Konseling (BK)
+SMK,Teknik Gambar Bangunan
+SMK,Teknik Konstruksi Kayu
+SMK,Teknik Instalasi Tenaga Listrik
+SMK,Teknik Pendingin dan Tata Udara
+SMK,Teknik Pemesinan
+SMK,Teknik Kendaraan Ringan Otomotif
+SMK,Teknik Sepeda Motor
+SMK,Teknik Komputer dan Jaringan
+SMK,Desain Pemodelan dan Informasi Bangunan
+SMK,Akuntansi dan Keuangan Lembaga
+SMK,Otomatisasi dan Tata Kelola Perkantoran
+SMK,Bisnis Daring dan Pemasaran
+SMK,Tata Boga
+SMK,Tata Busana
+SMK,Tata Kecantikan Kulit dan Rambut
+SMK,Agribisnis Tanaman Pangan dan Hortikultura
+SMK,Agribisnis Ternak Unggas
+SMK,Agribisnis Pengolahan Hasil Pertanian
+SMK,Teknik Audio Video
+SMK,Teknik Elektronika Industri
+SMK,Teknik Fabrikasi Logam dan Manufaktur
+SMK,Teknik Geomatika
+SMK,Teknik Kimia Industri
+SMK,Teknik Otomasi Industri
+SMK,Teknik Pembangkit Tenaga Listrik
+SMK,Teknik Pemesinan Kapal
+SMK,Teknik Pengelasan Kapal
+SMK,Teknik Perawatan Mesin Kapal
+SMK,Teknik Perbaikan Bodi Otomotif
+SMK,Teknik Produksi Grafika
+SMK,Teknik Rekayasa Perangkat Lunak
+SMK,Teknik Robotika dan Mekatronika
