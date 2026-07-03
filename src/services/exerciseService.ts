@@ -231,7 +231,6 @@ export const exerciseService = {
   async getCurriculumData(supabase: SupabaseClient, subject: string, grade: string, semester: string, curriculumType: string) {
     // curriculum table not available - return empty
     return { data: { chapters: [], topics: {} }, error: null };
-    if (!subject || subject === 'custom' || !grade) {
   },
 
   async getSubjectOptions(supabase: SupabaseClient, grade?: string) {
