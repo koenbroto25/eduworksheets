@@ -1,3 +1,4 @@
+import { curriculumData } from '../data/curriculum';
 import { SupabaseClient } from '@supabase/supabase-js';
 import { TABLES } from './supabaseClient';
 
@@ -229,8 +230,32 @@ export const exerciseService = {
   },
 
   async getCurriculumData(supabase: SupabaseClient, subject: string, grade: string, semester: string, curriculumType: string) {
-    // curriculum table not available - return empty
-    return { data: { chapters: [], topics: {} }, error: null };
+    if (!subject || subject === 'custom' || !grade) {
+      return { data: { chapters: [], topics: {} }, error: null };
+    }
+    try {
+      const levelMatch = grade.match(/\((SD|SMP|SMA|SMK)\)/);
+      const level = levelMatch ? levelMatch[1] : null;
+      const numMatch = grade.match(/Grade (\d+)/);
+      const num = numMatch ? numMatch[1] : null;
+      if (!level || !num) return { data: { chapters: [], topics: {} }, error: null };
+      const kelasKey = \Kelas \\;
+      const levelData = (curriculumData as any)[level];
+      if (!levelData) return { data: { chapters: [], topics: {} }, error: null };
+      const subjectData = levelData[subject];
+      if (!subjectData) return { data: { chapters: [], topics: {} }, error: null };
+      const gradeData = subjectData.grades?.[kelasKey];
+      if (!gradeData) return { data: { chapters: [], topics: {} }, error: null };
+      const semesterData = gradeData[semester] || [];
+      const chapters = semesterData.map((item: any) => item.chapter);
+      const topics: any = {};
+      semesterData.forEach((item: any) => {
+        topics[item.chapter] = { subtopics: item.topics || [], subSubtopics: {} };
+      });
+      return { data: { chapters, topics }, error: null };
+    } catch (e) {
+      return { data: { chapters: [], topics: {} }, error: null };
+    }
   },
 
   async getSubjectOptions(supabase: SupabaseClient, grade?: string) {
