@@ -209,30 +209,29 @@ export const classService = {
       return { data: null, error: classesError };
     }
     const classIds = classes.map((c: any) => c.id);
-
+    if (classIds.length === 0) {
+      return { data: { assignmentsToGrade: [], recentActivities: [] }, error: null };
+    }
+    const { data: classExercises } = await supabase
+      .from(TABLES.CLASS_EXERCISES)
+      .select('id')
+      .in('class_id', classIds);
+    const classExerciseIds = (classExercises || []).map((ce: any) => ce.id);
+    if (classExerciseIds.length === 0) {
+      return { data: { assignmentsToGrade: [], recentActivities: [] }, error: null };
+    }
     const { data: assignmentsToGrade, error: assignmentsError } = await supabase
       .from(TABLES.EXERCISE_ATTEMPTS)
-      .select(`
-        *,
-        exercise:exercises(title),
-        student:users(name),
-        class:classes(name)
-      `)
-      .in('class_id', classIds)
+      .select('*, exercise:exercises(title), student:users(name)')
+      .in('class_exercise_id', classExerciseIds)
       .is('score', null)
       .order('completed_at', { ascending: true });
-
     const { data: recentActivities, error: activitiesError } = await supabase
       .from(TABLES.EXERCISE_ATTEMPTS)
-      .select(`
-        *,
-        student:users(name),
-        exercise:exercises(title)
-      `)
-      .in('class_id', classIds)
+      .select('*, student:users(name), exercise:exercises(title)')
+      .in('class_exercise_id', classExerciseIds)
       .order('completed_at', { ascending: false })
       .limit(5);
-
     if (assignmentsError || activitiesError) {
       console.error('Error fetching teacher dashboard data:', assignmentsError || activitiesError);
       return { data: null, error: assignmentsError || activitiesError };
