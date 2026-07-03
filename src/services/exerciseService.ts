@@ -250,8 +250,17 @@ export const exerciseService = {
       const chapters = semesterData.map((item: any) => item.chapter);
       const topics: any = {};
       semesterData.forEach((item: any) => {
-        topics[item.chapter] = { subtopics: item.topics || [], subSubtopics: {} };
-      });
+        semesterData.forEach((item: any) => {
+          const rawTopics = item.topics || [];
+          const subtopics = rawTopics.map((t: any) => typeof t === 'string' ? t : t.topic).filter(Boolean);
+          const subSubtopics: any = {};
+          rawTopics.forEach((t: any) => {
+            if (typeof t === 'object' && t.topic && t.sub_topics) {
+              subSubtopics[t.topic] = t.sub_topics;
+            }
+          });
+          topics[item.chapter] = { subtopics, subSubtopics };
+        });
       return { data: { chapters, topics }, error: null };
     } catch (e) {
       return { data: { chapters: [], topics: {} }, error: null };
