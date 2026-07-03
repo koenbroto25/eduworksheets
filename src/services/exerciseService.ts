@@ -239,7 +239,7 @@ export const exerciseService = {
       const numMatch = grade.match(/Grade (\d+)/);
       const num = numMatch ? numMatch[1] : null;
       if (!level || !num) return { data: { chapters: [], topics: {} }, error: null };
-      const kelasKey = \Kelas \\;
+        const kelasKey = 'Kelas ' + num;
       const levelData = (curriculumData as any)[level];
       if (!levelData) return { data: { chapters: [], topics: {} }, error: null };
       const subjectData = levelData[subject];
