@@ -6,9 +6,26 @@ const transformToOptions = (data: string[] | undefined) => {
 };
 
 export const fetchFilterOptions = async () => {
-  const { data, error } = await supabase.functions.invoke('get-all-options');
+  try {
+    const { data, error } = await supabase
+      .from('exercises')
+      .select('subject, grade, difficulty, curriculum_type');
+    if (error) throw error;
 
-  if (error) {
+    const subjects = [...new Set((data || []).map((r: any) => r.subject).filter(Boolean))];
+    const grades = [...new Set((data || []).map((r: any) => r.grade).filter(Boolean))];
+    const difficulties = [...new Set((data || []).map((r: any) => r.difficulty).filter(Boolean))];
+    const curriculumTypes = [...new Set((data || []).map((r: any) => r.curriculum_type).filter(Boolean))];
+
+    return {
+      subjects: transformToOptions(subjects as string[]),
+      grades: transformToOptions(grades as string[]),
+      assessmentTypes: [],
+      curriculumTypes: transformToOptions(curriculumTypes as string[]),
+      semesters: [],
+      difficultyLevels: transformToOptions(difficulties as string[]),
+    };
+  } catch (error) {
     console.error('Error fetching filter options:', error);
     return {
       subjects: [],
@@ -19,15 +36,6 @@ export const fetchFilterOptions = async () => {
       difficultyLevels: [],
     };
   }
-
-  return {
-    subjects: transformToOptions(data.subjects),
-    grades: transformToOptions(data.grades),
-    assessmentTypes: transformToOptions(data.assessmentTypes),
-    curriculumTypes: transformToOptions(data.curriculumTypes),
-    semesters: transformToOptions(data.semesters),
-    difficultyLevels: transformToOptions(data.difficultyLevels),
-  };
 };
 
 export const questionTypeOptions = [
