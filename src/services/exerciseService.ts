@@ -229,80 +229,16 @@ export const exerciseService = {
   },
 
   async getCurriculumData(supabase: SupabaseClient, subject: string, grade: string, semester: string, curriculumType: string) {
+    // curriculum table not available - return empty
+    return { data: { chapters: [], topics: {} }, error: null };
     if (!subject || subject === 'custom' || !grade) {
-      return { data: { chapters: [], topics: {} }, error: null };
-    }
-
-    const { data, error } = await supabase
-      .from('curriculum')
-      .select('chapter, topic, sub_topic')
-      .eq('subject', subject)
-      .eq('grade', grade)
-      .eq('semester', semester)
-      .eq('curriculum_type', curriculumType);
-
-    if (error) {
-      console.error('Error fetching curriculum:', error);
-      return { data: null, error };
-    }
-
-    const chaptersSet = new Set<string>();
-    const topicsData: { [key: string]: { subtopics: string[], subSubtopics: { [key: string]: string[] } } } = {};
-
-    data.forEach((item: any) => {
-      if (item.chapter) {
-        chaptersSet.add(item.chapter);
-        if (!topicsData[item.chapter]) {
-          topicsData[item.chapter] = { subtopics: [], subSubtopics: {} };
-        }
-        if (item.topic && !topicsData[item.chapter].subtopics.includes(item.topic)) {
-          topicsData[item.chapter].subtopics.push(item.topic);
-        }
-        if (item.topic && item.sub_topic) {
-          if (!topicsData[item.chapter].subSubtopics[item.topic]) {
-            topicsData[item.chapter].subSubtopics[item.topic] = [];
-          }
-          if (!topicsData[item.chapter].subSubtopics[item.topic].includes(item.sub_topic)) {
-            topicsData[item.chapter].subSubtopics[item.topic].push(item.sub_topic);
-          }
-        }
-      }
-    });
-    
-    const sortedChapters = Array.from(chaptersSet).sort((a, b) => {
-      const numA = parseInt(a.split(' ')[1], 10);
-      const numB = parseInt(b.split(' ')[1], 10);
-
-      if (!isNaN(numA) && !isNaN(numB)) {
-        return numA - numB;
-      }
-      return a.localeCompare(b);
-    });
-
-    return { data: { chapters: sortedChapters, topics: topicsData }, error: null };
   },
 
   async getSubjectOptions(supabase: SupabaseClient, grade?: string) {
-    let query = supabase.from('curriculum').select('subject');
-
-    if (grade && grade !== 'all') {
-      query = query.eq('grade', parseInt(grade, 10));
-    }
-
-    const { data, error } = await query;
-
-    if (error) {
-      console.error('Error fetching subjects:', error);
-      return { data: [], error };
-    }
-
+    const { data, error } = await supabase.from('exercises').select('subject').not('subject', 'is', null);
+    if (error) return { data: [], error };
     const uniqueSubjects = [...new Set(data.map((item: any) => item.subject))];
-    const subjectOptions = uniqueSubjects.map(subject => ({
-      value: subject as string,
-      label: subject as string,
-    }));
-    
-    return { data: subjectOptions, error: null };
+    return { data: uniqueSubjects.map(s => ({ value: s, label: s })), error: null };
   },
 
   async submitExerciseAttempt(supabase: SupabaseClient, attemptData: any) {
