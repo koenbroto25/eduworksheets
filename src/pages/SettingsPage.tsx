@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { AISettingsSection } from '../components/settings/AISettingsSection';
 import { Settings, Bell, Shield, Palette, Globe, Save, Loader2 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { Button } from '../components/common/Button';
